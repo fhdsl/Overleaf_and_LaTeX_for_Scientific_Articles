@@ -10,6 +10,7 @@ Dockerfile
 Dockerhub
 dropdown
 favicon
+formatting
 GDSCN
 GitHub
 Github
@@ -19,6 +20,7 @@ ITCR
 itcrtraining
 ITN
 fyi
+LaTeX
 Leanpub
 Markua
 mentorship
@@ -26,8 +28,10 @@ NCI
 NHGRI
 ottrpal
 Pandoc
+preprint
 UE
 UE5
 reproducibility
+rmarkdown
 underserved
 www
