@@ -1,5 +1,5 @@
 ---
-title: "Informatics Technology for Cancer Research (ITCR): Course Name "
+title: "Informatics Technology for Cancer Research (ITCR): Intro to Overleaf and LaTeX "
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
