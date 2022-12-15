@@ -25,5 +25,34 @@ The course covers:
 4) Where to go if you experience challenges
 5) How to work collaboratively on Overleaf
 
+# LaTeX
+
+You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). 
+
+LaTeX is a "document preparation system". It is often used for scientific or technical writing documents, but it can be used for formatting any type of writing document [@latex]. 
+
+Although it has a reputation for being quite tricky - and indeed it can be - it is very powerful in enabling really complex formatting. 
+
+The goal of LaTeX is really intended to enable users to focus on the content of writing and to focus less on formatting.
+
+## History
+
+
+## Process
+
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certian symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is html, which has symbols to indicate how the text should be displayed on webpages. It is often used in computer science to enable humans to read or write a file more easily and for the computer to interpret these files more easily. 
+
+Let's use a simple example to describe this. 
+
+If we wanted to bold some text on word, we would type the plain text that we want to bold just like the rest of the text. We would then select that text and click some buttons to make the text bold. In html we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be in bold when it is rendered into it's final state. 
+
+LaTeX is basically lots of this process of using text for formatting of text, but in many more complicated ways.
+
+In case you are wondering how you bold text in LaTeX, it might look something like this: 'regular text \textbf{bold text}'.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
+```
+
 
 
