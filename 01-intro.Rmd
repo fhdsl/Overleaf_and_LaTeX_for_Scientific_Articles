@@ -5,7 +5,7 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-This course is meant to get you started writing scientific manuscripts using LaTex in Overleaf.
+This course is meant to get you started writing scientific manuscripts using LaTeX in Overleaf.
 
 ## Motivation
 
@@ -19,7 +19,7 @@ The course is intended for scientific writers who might be interested in learnin
 
 The course covers:
 
-1) What LaTex is and why it is useful
+1) What LaTeX is and why it is useful
 2) How to get started writing with a template
 3) How to add references
 4) Where to go if you experience challenges
