@@ -40,7 +40,7 @@ The goal of LaTeX is really intended to enable users to focus on the content of 
 
 ## Process
 
-LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certian symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is html, which has symbols to indicate how the text should be displayed on webpages. It is often used in computer science to enable humans to read or write a file more easily and for the computer to interpret these files more easily. 
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has symbols to indicate how the text should be displayed on webpages. It is often used in computer science to enable humans to read or write a file more easily and for the computer to interpret these files more easily. 
 
 Let's use a simple example to describe this. 
 
