@@ -1,0 +1,27 @@
+
+
+
+# Introduction
+
+This course is meant to get you started writing scientific manuscripts using LaTeX in Overleaf.
+
+## Motivation
+
+Overleaf is a very useful too for collaborative scientific writing. It has an advantage over other potential collaborative writing options in that it enables for seamless changes in formmatting to allow you to submit to various publication platforms, such as preprint archives or scientific journals. Another advantage of Overleaf is that it is based on using LaTeX which makes it easy to add mathematical formulas to your writing. It also helps you do really complicated formatting with much more ease than other options and it makes it easy to replicate that complicated formatting again for other papers or other writing products. It is widely used in certain fields like statistics and computer science. Therefore, it can also be useful to know about if you have collaborators in these fields.
+
+## Target Audience  
+
+The course is intended for scientific writers who might be interested in learning how to automate some of their writing formatting.
+
+## Curriculum  
+
+The course covers:
+
+1) What LaTeX is and why it is useful
+2) How to get started writing with a template
+3) How to add references
+4) Where to go if you experience challenges
+5) How to work collaboratively on Overleaf
+
+
+
