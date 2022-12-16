@@ -20,7 +20,11 @@ ITCR
 itcrtraining
 ITN
 fyi
+LAH
 LaTeX
+ˈlɑːtɛx
+ˈleɪtɛks
+ˈleɪtɛx
 Leanpub
 Markua
 mentorship
@@ -33,5 +37,8 @@ UE
 UE5
 reproducibility
 rmarkdown
+tekh
+tekhs
+textbf
 underserved
 www
