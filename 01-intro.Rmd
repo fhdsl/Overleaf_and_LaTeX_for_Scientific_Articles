@@ -42,13 +42,9 @@ The goal of LaTeX is really intended to enable users to focus on the content of 
 
 ## Learning Objectives
 
-Every chapter also needs Learning objectives that will look like this:  
-
-This chapter will cover:  
-
-- {You can use https://tips.uark.edu/using-blooms-taxonomy/ to define some learning objectives here}
-- {Another learning objective}
-
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Describe what LaTeX  and TeX is,2. Explain how LaTeX came to be, 3. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 4. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 5.Begin to understand how markup language tags result in changes to plain text"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1bb9ca840c8_0_360")
+```
 
 ## History
 
@@ -69,6 +65,8 @@ In case you are wondering how you bold text in LaTeX, it might look something li
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
 ```
+
+# Overleaf
 
 
 
