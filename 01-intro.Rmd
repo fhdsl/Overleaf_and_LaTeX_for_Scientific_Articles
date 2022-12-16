@@ -9,11 +9,11 @@ This course is meant to get you started writing scientific manuscripts using LaT
 
 ## Motivation
 
-Overleaf is a very useful too for collaborative scientific writing. It has an advantage over other potential collaborative writing options in that it enables for seamless changes in formmatting to allow you to submit to various publication platforms, such as preprint archives or scientific journals. Another advantage of Overleaf is that it is based on using LaTeX which makes it easy to add mathematical formulas to your writing. It also helps you do really complicated formatting with much more ease than other options and it makes it easy to replicate that complicated formatting again for other papers or other writing products. It is widely used in certain fields like statistics and computer science. Therefore, it can also be useful to know about if you have collaborators in these fields.
+Overleaf is a very useful too for collaborative scientific writing. It has an advantage over other potential collaborative writing options in that it enables for seamless changes in formatting and arrangement of text to allow you to submit to various publication platforms, such as preprint archives or scientific journals. Another advantage of Overleaf is that it is based on using LaTeX which makes it easy to add mathematical formulas to your writing. It also helps you do really complicated formatting and layouts with much more ease than other options and it makes it easy to replicate that complicated formatting/layout again for other papers or other writing products. It is widely used in certain fields like statistics and computer science. Therefore, it can also be useful to know about if you have collaborators in these fields.
 
 ## Target Audience  
 
-The course is intended for scientific writers who might be interested in learning how to automate some of their writing formatting.
+The course is intended for scientific writers who might be interested in learning how to automate some of their writing formatting/layouts.
 
 ## Curriculum  
 
@@ -29,14 +29,15 @@ The course covers:
 
 You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). 
 
-LaTeX is a "document preparation system". It is often used for scientific or technical writing documents, but it can be used for formatting any type of writing document [@latex]. 
+LaTeX is a "document preparation system". It is often used for scientific or technical writing documents, but it can be used for formatting or arraging any type of writing document [@latex].
 
 Although it has a reputation for being quite tricky - and indeed it can be - it is very powerful in enabling really complex formatting. 
 
-The goal of LaTeX is really intended to enable users to focus on the content of writing and to focus less on formatting.
+The goal of LaTeX is really intended to enable users to focus on the content of writing and to focus less on formatting or arranging text.
 
 ## History
 
+LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport), thus the "La" in LaTex is believed to be for his last name, Lamport. LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that allow you to more easily use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX (an abbreviation for the Greek word τέχνη (ΤΕΧΝΗ technē) meaning "art" and "craft", which is also the root word of technical.), developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s, which he developed so he could format the text in his books more to his satisfaction [@tex_2022].  [Typesetting](https://en.wikipedia.org/wiki/Typesetting) determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more. It has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing. Overtime got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word, let you interactively work with the typessetting of a document as you write content. In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is how to arrange the text. With LaTeX we are more aware that we are actually telling the computer how to arrange the text. This also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/).
 
 ## Process
 
