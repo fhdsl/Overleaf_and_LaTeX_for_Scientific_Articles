@@ -66,7 +66,27 @@ In case you are wondering how you bold text in LaTeX, it might look something li
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
 ```
 
+## Benefits of LaTeX
+
+Now that you are a little more clear about what LaTeX is, it might be easier to appreciate it's benefits:
+
+1) Allows you to focus on the content and worry less about formatting (once you have a good template to work with).
+2) Allows for much more complex typesetting/formatting of text. You can customize your documents to get them just the way you would like.
+3) Once you have a template you like working with, say for a journal you frequently publish with, it is super easy to format future documents.
+4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much quicker and with more ease than if you were to do it manually. 
+
 # Overleaf
 
+Overleaf is an online free LaTeX editor. There are others, but Overleaf is a really nice option for a number of reasons:
+ 
+1) It is free! 
+2) It makes it much easier to write using LaTeX.
+3) It makes it easy to collaborate with others.
+4) There is lots of online support.
+5) It's online and requires no installations.
+6) It can sync with GitHub or Dropbox (if you pay for a paid plan).
 
+
+
+## Getting Started
 
