@@ -94,12 +94,12 @@ Overleaf is an online free LaTeX editor, meaning it helps you write text using L
  
 1) It is free! 
 2) It makes it much easier to write using LaTeX.
-3) It makes it easy to collaborate with others.
-4) There is lots of online support.
-5) It's online and requires no installations.
-6) It can sync with GitHub or Dropbox (if you pay for a paid plan).
+3) It shows you a preview of your final document.
+4) It makes it easy to collaborate with others.
+5) There is lots of online support.
+6) It's online and requires no installations.
+7) It can sync with GitHub or Dropbox (if you pay for a paid plan).
 
-## Overleaf makes it easier
 
 
 
