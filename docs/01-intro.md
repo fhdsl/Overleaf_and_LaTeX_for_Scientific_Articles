@@ -7,21 +7,90 @@ This course is meant to get you started writing scientific manuscripts using LaT
 
 ## Motivation
 
-Overleaf is a very useful too for collaborative scientific writing. It has an advantage over other potential collaborative writing options in that it enables for seamless changes in formmatting to allow you to submit to various publication platforms, such as preprint archives or scientific journals. Another advantage of Overleaf is that it is based on using LaTeX which makes it easy to add mathematical formulas to your writing. It also helps you do really complicated formatting with much more ease than other options and it makes it easy to replicate that complicated formatting again for other papers or other writing products. It is widely used in certain fields like statistics and computer science. Therefore, it can also be useful to know about if you have collaborators in these fields.
+Overleaf is a very useful too for collaborative scientific writing. It has an advantage over other potential collaborative writing options in that it enables for seamless changes in formatting and arrangement of text to allow you to submit to various publication platforms, such as preprint archives or scientific journals. Another advantage of Overleaf is that it is based on using LaTeX which makes it easy to add mathematical formulas to your writing. It also helps you do really complicated formatting and layouts with much more ease than other options and it makes it easy to replicate that complicated formatting/layout again for other papers or other writing products. It is widely used in certain fields like statistics and computer science. Therefore, it can also be useful to know about if you have collaborators in these fields.
 
 ## Target Audience  
 
-The course is intended for scientific writers who might be interested in learning how to automate some of their writing formatting.
+The course is intended for scientific writers who might be interested in learning how to automate some of their writing formatting/layouts.
+
+
+<img src="resources/images/01-intro_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_164.png" title="for indiviudals who: Are unfamiliar with what LaTeX is, but like the idea of more customizable and reproducible formatting  of text in documents. Have heard of LaTeX but don’t know how to use it in practice. Want guidance on collaborating with Overleaf." alt="for indiviudals who: Are unfamiliar with what LaTeX is, but like the idea of more customizable and reproducible formatting  of text in documents. Have heard of LaTeX but don’t know how to use it in practice. Want guidance on collaborating with Overleaf." width="100%" style="display: block; margin: auto;" />
+
 
 ## Curriculum  
 
-The course covers:
+The course covers basic information about why LaTeX can be useful, how to get started in overleaf using LaTeX with a template, how to work with a team on overleaf, and what to do when you have problems. 
 
-1) What LaTeX is and why it is useful
-2) How to get started writing with a template
-3) How to add references
-4) Where to go if you experience challenges
-5) How to work collaboratively on Overleaf
+<img src="resources/images/01-intro_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_196.png" title="This course will demonstrate how to: 1.Be familiar with what LaTeX is and understand the origins of how it came to be, 2. Understand the benefits of using LaTeX and Overleaf, 3. Get started writing in Overleaf with a template for a scientific manuscript, 4. Add references to a document in Overleaf, 5. Get help if you encounter challenges, 6. Work collaboratively on Overleaf" alt="This course will demonstrate how to: 1.Be familiar with what LaTeX is and understand the origins of how it came to be, 2. Understand the benefits of using LaTeX and Overleaf, 3. Get started writing in Overleaf with a template for a scientific manuscript, 4. Add references to a document in Overleaf, 5. Get help if you encounter challenges, 6. Work collaboratively on Overleaf" width="100%" style="display: block; margin: auto;" />
+
+
+# LaTeX
+
+You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.
+
+## Document Preparation System
+
+LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used for scientific or technical writing documents, but it can be used for formatting or arranging any type of writing document.
+
+Although it has a reputation for being quite tricky, it is very powerful in enabling users to documents with complex and customized text formatting and layouts with much more ease than doing so using systems like Microsoft Word. 
+
+
+## Learning Objectives
+
+<img src="resources/images/01-intro_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_360.png" title="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes to plain text" alt="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes to plain text" width="100%" style="display: block; margin: auto;" />
+
+## History
+
+LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport), thus the "La" in LaTeX is believed to be for his last name, Lamport. LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX. [Typesetting](https://en.wikipedia.org/wiki/Typesetting) determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more.
+
+### TeX
+
+TeX, which is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft), was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s[@tex_2022]. He developed TeX so he could format the text in his books more to his satisfaction [@tex_2022]. Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing. Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word, let you interactively work with the typesetting of a document as you write the content. 
+
+In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/).
+
+## Process
+
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has symbols to indicate how the text should be displayed on webpages. It is often used in computer science to enable humans to read or write a file more easily and for the computer to interpret these files more easily. 
+
+Let's use a simple example of making some text **bold** to describe this. 
+
+Microsoft Word:
+If we wanted to some text bold in Microsoft Word, we would type the plain text that we want to bold just like the rest of the text. We would then select that text and click some buttons to make the text bold. 
+
+HTML:
+In HTML we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be in bold when it is rendered into it's final state. 
+
+LaTeX:
+Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` which is abbreviated as `bf` for bold font, with brackets around the text we want to change like so: '\textbf{bold text}'.
+
+<img src="resources/images/01-intro_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1babf2134b3_0_153.png" title="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." alt="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." width="100%" style="display: block; margin: auto;" />
+As you can see, LaTex will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.
+
+## Benefits of LaTeX
+
+Now that you are a little more clear about what LaTeX is, it might be easier to appreciate it's benefits:
+
+1) Allows you to focus on the content and worry less about formatting (once you have a good template to work with). There are many more specific templates to use for various journals that can be super helpful!
+2) Allows for much more complex typesetting/formatting of text. You can customize your documents just the way you would like.
+3) Once you have a template you like working with, say for a journal you frequently publish with, it is super easy to format future documents.
+4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much quicker and with more ease than if you were to do it manually using a text editor like Microsoft Word. 
+5) You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors
+6) You can collaborate with people who use LaTeX more easily
+
+# Overleaf
+
+Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look. There are other LaTeX editors, but Overleaf is a really nice option for a number of reasons:
+ 
+1) It is free! 
+2) It makes it much easier to write using LaTeX.
+3) It shows you a preview of your final document.
+4) It makes it easy to collaborate with others.
+5) There is lots of online support.
+6) It's online and requires no installations.
+7) It can sync with GitHub or Dropbox (if you pay for a paid plan).
+
+
 
 
 
