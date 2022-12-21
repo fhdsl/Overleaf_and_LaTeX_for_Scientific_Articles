@@ -10,7 +10,6 @@ tex
 process
 benefits-of-latex
 overleaf
-overleaf-makes-it-easier
 writing-with-overleaf
 getting-started
 references
