@@ -34,6 +34,17 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.
 
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTex is not latex (the material used for protective gloves and other items)."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_0")
+```
+
+## Learning Objectives
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes to plain text"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1bb9ca840c8_0_360")
+```
+
 ## Document Preparation System
 
 LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used for scientific or technical writing documents, but it can be used for formatting or arranging any type of writing document.
@@ -41,11 +52,13 @@ LaTeX is a "document preparation system" according to the LaTeX project [@latex]
 Although it has a reputation for being quite tricky, it is very powerful in enabling users to documents with complex and customized text formatting and layouts with much more ease than doing so using systems like Microsoft Word. 
 
 
-## Learning Objectives
-
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes to plain text"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1bb9ca840c8_0_360")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_18")
 ```
+ 
+
+
+
 
 ## History
 
@@ -93,12 +106,12 @@ Now that you are a little more clear about what LaTeX is, it might be easier to 
 Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look. There are other LaTeX editors, but Overleaf is a really nice option for a number of reasons:
  
 1) It is free! 
-2) It makes it much easier to write using LaTeX.
-3) It shows you a preview of your final document.
-4) It makes it easy to collaborate with others.
-5) There is lots of online support.
-6) It's online and requires no installations.
-7) It can sync with GitHub or Dropbox (if you pay for a paid plan).
+1) It's online and requires no installations.
+1) It makes it much easier to write using LaTeX.
+1) It shows you a preview of your final document.
+1) It makes it easy to collaborate with others.
+1) There is lots of online support.
+1) It can sync with GitHub or Dropbox (if you pay for a paid plan).
 
 
 
