@@ -47,9 +47,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## Document Preparation System
 
-LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used for scientific or technical writing documents, but it can be used for formatting or arranging any type of writing document.
+LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used for scientific or technical writing documents, but it can be used for formatting or arranging any type of writing document. This process of determining the final look of a writing product is called [typesetting](https://en.wikipedia.org/wiki/Typesetting). Typesetting determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more.
 
-Although it has a reputation for being quite tricky, it is very powerful in enabling users to documents with complex and customized text formatting and layouts with much more ease than doing so using systems like Microsoft Word. 
+Although LaTeX has a reputation for being quite tricky, it is very powerful in enabling users to documents with complex and customized text formatting and layouts with much more ease than doing so using systems like Microsoft Word. 
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents."}
@@ -59,14 +59,29 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 
 
-
 ## History
 
-LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport), thus the "La" in LaTeX is believed to be for his last name, Lamport. LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX. [Typesetting](https://en.wikipedia.org/wiki/Typesetting) determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more.
+LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport), thus the "La" in LaTeX is believed to be for his last name, Lamport. LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
 
 ### TeX
 
-TeX, which is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft), was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s[@tex_2022]. He developed TeX so he could format the text in his books more to his satisfaction [@tex_2022]. Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing. Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word, let you interactively work with the typesetting of a document as you write the content. 
+TeX, which is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft), was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s[@tex_2022]. He developed TeX so he could format the text in his books more to his satisfaction [@tex_2022]. 
+
+Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_45")
+```
+
+
+Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word, let you interactively work with the typesetting of a document as you write the content. 
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_67")
+```
+
 
 In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/).
 
