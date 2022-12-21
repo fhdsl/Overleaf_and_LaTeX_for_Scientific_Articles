@@ -83,7 +83,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/).
+In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. 
+
+With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) by @tirado_reasons_2020 and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/) by @walsh_making_1994.
 
 ## Process
 
