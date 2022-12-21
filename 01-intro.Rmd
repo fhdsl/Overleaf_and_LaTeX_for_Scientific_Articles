@@ -93,13 +93,13 @@ LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Marku
 
 Let's use a simple example of making some text **bold** to describe this. 
 
-Microsoft Word:
+**Microsoft Word:** <br>
 If we wanted to some text bold in Microsoft Word, we would type the plain text that we want to bold just like the rest of the text. We would then select that text and click some buttons to make the text bold. 
 
-HTML:
+**HTML:**<br>
 In HTML we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be in bold when it is rendered into it's final state. 
 
-LaTeX:
+**LaTeX:**<br>
 Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` which is abbreviated as `bf` for bold font, with brackets around the text we want to change like so: '\textbf{bold text}'.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages."}
@@ -117,6 +117,11 @@ Now that you are a little more clear about what LaTeX is, it might be easier to 
 4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much quicker and with more ease than if you were to do it manually using a text editor like Microsoft Word. 
 5) You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors
 6) You can collaborate with people who use LaTeX more easily
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_77")
+
+```
 
 # Overleaf
 
