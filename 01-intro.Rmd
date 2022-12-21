@@ -123,6 +123,20 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ```
 
+## Conclusion
+
+We hope that this chapter has given you some more knowledge about what LaTeX is and how it came to be, as well as the benefits of using it.
+
+In conclusion, here are some of the major take-home messages:
+
+1. Computers actually separate document creation into two tasks, the content  text and arranging and styling that text. Traditional text editors like Microsoft Word show us what the final document will look like as we write it.
+2. LaTeX is a document preparation system that makes it easier to use the typesetting system TeX and allows you to create very complicated documents. 
+3. Typesetting has to do with all the style, layout, and formatting that a document might need.
+4. LaTeX is a markup language and similar to HTML, text tags around the content text can be used to indicate how the document should look when rendered into the final state.
+5. LaTex allows you to more easly change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirments. 
+6. Although LaTeX is used frequently in computer science, mathematics, statistics, and engineering fields to write technical papers, it can be used for other kinds of documents too!
+
+
 # Overleaf
 
 Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look. 
