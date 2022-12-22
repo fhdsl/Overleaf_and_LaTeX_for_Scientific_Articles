@@ -161,11 +161,68 @@ There are other LaTeX editors, but Overleaf is a really nice option for a number
 1) It can sync with GitHub or Dropbox (if you pay for a paid plan).
 
 
-## Making it easier
+## Getting Started
 
-So how does Overleaf make it easier to write with LaTeX?
+To start, you need to make an account on Overleaf.
 
-Well, for starters, it easily shows you what the rendered version of your text will look like, taking into account the LaTeX tags that indicate how the text should be arranged and styled.
+To do so, you can go to https://www.overleaf.com/register in your browser.
+
+There are several ways to register:
+
+1. Register with your Google account
+2. Register with your ORCID account
+3. Register with a different email address
+4. Log in with an institution.
+    This is worth checking in case your university has a license, as this may provide you with more features. 
+    
+The free version only allows you to have one collaborators on a project, so collaboration is more limited, however you can still benefit from many of the other features.  It is also important to note that students can receive a discount as well.
+
+If possible it might be worth seeing if your insittute would be willing to get an organizational licence.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "There are several ways to register an account on Overleaf."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_137")
+```
+Overleaf is organized with projects. When you create a project, you can start from scratch or start from a template.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "New Project Button."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_142")
+```
+
+Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the template tab to get to the same template search page.  
+
+
+Let's search for a term, such as `preprint` to see if the templates for preprints.
+
+You will see that a few of the templates have a blue `official` tag. This is the best option if you find one for the publisher that you are interested in.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The official tag for some templates indicates that the publisher recoginizes and approves of the template as the official tempalte to use for submissions."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_168")
+```
+
+
+We will use a template for arXiv. 
+
+You can go to this link: https://www.overleaf.com/latex/templates/style-and-template-for-preprints-arxiv-bio-arxiv/pkzcrhzcdxmc to start with a particular template to create a manuscript for [arXiv](https://arxiv.org/).
+
+
+Click the "Open as Template" button to get started. 
+
+https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_174
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Click the open as template button to get started with a template."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_174")
+```
+ 
+## Tour of Overleaf
+
+So how does Overleaf make it easier to write with LaTeX? We will go over some major ways, Overleaf can help, starting with an overview of some major features.
+
+
+
+### Viewing the resulting document
+
+For starters, it easily shows you what the rendered version of your text will look like, taking into account the LaTeX tags that indicate how the text should be arranged and styled.
 
 The default view is to see the raw text (aka source text) on the left and the rendered/compiled version on the right.
 
@@ -180,6 +237,20 @@ You can also change the view to several other options:
 ````{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
 ```
+
+You can also view the document in a more WYSIWYG manner - called Rich Text.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
+```
+
+
+If you are using the default view and you want to see what the file looks like in the rendered form in the location of the source text of the editor, you can click on the arrow in between.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
+```
+
 
 
 
