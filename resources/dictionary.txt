@@ -1,4 +1,5 @@
 AnVIL
+arXiv
 BIPOC
 Bloomberg
 Bookdown
@@ -33,6 +34,7 @@ mentorship
 NCI
 NHGRI
 ottrpal
+ORCID
 O'Reilly
 Pandoc
 preprint

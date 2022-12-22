@@ -133,7 +133,7 @@ In conclusion, here are some of the major take-home messages:
 2. LaTeX is a document preparation system that makes it easier to use the typesetting system TeX and allows you to create very complicated documents. 
 3. Typesetting has to do with all the style, layout, and formatting that a document might need.
 4. LaTeX is a markup language and similar to HTML, text tags around the content text can be used to indicate how the document should look when rendered into the final state.
-5. LaTex allows you to more easly change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirments. 
+5. LaTex allows you to more easily change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirements. 
 6. Although LaTeX is used frequently in computer science, mathematics, statistics, and engineering fields to write technical papers, it can be used for other kinds of documents too!
 
 
@@ -177,7 +177,7 @@ There are several ways to register:
     
 The free version only allows you to have one collaborators on a project, so collaboration is more limited, however you can still benefit from many of the other features.  It is also important to note that students can receive a discount as well.
 
-If possible it might be worth seeing if your insittute would be willing to get an organizational licence.
+If possible it might be worth seeing if your institute would be willing to get an organizational license.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "There are several ways to register an account on Overleaf."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_137")
@@ -191,7 +191,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the template tab to get to the same template search page.  
 
 
-Let's search for a term, such as `preprint` to see if the templates for preprints.
+You can see that there are many templates to choose from in general!
+
+Let's search for a term, such as `preprint` to see if the templates for preprints. 
 
 You will see that a few of the templates have a blue `official` tag. This is the best option if you find one for the publisher that you are interested in.
 
@@ -216,8 +218,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
  
 ## Tour of Overleaf
 
-So how does Overleaf make it easier to write with LaTeX? We will go over some major ways, Overleaf can help, starting with an overview of some major features.
-
+So now that we have opened a template, we will take a tour of how Overleaf makes it easier to write with LaTeX? We will go over some major ways, Overleaf can help, starting with an overview of some major features.
 
 
 ### Viewing the resulting document
