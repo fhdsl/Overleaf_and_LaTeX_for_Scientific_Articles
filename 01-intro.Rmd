@@ -175,7 +175,7 @@ There are several ways to register:
 4. Log in with an institution.
     This is worth checking in case your university has a license, as this may provide you with more features. 
     
-The free version only allows you to have one collaborators on a project, so collaboration is more limited, however you can still benefit from many of the other features.  It is also important to note that students can receive a discount as well.
+The free version only allows you to have one collaborator on a project, so collaboration is more limited, however you can still benefit from many of the other features.  Note that students can receive a discount as well.
 
 If possible it might be worth seeing if your institute would be willing to get an organizational license.
 
