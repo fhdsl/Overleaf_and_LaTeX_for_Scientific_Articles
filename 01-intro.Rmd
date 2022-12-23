@@ -149,6 +149,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
  
 
+## Benefits of Overleaf
 
 There are other LaTeX editors, but Overleaf is a really nice option for a number of reasons:
  
@@ -216,12 +217,10 @@ https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_174")
 ```
  
-## Tour of Overleaf
+## Viewing documents
 
-So now that we have opened a template, we will take a tour of how Overleaf makes it easier to write with LaTeX? We will go over some major ways, Overleaf can help, starting with an overview of some major features.
+So now that we have opened a template, we will start by understanding how we can view our work on Overleaf.
 
-
-### Viewing the resulting document
 
 For starters, it easily shows you what the rendered version of your text will look like, taking into account the LaTeX tags that indicate how the text should be arranged and styled.
 
@@ -260,6 +259,37 @@ It is a good idea to press the "Recompile" button frequently, so that you can id
 </div>
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To update rendered file with your changes, press the recompile button."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_188")
+```
+
+## Making changes
+
+Now let's try some simple changes to sart getting used to writing with LaTeX. 
+
+First let's change the tilte. We can find the title where the file says "Predict future sale". You can use search the source editor text by clicking on the editor and using the search and find keyboard shortcut (control and the F key). We can type in the "Predict future sale" text to find it. We will find it on line 19 following `\title`.
+
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_195")
+```
+
+We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F). We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Changing the title to New Title."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_208")
+```
+
+Now we can click the "Recompile button" to see the results.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To update rendered file with your changes, press the recompile button."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_188")
+```
+
+After overleaf is done compiling, you can see that the title has been changed.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The resulting new title within the document."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_188")
 ```
 
