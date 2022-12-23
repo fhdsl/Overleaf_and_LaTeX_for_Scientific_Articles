@@ -253,4 +253,15 @@ To do the opposite and go to the location in the source text where you are curre
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To update the location of the source text to that of the rendered view, press the arrow facing left towards the source editor."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_158")
 ```
+If you make a change in the source and want to see how it changes the look of the file, you need to press the "Recompile" button. 
+
+<div class = "notice">
+It is a good idea to press the "Recompile" button frequently, so that you can identify any errors more easily. If you wait too long to check, then you will have more new changes to look through to try to understand the error.
+</div>
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To update rendered file with your changes, press the recompile button."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_188")
+```
+
+
 
