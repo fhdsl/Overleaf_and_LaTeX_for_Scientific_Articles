@@ -239,19 +239,18 @@ You can also change the view to several other options:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
 ```
 
-You can also view the document in a more WYSIWYG manner - called Rich Text.
+
+
+If you are using the default view and you want to see what the file looks like in the rendered form for the same location as that of the source text of the editor, you can click on the arrow (with the arrowhead facing to the right) in between.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_163")
 ```
 
 
-If you are using the default view and you want to see what the file looks like in the rendered form in the location of the source text of the editor, you can click on the arrow in between.
+To do the opposite and go to the location in the source text where you are currently viewing in the rendered text, click the arrow button facing the source text editor.
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To update the location of the source text to that of the rendered view, press the arrow facing left towards the source editor."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_158")
 ```
-
-
-
 
