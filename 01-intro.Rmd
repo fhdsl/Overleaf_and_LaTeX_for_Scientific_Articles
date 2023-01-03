@@ -23,7 +23,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## Curriculum  
 
-The course covers basic information about why LaTeX can be useful, how to get started in overleaf using LaTeX with a template, how to work with a team on overleaf, and what to do when you have problems. 
+The course covers basic information about why LaTeX can be useful, how to get started in overleaf using LaTeX with a template, how to work with a team on Overleaf, and what to do when you encounter problems. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "This course will demonstrate how to: 1.Be familiar with what LaTeX is and understand the origins of how it came to be, 2. Understand the benefits of using LaTeX and Overleaf, 3. Get started writing in Overleaf with a template for a scientific manuscript, 4. Add references to a document in Overleaf, 5. Get help if you encounter challenges, 6. Work collaboratively on Overleaf"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1bb9ca840c8_0_196")
