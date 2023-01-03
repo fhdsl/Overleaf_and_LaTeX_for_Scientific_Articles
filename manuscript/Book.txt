@@ -1,5 +1,7 @@
 1-Introduction.md
-2-A-new-chapter.md
-3-References.md
+2-LaTeX.md
+3-Overleaf.md
+4-Writing-with-Overleaf.md
+5-References.md
 About-this-Course.md
 About-the-Authors.md
