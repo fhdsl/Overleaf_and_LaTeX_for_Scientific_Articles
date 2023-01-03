@@ -250,12 +250,21 @@ li.appendix span, li.part span { /* for TOC part names */
 /* Sidebar formating --------------------------------------------*/
 /* from r-pkgs.org*/
 
-div.notice, div.warning, div.github, div.dictionary, div.reflection {
+div.notice, div.warning, div.github, div.dictionary, div.reflection, div.why {
   padding: 1em;
   margin: 1em 0;
   padding-left: 100px;
   min-height: 120px;
   background-repeat: no-repeat;
+}
+
+div.why{
+  border: 4px #000000;
+  border-style: solid;
+  background-size: 70px;
+  background-position: 15px center;
+  background-color: #e8ebee;
+  background-image: url("../assets/box_images/why.png");
 }
 
 div.notice{

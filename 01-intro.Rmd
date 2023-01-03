@@ -69,7 +69,11 @@ LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.o
 
 ### TeX
 
-TeX, which is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft), was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s[@tex_2022]. He developed TeX so he could format the text in his books more to his satisfaction [@tex_2022]. 
+TeX is a typesetting system. It was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s, to help him format the text in his books more to his satisfaction [@tex_2022]. 
+
+<div class = "why">
+Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft [@tex_2022].
+</div>
 
 Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
 
