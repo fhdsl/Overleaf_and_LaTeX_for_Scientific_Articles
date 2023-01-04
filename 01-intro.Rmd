@@ -86,6 +86,8 @@ Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn
 </div>
 </details>
 
+<br>
+
 Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
 
 
@@ -119,7 +121,7 @@ If we wanted to some text bold in Microsoft Word, we would type the plain text t
 In HTML we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be bold when it is rendered into it's final state. 
 
 **LaTeX:**<br>
-Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` which is abbreviated as `bf` for bold font, with brackets around the text we want to change like so: '\textbf{bold text}'.
+Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` with brackets around the text we want to change like so: `\textbf{bold text}`.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
