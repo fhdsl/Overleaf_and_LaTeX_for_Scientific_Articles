@@ -41,7 +41,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## Learning Objectives
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes to plain text"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1bb9ca840c8_0_360")
 ```
 
@@ -108,15 +108,15 @@ With LaTeX we are more aware that we are actually telling the computer how to ar
 
 ## Process
 
-LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily. 
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain text tags can be used to indicate how the content text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily. 
 
-Let's use a simple example of making some text **bold** to describe this. 
+Let's use a simple example of making some text **bold** to illustrate this. 
 
 **Microsoft Word:** <br>
 If we wanted to some text bold in Microsoft Word, we would type the plain text that we want to bold just like the rest of the text. We would then select that text and click some buttons to make the text bold. 
 
 **HTML:**<br>
-In HTML we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be in bold when it is rendered into it's final state. 
+In HTML we could instead use `<b>` at the beginning of the text we want to bold, and `</b>` at the end to indicate that this text should be bold when it is rendered into it's final state. 
 
 **LaTeX:**<br>
 Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` which is abbreviated as `bf` for bold font, with brackets around the text we want to change like so: '\textbf{bold text}'.
@@ -124,6 +124,7 @@ Just like in HTML, LaTeX also uses text around the actual content text to descri
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
 ```
+
 As you can see, LaTex will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.
 
 ## Benefits of LaTeX
