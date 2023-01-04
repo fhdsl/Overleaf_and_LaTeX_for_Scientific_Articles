@@ -151,10 +151,10 @@ We hope that this chapter has given you some more knowledge about what LaTeX is 
 
 In conclusion, here are some of the major take-home messages:
 
-1. Computers actually separate document creation into two tasks, the content  text and arranging and styling that text. Traditional text editors like Microsoft Word show us what the final document will look like as we write it.
+1. Computers actually separate document creation into two tasks, creating the content text and arranging and styling that text. Traditional text editors like Microsoft Word show us what the final document will look like as we write it.
 2. LaTeX is a document preparation system that makes it easier to use the typesetting system TeX and allows you to create very complicated documents. 
 3. Typesetting has to do with all the style, layout, and formatting that a document might need.
-4. LaTeX is a markup language and similar to HTML, text tags around the content text can be used to indicate how the document should look when rendered into the final state.
+4. LaTeX is a markup language and similar to HTML. Text tags around the content text can be used to indicate how the document should look when rendered into the final state.
 5. LaTex allows you to more easily change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirements. 
 6. Although LaTeX is used frequently in computer science, mathematics, statistics, and engineering fields to write technical papers, it can be used for other kinds of documents too!
 
@@ -192,10 +192,11 @@ To do so, you can go to https://www.overleaf.com/register in your browser.
 
 There are several ways to register:
 
+1. Register with an IEEE account
 1. Register with your Google account
-2. Register with your ORCID account
-3. Register with a different email address
-4. Log in with an institution.
+1. Register with your ORCID account
+1. Register with a different email address
+1. Log in with an institution.
     This is worth checking in case your university has a license, as this may provide you with more features. 
     
 The free version only allows you to have one collaborator on a project, so collaboration is more limited, however you can still benefit from many of the other features.  Note that students can receive a discount as well.
@@ -203,7 +204,7 @@ The free version only allows you to have one collaborator on a project, so colla
 If possible it might be worth seeing if your institute would be willing to get an organizational license.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "There are several ways to register an account on Overleaf."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_137")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1cc5927a0b3_0_1")
 ```
 Overleaf is organized with projects. When you create a project, you can start from scratch or start from a template.
 
