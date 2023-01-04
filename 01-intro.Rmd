@@ -49,7 +49,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used to write scientific or technical documents, but it can be used for formatting or arranging any type of document. This process of determining the final look of a writing product is called [typesetting](https://en.wikipedia.org/wiki/Typesetting). 
 
-<div, class = "dictionary">
+<div class = "dictionary">
 Typesetting determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more.
 </div>
 
@@ -68,20 +68,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport). t LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
 
 
+<details><summary> **Why is it called LaTex?**</summary>
 <div class = "why">
-**Why is it called LaTex?**
-
-The "La" is believed to be for Lamport's last name. 
+The "La" is believed to be for Lamport's last name. <br>
 The "Tex" is for the typesetting system Tex.
 </div>
+</details>
+
 
 ### TeX
 
-TeX is a typesetting system developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s to help him format the text in his books more to his satisfaction [@tex_2022]. 
+TeX (pronounced '/ˈtɛx/' tekh) is a typesetting system developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s to help him format the text in his books more to his satisfaction [@tex_2022]. 
 
+<details><summary> **Why is it called Tex?**</summary>
 <div class = "why">
 Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn)](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft [@tex_2022].
 </div>
+</details>
 
 Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
 
@@ -105,7 +108,7 @@ With LaTeX we are more aware that we are actually telling the computer how to ar
 
 ## Process
 
-LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has symbols to indicate how the text should be displayed on webpages. It is often used in computer science to enable humans to read or write a file more easily and for the computer to interpret these files more easily. 
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain symbols around plain text can be used to indicate how the plain text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily. 
 
 Let's use a simple example of making some text **bold** to describe this. 
 
