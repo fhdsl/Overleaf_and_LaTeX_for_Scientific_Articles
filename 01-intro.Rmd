@@ -133,9 +133,9 @@ As you can see, LaTex will feel a bit different from writing in Microsoft Word, 
 
 Now that you are a little more clear about what LaTeX is, it might be easier to appreciate it's benefits:
 
-1) Allows you to focus on the content and worry less about formatting (once you have a good template to work with). There are many more specific templates to use for various journals that can be super helpful!
-2) Allows for much more complex typesetting/formatting of text. You can customize your documents just the way you would like.
-3) Once you have a template you like working with, say for a journal you frequently publish with, it is super easy to format future documents.
+1) Allows you to focus on the content and worry less about formatting (once you have a good template to work with). There are many specific templates to use format documents for various goals, such as formatting manuscripts for scientific journals.
+2) Allows for much more customization for complex typesetting/formatting of text.
+3) Once you have a template you like working with, say for a journal you frequently publish with, it is super easy to format future similar documents.
 4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much quicker and with more ease than if you were to do it manually using a text editor like Microsoft Word. 
 5) You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors
 6) You can collaborate with people who use LaTeX more easily
