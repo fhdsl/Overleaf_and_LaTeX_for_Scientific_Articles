@@ -65,14 +65,22 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## History
 
-LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport), thus the "La" in LaTeX is believed to be for his last name, Lamport. LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
+LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport). t LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
+
+
+<div class = "why">
+**Why is it called LaTex?**
+
+The "La" is believed to be for Lamport's last name. 
+The "Tex" is for the typesetting system Tex.
+</div>
 
 ### TeX
 
-TeX is a typesetting system. It was developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s, to help him format the text in his books more to his satisfaction [@tex_2022]. 
+TeX is a typesetting system developed by [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_E._Knuth) in the 1970s to help him format the text in his books more to his satisfaction [@tex_2022]. 
 
 <div class = "why">
-Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft [@tex_2022].
+Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn)](https://en.wikipedia.org/wiki/Techne), which directly translates to art or craft [@tex_2022].
 </div>
 
 Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
