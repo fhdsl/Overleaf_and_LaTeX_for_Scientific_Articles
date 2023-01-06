@@ -217,9 +217,9 @@ Let's start with a template to help us better understand the features of Overlea
 
 You can see that there are many templates to choose from in general!
 
-Let's search for a term, such as `preprint` to see if the templates for preprints. 
+Let's search for a term, such as "preprint" to see if the templates for preprints. 
 
-You will see that a few of the templates have a blue `official` tag. This is the best option if you find one for the publisher that you are interested in.
+You will see that a few of the templates have a blue "official" tag. This is the best option if you find one for the publisher that you are interested in.
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The official tag for some templates indicates that the publisher recoginizes and approves of the template as the official tempalte to use for submissions."}
@@ -316,5 +316,19 @@ After overleaf is done compiling, you can see that the title has been changed.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_188")
 ```
 
+Congratulations! You just made your first edit in Overleaf.
+In the next chapter, we will take a deeper dive into editing documents.
 
 
+## Conclusion
+
+We hope that this chapter has given you some more knowledge about what Overleaf is and how it can help you write documents, as well as the benefits of using it.
+
+In conclusion, here are some of the major take-home messages:
+
+1. Overleaf is a collaborative LaTeX editor, that helps you write documents using LaTeX.
+2. Benefits of Overleaf include: it's free (although you can pay for more features), it's online and requires no installations, it shows you a preview of how your document will look, it makes it easier to collaborate with others.
+3. To use Overleaf you need to make an account first, which takes just a few minutes.
+4. There are many templates that you can use to write many different types of documents, including journal articles, CVs, graphics, and more!
+5. Some journals have even vetted templates to be their official template, look for the blue "official" tag.
+6. It's a good idea to keep pressing the "recomplile" button often as you make changes so that you can more easily see what might be causing an error if something goes wrong.
