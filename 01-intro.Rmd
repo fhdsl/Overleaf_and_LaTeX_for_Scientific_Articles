@@ -219,7 +219,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the "templates" tab to get to the same template search page.  
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Templates tab"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Templates tab shows many differnt kinds of templates possible including calenders, letters, CVs, books, and more."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_0")
 ```
 
