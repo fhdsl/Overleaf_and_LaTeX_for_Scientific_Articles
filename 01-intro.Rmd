@@ -161,7 +161,12 @@ In conclusion, here are some of the major take-home messages:
 
 # Overleaf
 
-Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look. 
+Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to start creating a document.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv (https://arxiv.org/)"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_9")
+```
+
 
 Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 
@@ -170,6 +175,7 @@ Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_91")
 ```
  
+As a LaTeX editor, Overleaf helps you by showing you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these soon.
 
 ## Benefits of Overleaf
 
@@ -178,10 +184,15 @@ There are other LaTeX editors, but Overleaf is a really nice option for a number
 1) It is free! 
 1) It's online and requires no installations.
 1) It makes it much easier to write using LaTeX.
-1) It shows you a preview of your final document.
+1) It can continually show you a preview of your final document.
 1) It makes it easy to collaborate with others.
 1) There is lots of online support.
 1) It can sync with GitHub or Dropbox (if you pay for a paid plan).
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Summary of the benefits of Overleaf."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_16")
+```
 
 
 ## Getting Started
