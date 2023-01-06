@@ -172,7 +172,7 @@ Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_91")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_9")
 ```
  
 As a LaTeX editor, Overleaf helps you by showing you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these soon.
