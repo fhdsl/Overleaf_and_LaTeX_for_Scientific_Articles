@@ -292,7 +292,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 If you make a change in the source and want to see how it changes the look of the file, you need to press the "Recompile" button. 
 
-<div class = "notice">
+<div class = "warning">
 It is a good idea to press the "Recompile" button frequently, so that you can identify any errors more easily. If you wait too long to check, then you will have more new changes to look through to try to understand the error.
 </div>
 
