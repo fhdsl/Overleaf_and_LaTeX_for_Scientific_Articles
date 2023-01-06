@@ -331,4 +331,4 @@ In conclusion, here are some of the major take-home messages:
 3. To use Overleaf you need to make an account first, which takes just a few minutes.
 4. There are many templates that you can use to write many different types of documents, including journal articles, CVs, graphics, and more!
 5. Some journals have even vetted templates to be their official template, look for the blue "official" tag.
-6. It's a good idea to keep pressing the "recomplile" button often as you make changes so that you can more easily see what might be causing an error if something goes wrong.
+6. It's a good idea to keep pressing the "recompile" button often as you make changes so that you can more easily see what might be causing an error if something goes wrong.
