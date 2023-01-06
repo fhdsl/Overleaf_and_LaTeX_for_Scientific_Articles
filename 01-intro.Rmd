@@ -206,16 +206,31 @@ If possible it might be worth seeing if your institute would be willing to get a
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "There are several ways to register an account on Overleaf."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1cc5927a0b3_0_1")
 ```
+
+
+## Working with Templates
+
 Overleaf is organized with projects. When you create a project, you can start from scratch or start from a template.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "New Project Button."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_142")
 ```
 
-Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the template tab to get to the same template search page.  
+
+Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the "templates" tab to get to the same template search page.  
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Templates tab"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_0")
+```
 
 
-You can see that there are many templates to choose from in general!
+You can see that there are many templates to choose from! There are templates for writing a letter, writing a thesis, writing a CV, writing a book and more. 
+
+
+<div class = "notice">
+Tip! - If you need to write a thesis or you have a student that needs to write one, check to see if your university or department has a LaTeX template that you can use to help everyone save time on formatting and spend more time writing the content.
+</div>
+
 
 Let's search for a term, such as "preprint" to see if the templates for preprints. 
 
