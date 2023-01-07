@@ -163,7 +163,7 @@ In conclusion, here are some of the major take-home messages:
 
 Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to start creating a document.
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv (https://arxiv.org/)"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_9")
 ```
 
