@@ -76,10 +76,17 @@ You may also notice `%% examples of other authors` is in green and does not show
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_79")
 ```
 
+In the author section, the \And allows for additional authors to be added and needs to be used between each other. 
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "In the author section, the \And allows for additional authors to be added and needs to be used between each other.}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_31")
+```
+
+Finally, the author section needs to be completed by closing the brackets.
 
 
 
-Other important commands will be:
+## Section commands:
 
 - `\section{section name}` - This will help you to create sections in our template. We don't need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).
 
