@@ -15,8 +15,8 @@ Since we are working with a template, it isn't necessary to learn everything the
 
 At the top of the template you will notice `\ducumentclass{article}`.
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The top of the template shows usepackage several times."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_262_0")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Documentclass command"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_7")
 ```
 
 
@@ -44,6 +44,7 @@ In addition to determining what commands you can use, packages will also determi
 
 You may recall that we previously described how to bold font using `\textbf{bold text}`.
 
+### Layout Commands
 With LaTeX you will be using brackets often to designate what to do with a specific set of text.
 
 Next, we see the `\title` command that we previously worked with, as we already modified the text within the brackets to change the title. 
