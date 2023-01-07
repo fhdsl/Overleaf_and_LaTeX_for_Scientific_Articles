@@ -85,6 +85,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 Finally, the author section needs to be completed by closing the brackets.
 
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "In the author section, the brackets for the original author command need to be closed.}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_93")
+```
+
+
 
 ## Section commands:
 
