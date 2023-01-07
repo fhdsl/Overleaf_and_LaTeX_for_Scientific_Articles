@@ -13,8 +13,10 @@ conclusion
 overleaf
 benefits-of-overleaf
 getting-started
+working-with-templates
 viewing-documents
 making-changes
+conclusion-1
 writing-with-overleaf
-getting-started-1
+latex-basics
 references
