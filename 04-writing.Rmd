@@ -40,7 +40,7 @@ The next commands install some packages. Packages are additional code to help yo
 In addition to determining what commands you can use, packages will also determine how the content is formatted or laid out.
 
 
-### Common Commands
+### Author section
 
 You may recall that we previously described how to bold font using `\textbf{bold text}`.
 With LaTeX you will be using brackets often to designate what to do with a specific set of text that is contained within the brackets.
@@ -89,9 +89,18 @@ Finally, the author section needs to be completed by closing the brackets.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_93")
 ```
 
+### Beggining Commands 
+
+The next command `\begin{document}` enables us to format text for the body of the article. If you put `%%` in front of the command to change it to a comment and therefore not use the command, you will see that the document is formatted overall slightly differently. It will be paired with `\end{document}` that you will see at the bottom of the template if you scroll down.
 
 
-## Section commands:
+
+The `\maketitle` will add the title the page where the `begin{document}` command was used. Otherwise, if you used it before `begin{document}`, the title and authors will show up on a separate page. You can test it out to see how the document changes.
+
+
+
+
+### Section commands:
 
 - `\section{section name}` - This will help you to create sections in our template. We don't need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).
 
