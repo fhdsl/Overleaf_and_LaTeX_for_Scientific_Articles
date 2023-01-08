@@ -52,7 +52,7 @@ If you do not close a set of brackets you will get an error, so be careful about
 Next, we see the `\title` command that we previously worked with, as we already modified the text within the brackets to change the title. 
 
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Recap of the title command}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Recap of the title command"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_12")
 ```
 
