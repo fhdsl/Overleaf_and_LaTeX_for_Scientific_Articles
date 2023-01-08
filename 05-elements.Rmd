@@ -117,7 +117,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part". This command creates lines that are not the full width of the table. The `(r) {1-2}` indicates that the line should be trimmed on the right side to leave a gap after the span of 2 column widths.   
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part"."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The `cmidrule` command adds the line or "rule" under the multicolumn that says "Part"."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_1124")
 ```
 
