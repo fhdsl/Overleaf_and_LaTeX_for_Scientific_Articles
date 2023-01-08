@@ -190,4 +190,28 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## References
 
+Ok, now pretty much all scientific articles need references. To add these we need to add to the `references.bib` file, which can again be found on the left menu. 
+
+There are many ways to get the bib version of a reference, one easy way is to use [Zotero](https://www.zotero.org/), which is a free tool for writing bibliographies that has a [chrome extension](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en). 
+
+The cool think about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero.
+
+Then you can find the file in Zotero and right click to export the item to BibTeX format. This is a bibliography format that is compatible with `TeX`. We can then copy and paste this into the `references.bib` file, being careful to make sure that the brackets are closed.
+
+Then the first part of the bib item will indicate what to refer to it in the text to create a citation to the reference. The first item that starts with an `@` in the template `references.bib` file shows `kour2014real` as the first thing in the brackets. We can see that line 100 uses the `\cite{}` function to cite this article, as well as another article.
+
+This results in a number and a link to the reference.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To create a citation, use the cite command and be sure that you update your bib file."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_241")
+```
+
+
+To add a bibliography, we can just undo the comment in front of the  bibliography command. This is sufficient to create the bibliography. The code after this in the template to create each reference individually is not needed.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To add a bibliography, we can just undo the comment infront of the  bibliography command. This is sufficient to create the bibliography if we have a .bib file. "}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_248")
+```
 
