@@ -102,12 +102,18 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 
 
-
-
 - The `\toprule` command adds a solid line at the top of the table. If you add this command again you will see two lines - test it out to see how it works!
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The toprule command adds a line to the top of the table after the title."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_77")
+```
+
+
 - The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the {c} indicates that it will be centere aligned and the `{Part}` is the text we want for this.
 
-
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The multicolumn command allows you to create text that spans across multiple columns."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_94")
+```
 
 ## Creating internal links
 
