@@ -146,4 +146,17 @@ It can be very helpful to include a mathematical equation. To do so we need to u
 
 For more information about mathematical expressions in overleaf see the [Overleaf documentation](https://www.overleaf.com/learn/latex/Mathematical_expressions).
 
+## Conclusion
+
+We hope that this chapter has helped you feel more confident to start filling out the template with your own content.
+
+In conclusion, here are some of the major take-home messages:
+
+1. The `\documentclass{article}` command indicates that we are creating a scientific article.
+1. Packages are used to add additional features for users, to install them for a document we need to use the `\usepackage{}` command.
+1. Be careful about your brackets when writing your code. If you leave one set open it could cause an error.
+1. The double backslash `\\` can indicate the end of an item in the author list for example.
+1. The `begin{}` and `end{}` commands indicate when an element is starting or finishing. This could just be an abstract, or the entire body of the document.
+1. Section headers can be automatically numbered and styled. The `section{}, `subsection{}`, and `subsubsection{}` will make progressively more nested sections.
+1. LaTeX is great for including mathematical notations and equations in documents.
 
