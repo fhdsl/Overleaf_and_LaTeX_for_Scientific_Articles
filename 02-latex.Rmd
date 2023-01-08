@@ -33,10 +33,10 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## History
 
-LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport). t LaTex is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
+LaTeX was originally released in 1984 by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport). LaTeX is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the [typesetting](https://en.wikipedia.org/wiki/Typesetting) system called TeX.
 
 
-<details><summary> **Why is it called LaTex?**</summary>
+<details><summary> **Why is it called LaTeX?**</summary>
 <div class = "why">
 The "La" is believed to be for Lamport's last name. <br>
 The "Tex" is for the typesetting system Tex.
@@ -95,7 +95,7 @@ Just like in HTML, LaTeX also uses text around the actual content text to descri
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1babf2134b3_0_153")
 ```
 
-As you can see, LaTex will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.
+As you can see, LaTeX will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.
 
 ## Benefits of LaTeX
 
