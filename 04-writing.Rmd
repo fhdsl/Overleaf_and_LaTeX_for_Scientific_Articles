@@ -105,6 +105,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 The abstract section can be distinguished using the `begin{}` and `end{}` functions just like we used for the body of the document. These two commands will be used later as well to indicate that a specific part of the document has started or ended.
 
+### Dummy text
+
+You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use out of 150.
 
 ### Sections
 
@@ -121,11 +124,21 @@ In the template you can see how these are formatted:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_0")
 ```
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Example of a subsection with dummy text."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_110")
+```
+
+
+
+
+
 The `\paragraph{}` command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an asterisks `*` between the command name and the brackets `section*{}`.
 
-### Dummy text
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A paragraph section will not be numbered but whatever text is within the brackets will be in bold."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_118")
+```
 
-You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use out of 150.
+
 
 ### Equations
 
