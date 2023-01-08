@@ -94,10 +94,16 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 The next command `\begin{document}` enables us to format text for the body of the article. If you put `%%` in front of the command to change it to a comment and therefore not use the command, you will see that the document is formatted overall slightly differently. It will be paired with `\end{document}` that you will see at the bottom of the template if you scroll down.
 
 
+The `\maketitle` will add the title the page where the `begin{document}` command was used. Otherwise, if you used it before `begin{document}`, the title and authors will show up on a separate page first. You can test moving this command around to see how the document changes.
 
-The `\maketitle` will add the title the page where the `begin{document}` command was used. Otherwise, if you used it before `begin{document}`, the title and authors will show up on a separate page. You can test it out to see how the document changes.
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The begin and maketitle commands specify where certian formatting should occur.}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_101")
+```
 
+### Abstract
+
+The abstract section can be distinguished using the `begin{}` and `end{}` functions just like we used for the body of the document. These two commands will be used later as well to indicate that a specific part of the document has started or ended.
 
 
 ### Section commands:
@@ -115,4 +121,16 @@ In the template you can see how these are formatted:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_0")
 ```
 
-The paragraph
+The `\paragraph{}` command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an astrix `*` between the command name and the brackets `section*{}`.
+
+### Dummy text
+
+You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates how what specific dummy paragraph to use out of 150.
+
+### Equations
+
+It can be very helpful to include a mathematical equation. To do so we need to use our handy `\begin{equation}` and `\end{equation}` functions to indicate the boundaries. Using `equation` within the brackets indicates that this should be formatted in a certain way. It will center the text nicely and number it.
+
+For more information about mathematical expressions in overleaf see the [Overleaf documentation](https://www.overleaf.com/learn/latex/Mathematical_expressions).
+
+
