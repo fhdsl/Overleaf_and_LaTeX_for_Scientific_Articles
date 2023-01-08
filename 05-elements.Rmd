@@ -164,13 +164,30 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-
-
-
-
-
 ## Creating internal links
 
 You may have noticed a command `\label{}` when looking through the template.
 This is a very helpful command that helps you to create a tag to refer back to when you have a figure or a section header that you want to refer to. There is a nifty command `\ref{}` that helps you create these references. However, it is a tiny bit tricky, so we will walk through a couple of examples.
+
+You need the `\ref{}` command to match up with exactly what you have listed for the `\label{}` command for whatever figure, table, or section you are referring to.
+
+You also need to have the same notation for each type:
+- `tab:` for tables
+- `fig:` for figures
+- `sec:` for section headers
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The end function is used to stop the tabular mode and to finish the table."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_190")
+```
+
+Here we show how to do the same thing for a section of text. We will create a new link for the introduction. To do so we first need to add a label to the introduction using the `label{}` function. We will call it `intro` and we need to specify that this is a section header with `sec` , like so: `label{sec:intro}`.
+
+We then need to refer to this in the same way somewhere else using the `ref{}` function, like so: `ref{sec:intro}`. This will create a link to that section.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "To create a link to the introduction, which is section 1, we can apply the same method using the sec tag."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_233")
+```
+
+## References
+
 
