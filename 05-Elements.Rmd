@@ -11,13 +11,21 @@ You will notice that the template has a few examples of each of these elements a
 
 ## Figures and Images
 
-When you add a figure in LaTex you will use the `\begin{}` and `end{}` functions just like you have done previously. However, this time the you will use `\begin{figure}` and `end{figure}` to tell Overleaf that this is the type of element you are creating.
+When you add a figure in LaTex you will use the `\begin{}` and `end{}` functions just like you have done previously. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf that this is the type of element you are creating.
 
+If you focus on the second figure in the template, which is probably all you will need to learn (the first figure is a box created in LaTeX), then you will notice that in addition to the `\begin{figure}` and `\end{figure}`  commands, there is a `\centering{}`command, which will align the figure to the center of the page. The `includegraphics{text.png}` portion of the code actually adds the figure into the document. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Example of the code for a figure when you have a png file to use."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_4")
 ```
  
+You may notice on the left side of the template in overleaf that there are a few files listed.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The template.tex file is the file we have been working in. You can see it in the left menu."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_9")
+```
+
+
 
 
 Once you have the code for actually creating the figure, you then need to put it somewhere in the text. 
