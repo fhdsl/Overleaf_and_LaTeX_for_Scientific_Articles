@@ -19,4 +19,12 @@ making-changes
 conclusion-1
 writing-with-overleaf
 latex-basics
+document-class
+packages
+author-section
+beginning-commands
+abstract
+section-commands
+dummy-text
+equations
 references
