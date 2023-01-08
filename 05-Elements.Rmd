@@ -11,6 +11,8 @@ You will notice that the template has a few examples of each of these elements a
 
 ## Figures and Images
 
+Most scientific articles have figures, so it is helpful to know how to add these to documents. There are two main steps involved in this once you have a figure file that you are ready to add, say a png or a jpeg file.
+
 When you add a figure in LaTex you will use the `\begin{}` and `end{}` functions just like you have done previously. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf that this is the type of element you are creating.
 
 If you focus on the second figure in the template, which is probably all you will need to learn (the first figure is a box created in LaTeX), then you will notice that in addition to the `\begin{figure}` and `\end{figure}`  commands, there is a `\centering{}`command, which will align the figure to the center of the page. The `includegraphics{text.png}` portion of the code actually adds the figure into the document. 
@@ -45,9 +47,27 @@ The **`arxiv.sty`** file is a style file that contains code more specifically st
 </details>
 
 
+To upload a new image to add a new figure, you can click on the new file button which has an icon that looks like a piece of paper with the right upper corner folded.
 
-Once you have the code for actually creating the figure, you then need to put it somewhere in the text. 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "New file button"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_27")
+```
 
+Then select the upload button to drag and drop a new image file from your computer.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Menu for uploading a file.."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_33")
+```
+
+Then to add this new figure to your document you would just need to modify the code above so that the name of the image file matched you uploaded.
+
+`\begin{figure} % picture`
+   ` \centering`
+   ` \includegraphics{new.png}`
+`\end{figure}`
+
+
+## Creating interal links
 
 You may have noticed a command `\label{}` when looking through the template.
 This is a very helpful command that helps you to create a tag to refer back to when you have a figure or a section header that you want to refer to. There is a nifty command `\ref{}` that helps you create these references. However, it is a tiny bit tricky, so we will walk through a couple of examples.
