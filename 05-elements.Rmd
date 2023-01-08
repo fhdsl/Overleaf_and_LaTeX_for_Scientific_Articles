@@ -94,7 +94,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 
 
-Then to create the table in the template we will first indicate how we want the table arranged using the `tabular` enviornment. The command `\begin{tabular}{lll} indicates that we will have three columns that are left aligned. 
+Then to create the table in the template we will first indicate how we want the table arranged using the `tabular` environment. The command `\begin{tabular}{lll}` indicates that we will have three columns that are left aligned. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The caption command adds the table title."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_63")
@@ -134,14 +134,13 @@ To add a line under these values we can use the `\midrule` command.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_145")
 ```
 
-To add more text within the rows after this line, we can do this similarly to before with the `&` indicating column breaks and the `\\` indicating the end of the row. The `$` is also used to create matematical notations.
+To add more text within the rows after this line, we can do this similarly to before with the `&` indicating column breaks and the `\\` indicating the end of the row. The `$` is also used to create mathematical notations.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
 ```
 To add the line at the bottom, we need to use a command that is similar to `toprule{}` and `midrule{}`- which is `bottomrule{}`.
 
-The bottomrule command adds the line at the bottom of the table.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
@@ -155,9 +154,8 @@ First we need to get out of the tabular mode, and  we need our trust `\end{}`fun
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
 ```
-To add the line at the bottom, we need to use a command that is similar to `toprule{}` and `midrule{}`- which is `bottomrule{}`.
+To add the line at the bottom, we need to use a command that is similar to `toprule{}` and `midrule{}`- which is `\bottomrule{}`.
 
-The bottomrule command adds the line at the bottom of the table.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The end function is used to stop the tabular mode and to finish the table."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_178")
