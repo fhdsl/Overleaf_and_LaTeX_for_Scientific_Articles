@@ -109,11 +109,15 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-- The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the {c} indicates that it will be center aligned and the `{Part}` is the text we want for this.
+- The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the `{c}` indicates that it will be center aligned and the `{Part}` is the text we want for this.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The multicolumn command allows you to create text that spans across multiple columns."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_94")
 ```
+
+The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part". the 
+
+
 
 ## Creating internal links
 
