@@ -1,6 +1,7 @@
 AnVIL
 arXiv
 BIPOC
+BibTeX
 Bloomberg
 Bookdown
 Coursera
