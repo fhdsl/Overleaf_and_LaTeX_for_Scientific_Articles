@@ -9,7 +9,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## LaTeX Basics
 
-Since we are working with a template, it isn't necessary to learn everything there is to know about writing in LaTeX to get started. However, it can be useful to understand some fundamentals, so we will go over everything that you see listed in the template.
+Since we are working with a template, it isn't necessary to learn everything there is to know about writing in LaTeX to get started. However, it can be useful to understand some fundamentals, so we will go over most of the commands that you see listed in the template.
 
 ### Document Class 
 
