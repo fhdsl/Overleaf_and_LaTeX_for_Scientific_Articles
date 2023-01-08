@@ -6,6 +6,7 @@ rmd_files: ["index.Rmd",
             "02-latex.Rmd",
             "03-overleaf.Rmd",
             "04-writing.Rmd",
+            "05-elements.Rmd"
             "About.Rmd",
             "References.Rmd"]
 new_session: yes

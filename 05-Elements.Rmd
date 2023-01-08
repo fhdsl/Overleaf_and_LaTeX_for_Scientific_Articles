@@ -1,0 +1,6 @@
+
+# Figure, tables, and citations oh My!
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize some basic LaTeX tags, 2. Recognize how Overleaf offers extra support, 3. Add images to documents, 4. Add references to documents, 5. Identify when there is an Issue. 6. Know how to get help"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_125")
+```
