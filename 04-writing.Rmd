@@ -76,7 +76,7 @@ You may also notice `%% examples of other authors` is in green and does not show
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_79")
 ```
 
-In the author section, the \And allows for additional authors to be added and needs to be used between each other. 
+In the author section, the `\And` allows for additional authors to be added and needs to be used between each other. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "In the author section, the \And allows for additional authors to be added and needs to be used between each other."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_31")
