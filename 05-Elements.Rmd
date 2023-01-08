@@ -18,6 +18,10 @@ If you focus on the second figure in the template, which is probably all you wil
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Example of the code for a figure when you have a png file to use."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_4")
 ```
+
+<div class = "notice" > 
+Note that comments with one percent sign can be used after code - thus the `% picture` is just telling you that this part of the code is adding a picture. People use different numbers of percent signs based on preference and convention, but just one percent sign is sufficient to turn anything following that into a comment. 
+</div>
  
 You may notice on the left side of the template in overleaf that there are a few files listed.
 
