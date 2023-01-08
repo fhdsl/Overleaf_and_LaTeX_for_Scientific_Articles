@@ -2,3 +2,7 @@
 # Troubleshooting
 
 https://tex.stackexchange.com/
+
+https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
+
+https://arxiv.org/help/submit_tex
