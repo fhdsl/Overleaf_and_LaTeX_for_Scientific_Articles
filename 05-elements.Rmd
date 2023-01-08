@@ -215,3 +215,20 @@ To add a bibliography, we can just undo the comment in front of the  bibliograph
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_248")
 ```
 
+## Conclusion
+
+We hope that this chapter has given you some guidance about how to start adding images, tables, internal links, references and citations to your document.
+
+In conclusion, here are some of the major take-home messages:
+
+1. Many of these elements require the `\begin{}` and `\end{}` function to indicate where the element starts and finishes.
+1. Images can be added by first uploading an image file to Overleaf and using the `\begin{figure}`, `\includegraphics{imagfileename.png}`, and `\end{figure}` at minimum.
+1. Tables can be quite tricky, but you can control basically every aspect about how a table looks which can be really powerful. Remember to start with `begin{table}` and end with `\end{table}`, this helps add a new number to each of your tables when they are automatically numbered.
+1. the `\begin{tabular}` function helps you to start a table. It can also help you define the overall width and default alignment.
+1. Table content within cells can be delineated with an `&` to indicate column breaks. The `\\` is needed to end a row.
+1. To refer to a table, figure, or section of text you can use the `\label{}` and `\ref{}` commands, but make sure that the label is the same and that you use `tab` for table, `fig` for figure, and `sec` for section.
+1. The `\references.bib` file of the template can be modified to add different or additional references. These can come from using Zotero to get a BibTeX version of the reference.
+1. To cite a paper within the document you can use the `\cite{}` command. 
+1. To add the bibliography we can just use the command that was in comments `bibliography{references}`. 
+
+
