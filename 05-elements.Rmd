@@ -11,9 +11,9 @@ You will notice that the template has a few examples of each of these elements a
 
 ## Figures and Images
 
-Most scientific articles have figures, so it is helpful to know how to add these to documents. There are two main steps involved in this once you have a figure file that you are ready to add, say a png or a jpeg file.
+Most scientific articles have figures, so it is helpful to know how to add these to documents. There are two main steps involved in this once you have a figure file that you are ready to add, say a PNG or a JPEG file.
 
-When you add a figure in LaTex you will use the `\begin{}` and `end{}` functions just like you have done previously. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf that this is the type of element you are creating.
+When you add a figure in LaTeX you will use the `\begin{}` and `end{}` functions just like you have done previously. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf that this is the type of element you are creating.
 
 If you focus on the second figure in the template, which is probably all you will need to learn (the first figure is a box created in LaTeX), then you will notice that in addition to the `\begin{figure}` and `\end{figure}`  commands, there is a `\centering{}`command, which will align the figure to the center of the page. The `includegraphics{text.png}` portion of the code actually adds the figure into the document. 
 
@@ -25,7 +25,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 Note that comments with one percent sign can be used after code - thus the `% picture` is just telling you that this part of the code is adding a picture. People use different numbers of percent signs based on preference and convention, but just one percent sign is sufficient to turn anything following that into a comment. 
 </div>
  
-You may notice on the left side of the template in overleaf that there are a few files listed, including the name of the image file used in the code for the figure: `test.png`. The template.tex file is the file we have been working in.
+You may notice on the left side of the template in overleaf that there are a few files listed, including the name of the image file used in the code for the figure: `test.png`. The `template.tex` file is the file we have been working in.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The template.tex file is the file we have been working in. You can see it in the left menu."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_9")
@@ -68,7 +68,7 @@ Then to add this new figure to your document you would just need to modify the c
 
 ## Tables 
 
-## Creating interal links
+## Creating internal links
 
 You may have noticed a command `\label{}` when looking through the template.
 This is a very helpful command that helps you to create a tag to refer back to when you have a figure or a section header that you want to refer to. There is a nifty command `\ref{}` that helps you create these references. However, it is a tiny bit tricky, so we will walk through a couple of examples.
