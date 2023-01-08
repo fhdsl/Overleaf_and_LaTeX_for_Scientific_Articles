@@ -149,6 +149,26 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Now we just need to finish off our table.
 
+First we need to get out of the tabular mode, and  we need our trust `\end{}`function to do so with `\end{tabular}` and to end the table overall with `\end{table}`. We will discuss what the `\lab{}` function does soon.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
+```
+To add the line at the bottom, we need to use a command that is similar to `toprule{}` and `midrule{}`- which is `bottomrule{}`.
+
+The bottomrule command adds the line at the bottom of the table.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The end function is used to stop the tabular mode and to finish the table."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_178")
+```
+
+
+
+
+
+
+
 ## Creating internal links
 
 You may have noticed a command `\label{}` when looking through the template.
