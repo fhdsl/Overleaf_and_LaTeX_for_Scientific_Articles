@@ -125,7 +125,7 @@ The `\paragraph{}` command works similarly, but it will not be numbered. The tex
 
 ### Dummy text
 
-You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates how what specific dummy paragraph to use out of 150.
+You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use out of 150.
 
 ### Equations
 
