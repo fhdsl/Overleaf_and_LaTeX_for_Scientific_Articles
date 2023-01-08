@@ -3,8 +3,8 @@
 
 Now that you know the advantages of using overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize some basic LaTeX tags, 2. Recognize how Overleaf offers extra support, 3. Add images to documents, 4. Add references to documents, 5. Identify when there is an Issue. 6. Know how to get help"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_39")
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_125")
 ```
 
 ## LaTeX Basics
