@@ -128,6 +128,27 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
+To add a line under these values we can use the `\midrule` command.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Adding lines to specific parts of the middle of the table requires the midrule command."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_145")
+```
+
+To add more text within the rows after this line, we can do this similarly to before with the `&` indicating column breaks and the `\\` indicating the end of the row. The `$` is also used to create matematical notations.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
+```
+To add the line at the bottom, we need to use a command that is similar to `toprule{}` and `midrule{}`- which is `bottomrule{}`.
+
+The bottomrule command adds the line at the bottom of the table.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_159")
+```
+
+Now we just need to finish off our table.
+
 ## Creating internal links
 
 You may have noticed a command `\label{}` when looking through the template.
