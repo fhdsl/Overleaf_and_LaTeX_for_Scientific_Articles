@@ -109,14 +109,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-- The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the `{c}` indicates that it will be center aligned and the `{Part}` is the text we want for this.
+- The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the `{c}` indicates that it will be center aligned and the `{Part}` is the text we want for this. We need the `\\` to finish that row, otherwise "Part" will end up on the next row.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The multicolumn command allows you to create text that spans across multiple columns."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_94")
 ```
 
-The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part". the 
+The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part". This command creates lines that are not the full width of the table. The `(r) {1-2}` indicates that the line should be trimmed on the right side to leave a gap after the span of 2 column widths.   
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The `\cmidrule` command adds the line or "rule" under the multicolumn that says "Part"."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_1124")
+```
+
+Now we are ready to put some text within our table cells. to do so we can simply type the words with an `&` in between the text for each cell to indicate where the column breaks are. The `\\` indicates when we are done with that row. Since we have a special character to represent mu, we can use mathematical notation by using a dollar sign `$`.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Adding text within the tables requires an & to indicate different cells within the table."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_122")
+```
 
 
 ## Creating internal links
