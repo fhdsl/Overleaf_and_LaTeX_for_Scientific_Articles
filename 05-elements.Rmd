@@ -68,6 +68,47 @@ Then to add this new figure to your document you would just need to modify the c
 
 ## Tables 
 
+Similar to figures, you need the `\begin{}` and `\end{}` commands in you file to designate where the instructions for your table begin and end. In this case we use table with `\begin{table}` and `\end{table}`. 
+
+Here is all of the code to create the following table. We will go through each command and what it does to create the table.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "All the code for the table."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_38")
+```
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The resulting table"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_105")
+```
+
+
+
+We can add a caption using the `\caption{}` command. The table number will automatically be determined by the order of the tables. Like before with the figure, the `\centering` command will then align the resulting table to be centered.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The caption command adds the table title."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_43")
+```
+
+
+
+
+
+Then to create the table in the template we will first indicate how we want the table arranged using the `tabular` enviornment. The command `\begin{tabular}{lll} indicates that we will have three columns that are left aligned. 
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The caption command adds the table title."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_63")
+```
+
+
+
+
+
+- The `\toprule` command adds a solid line at the top of the table. If you add this command again you will see two lines - test it out to see how it works!
+- The command `\multicolumn{2}{c}{Part}\\` indicates that will will merge some columns together to create a "multicolumn" in this case the `{2}` means we will merge together 2 columns, the {c} indicates that it will be centere aligned and the `{Part}` is the text we want for this.
+
+
+
 ## Creating internal links
 
 You may have noticed a command `\label{}` when looking through the template.
