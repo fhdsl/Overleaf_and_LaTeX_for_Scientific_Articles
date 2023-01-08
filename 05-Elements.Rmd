@@ -35,7 +35,14 @@ If you click on the name of the image file you will see a preview of the image.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_19")
 ```
 
-The README.md file will tell you more about the template that you are using. The arxiv.sty file contains the code to 
+<details><summary> **What are these other files?**</summary>
+<div class = "notice">
+The README.md file will tell you more about the template that you are using. <br>
+The `arxiv.sty` file is a style file that contains code more specifically style the document  for arXiv preprints. This code is then applied in our `template.tex` file (the one we have been working in) by the command \usepackage{arxiv}, because that is the name of the `.sty` file. 
+</div>
+</details>
+
+
 
 Once you have the code for actually creating the figure, you then need to put it somewhere in the text. 
 
