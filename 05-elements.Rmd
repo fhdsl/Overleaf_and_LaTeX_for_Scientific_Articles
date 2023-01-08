@@ -61,10 +61,10 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Then to add this new figure to your document you would just need to modify the code above so that the name of the image file matched you uploaded.
 
-`\begin{figure} % picture`
-   ` \centering`
-   ` \includegraphics{new.png}`
-`\end{figure}`
+`\begin{figure} % picture`<br>
+   ` \centering`<br>
+   ` \includegraphics{new.png}`<br>
+`\end{figure}`<br>
 
 ## Tables 
 
