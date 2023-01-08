@@ -89,7 +89,7 @@ Finally, the author section needs to be completed by closing the brackets.
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_93")
 ```
 
-### Beggining Commands 
+### Beginning Commands 
 
 The next command `\begin{document}` enables us to format text for the body of the article. If you put `%%` in front of the command to change it to a comment and therefore not use the command, you will see that the document is formatted overall slightly differently. It will be paired with `\end{document}` that you will see at the bottom of the template if you scroll down.
 
@@ -121,7 +121,7 @@ In the template you can see how these are formatted:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_0")
 ```
 
-The `\paragraph{}` command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an astrix `*` between the command name and the brackets `section*{}`.
+The `\paragraph{}` command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an asterisks `*` between the command name and the brackets `section*{}`.
 
 ### Dummy text
 
