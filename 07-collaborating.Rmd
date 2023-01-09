@@ -1,1 +1,20 @@
 # Collaborating
+
+
+## Seeing collaborators
+
+Different users will show up as a square with the first initial of thier username if collaborators are also working on the same file. 
+
+https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image of the user icon"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19")
+```
+
+## Sharing
+
+You can share a project with a collaborator or really the world similarly to a Google document by clicking on the share button and specifying how you want people to access your project.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The share button allows you to share your project similar to a Google doc."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_28")
+```
