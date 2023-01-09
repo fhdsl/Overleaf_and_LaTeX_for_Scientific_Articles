@@ -1,5 +1,5 @@
 ---
-title: "Introduction to LaTeX and Overleaf"
+title: "Introduction to LaTeX and Overleaf for Writing Scientif Articles"
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
