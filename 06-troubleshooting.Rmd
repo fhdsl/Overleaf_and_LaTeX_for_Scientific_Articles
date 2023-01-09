@@ -52,7 +52,31 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
+## Trouble Compiling
 
+Occasionally, you will not be able to compile your document and will get an error. 
+
+When this happens, look for yellow triangles or red circles in your source code to determine what might have gone wrong.
+
+Remenber if you hover over them, they will give you helpful messages. 
+
+Keep in mind that sometimes an error happens earlier than where a red circle is indicated. 
+
+Here is an example of brackets that were not closed on line 76 where the yellow triangle is, but the red circle shows up on the next line because Overleaf expects you to close it here.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "An image of code with an error circle at the next line and a warning triangle at the previous line."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_39")
+```
+
+<div class = "warning">
+Remember, it is a good idea to press the "Recompile" button frequently, so that you can identify any errors more easily. If you wait too long to check, then you will have more new changes to look through to try to understand the error.
+</div>
+
+
+## Getting Help
+
+
+There are many useful resources if you get stuck.
 
 https://tex.stackexchange.com/
 
