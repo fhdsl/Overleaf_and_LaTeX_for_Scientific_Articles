@@ -1,5 +1,5 @@
 ---
-title: "Introduction to LaTeX and Overleaf"
+title: "Introduction to LaTeX and Overleaf for Writing Scientific Articles"
 date: "January, 2023"
 site: bookdown::bookdown_site
 documentclass: book
