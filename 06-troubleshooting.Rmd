@@ -12,6 +12,14 @@ As you type code, Overleaf makes code suggestions based on what you have already
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_0")
 ```
 
+## Symbol Palette
+
+If you need to use many symbols are mathematical notations in your work, the symbol palette can be very helpful. You can access it by pressing the button that looks like an omega symbol at the top of the source editor.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The symbol palette can be very helpful. It can be accessed at the top of the source editor. "}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_7")
+```
+
 https://tex.stackexchange.com/
 
 https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
