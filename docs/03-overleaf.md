@@ -8,7 +8,7 @@ Overleaf is an online free LaTeX editor, meaning it helps you write text using L
 Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_9.png" title="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." alt="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." width="100%" style="display: block; margin: auto;" />
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_91.png" title="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." alt="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." width="100%" style="display: block; margin: auto;" />
  
 As a LaTeX editor, Overleaf helps you by showing you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these soon.
 
@@ -125,15 +125,15 @@ It is a good idea to press the "Recompile" button frequently, so that you can id
 
 ## Making changes
 
-Now let's try some simple changes to sart getting used to writing with LaTeX. 
+Now let's try a simple change to start getting used to writing with LaTeX. 
 
-First let's change the tilte. We can find the title where the file says "Predict future sale". You can use search the source editor text by clicking on the editor and using the search and find keyboard shortcut (control and the F key). We can type in the "Predict future sale" text to find it. We will find it on line 19 following `\title`.
+First let's change the title. We can find the title where the file says "Predict future sale". You can use search the source editor text by clicking on the editor and using the search and find keyboard shortcut (control and the F key). We can type in the "Predict future sale" text to find it. We will find it on line 19 following `\title`.
 
 
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_195.png" title="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." alt="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." width="100%" style="display: block; margin: auto;" />
 
-We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F). We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text.
+We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F). We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text. Here we replace it with "New Title."
 
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_208.png" title="Changing the title to New Title." alt="Changing the title to New Title." width="100%" style="display: block; margin: auto;" />
@@ -144,7 +144,7 @@ Now we can click the "Recompile button" to see the results.
 
 After overleaf is done compiling, you can see that the title has been changed.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" title="The resulting new title within the document." alt="The resulting new title within the document." width="100%" style="display: block; margin: auto;" />
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_212.png" title="The resulting new title within the document." alt="The resulting new title within the document." width="100%" style="display: block; margin: auto;" />
 
 Congratulations! You just made your first edit in Overleaf.
 In the next chapter, we will take a deeper dive into editing documents.
