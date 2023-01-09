@@ -3,6 +3,10 @@
 
 Overleaf has lots of ways to make writing in LaTeX easier. In this chapter we will cover several of these ways, as well as how to identify and fix a problem if you encounter one.
 
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c84a339a79_0_39")
+```
+
 ## Code Suggestions
 
 As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also suggestion what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
