@@ -18,3 +18,50 @@ You can share a project with a collaborator or really the world similarly to a G
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The share button allows you to share your project similar to a Google doc."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_28")
 ```
+
+
+## Submitting
+
+When you are ready to submit a document to a publisher, like a preprint to arXiv, you can do so using the  `submit` button.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The submit button helps you submit documents directly to publishers."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_47")
+```
+## Messages
+
+You can send general messages using the "Chat" button.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The submit button helps you submit documents directly to publishers."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_47")
+```
+
+
+## Review mode
+
+If you press the "review" button, which is to the right of the "share" button, you can enable certain reviewing features.
+
+You will see a gray column open to the right of the source editor. Here you can add comments and toggle on and off the tracking of changes.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image of where to turn track changes on and off once the Review button has been pressed."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_58")
+```
+### Adding comments
+
+You can also write comments about specific text by highlighting the text in review mode (by first pressing the reveiw button) and then clicking "add comment".
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Example of highlighting text to add a comment."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_63")
+```
+
+Comments need to be verified to be posted. They can then be edited, resolved, or responded to.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image of verifying an example comment and then the result of creating a comment that can be edited, responded to, or resolved."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_69")
+```
+
+
+Resolved comments can be found at the top left button in the review panel when in review mode.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image of the resolved comment button."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_53")
+```
