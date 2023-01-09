@@ -92,3 +92,18 @@ If you are submitting a paper to arXiv these resources may also be helpful:
 - https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
 - https://arxiv.org/help/submit_tex
 
+## Conclusion
+
+We hope that this chapter has given you some guidance about how to make it easier to write your documents, identify errors, and find help.
+
+In conclusion, here are some of the major take-home messages:
+
+1. Overleaf offers helpful code suggestions to make writing easier.
+1. Overleaf has a symbol palatte to help you write with symbols. This can be accessed by pressing the symbol button, which looks like an omega, at the top menu.
+1. You can see changes and previous versions of a document under the history tab. This also shows you who made those changes.
+1. The log can give you more information about any errors or potential issues with your document. Each message in the log has a link to take you to the potentailly problematic line of code.
+1. Triangles and circles in the left side of the source editor can indicate issues. If you hover over them, more information will pop up about what the problem might be.
+1. Keep in mind that sometimes an error or issue is due to something earlier in the code.
+1. If you run into an issue, there are lots of resources to help you!
+
+
