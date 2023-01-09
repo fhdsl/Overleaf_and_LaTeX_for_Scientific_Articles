@@ -76,11 +76,19 @@ Remember, it is a good idea to press the "Recompile" button frequently, so that 
 ## Getting Help
 
 
-There are many useful resources if you get stuck.
+There are many useful resources if you get stuck:
 
-https://tex.stackexchange.com/
+- The overleaf documentation: https://www.overleaf.com/learn
+Overleaf has lots of helpful information about:
+    - [Troubleshooting errors](https://www.overleaf.com/learn/latex/Errors)
+    - [Learing LaTeX](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+    - [How-to guides](https://www.overleaf.com/learn/how-to)
+    - [Creating tables](https://www.overleaf.com/learn/latex/Tables)  
+- The TeX stackexchange: https://tex.stackexchange.com/
+- TeX blog: https://texblog.org/tex-resources/
+- LaTeX project: https://www.latex-project.org/help/documentation/
 
-https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
+If you are submitting a paper to arXiv these resources may also be helpful:
+- https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
+- https://arxiv.org/help/submit_tex
 
-https://arxiv.org/help/submit_tex
-https://nasa.github.io/nasa-latex-docs/html/examples/table.html
