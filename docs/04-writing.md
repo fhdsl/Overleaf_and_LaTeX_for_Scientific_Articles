@@ -3,7 +3,7 @@
 
 Now that you know the advantages of using overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_39.png" title="Learning Objectives: 1. Recognize some basic LaTeX tags, 2. Recognize how Overleaf offers extra support, 3. Add images to documents, 4. Add references to documents, 5. Identify when there is an Issue. 6. Know how to get help" alt="Learning Objectives: 1. Recognize some basic LaTeX tags, 2. Recognize how Overleaf offers extra support, 3. Add images to documents, 4. Add references to documents, 5. Identify when there is an Issue. 6. Know how to get help" width="100%" style="display: block; margin: auto;" />
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_125.png" title="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" alt="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" width="100%" style="display: block; margin: auto;" />
 
 ## LaTeX Basics
 
@@ -85,8 +85,11 @@ The `\maketitle` will add the title the page where the `begin{document}` command
 
 The abstract section can be distinguished using the `begin{}` and `end{}` functions just like we used for the body of the document. These two commands will be used later as well to indicate that a specific part of the document has started or ended.
 
+### Dummy text
 
-### Section commands:
+You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use out of 150.
+
+### Sections
 
 - `\section{section name}` - This will help you to create sections in our template. We don't need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).
 
@@ -99,11 +102,17 @@ In the template you can see how these are formatted:
 
 <img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_0.png" title="Example of sections in the template showing how it creates a number and bold text" alt="Example of sections in the template showing how it creates a number and bold text" width="100%" style="display: block; margin: auto;" />
 
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_110.png" title="Example of a subsection with dummy text." alt="Example of a subsection with dummy text." width="100%" style="display: block; margin: auto;" />
+
+
+
+
+
 The `\paragraph{}` command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an asterisks `*` between the command name and the brackets `section*{}`.
 
-### Dummy text
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" title="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" />
 
-You may notice that `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates how what specific dummy paragraph to use out of 150.
+
 
 ### Equations
 
@@ -111,4 +120,17 @@ It can be very helpful to include a mathematical equation. To do so we need to u
 
 For more information about mathematical expressions in overleaf see the [Overleaf documentation](https://www.overleaf.com/learn/latex/Mathematical_expressions).
 
+## Conclusion
+
+We hope that this chapter has helped you feel more confident to start filling out the template with your own content.
+
+In conclusion, here are some of the major take-home messages:
+
+1. The `\documentclass{article}` command indicates that we are creating a scientific article.
+1. Packages are used to add additional features for users, to install them for a document we need to use the `\usepackage{}` command.
+1. Be careful about your brackets when writing your code. If you leave one set open it could cause an error.
+1. The double backslash `\\` can indicate the end of an item in the author list for example.
+1. The `begin{}` and `end{}` commands indicate when an element is starting or finishing. This could just be an abstract, or the entire body of the document.
+1. Section headers can be automatically numbered and styled. The `section{}, `subsection{}`, and `subsubsection{}` will make progressively more nested sections.
+1. LaTeX is great for including mathematical notations and equations in documents.
 
