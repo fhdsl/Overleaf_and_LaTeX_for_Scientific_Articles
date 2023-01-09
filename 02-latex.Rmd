@@ -123,6 +123,6 @@ In conclusion, here are some of the major take-home messages:
 2. LaTeX is a document preparation system that makes it easier to use the typesetting system TeX and allows you to create very complicated documents. 
 3. Typesetting has to do with all the style, layout, and formatting that a document might need.
 4. LaTeX is a markup language and similar to HTML. Text tags around the content text can be used to indicate how the document should look when rendered into the final state.
-5. LaTex allows you to more easily change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirements. 
+5. LaTeX allows you to more easily change how your document is laid out, which can be super beneficial if you need to accommodate different scientific journal requirements. 
 6. Although LaTeX is used frequently in computer science, mathematics, statistics, and engineering fields to write technical papers, it can be used for other kinds of documents too!
 

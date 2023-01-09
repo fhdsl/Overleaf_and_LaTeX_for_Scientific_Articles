@@ -1,6 +1,8 @@
 AnVIL
 arXiv
+autocomplete
 BIPOC
+BibTeX
 Bloomberg
 Bookdown
 Coursera
@@ -31,6 +33,7 @@ LaTeX
 Leanpub
 Markua
 mentorship
+multicolumn
 NCI
 NHGRI
 ottrpal
@@ -42,6 +45,8 @@ UE
 UE5
 reproducibility
 rmarkdown
+stackexchange
+subsubsection
 techn
 tekh
 ˈtɛx
@@ -51,3 +56,4 @@ textbf
 τέχνη
 underserved
 www
+Zotero
