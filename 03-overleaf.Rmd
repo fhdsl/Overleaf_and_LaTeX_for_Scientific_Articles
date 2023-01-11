@@ -14,7 +14,7 @@ Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_91")
 ```
  
-As a LaTeX editor, Overleaf helps you by showing you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these in this overview.
+As a LaTeX editor, Overleaf shows you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these in this overview.
 
 ## Benefits of Overleaf
 
