@@ -1,6 +1,6 @@
 # LaTeX
 
-You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.
+You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), which is not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTex is not latex (the material used for protective gloves and other items)."}
@@ -18,10 +18,10 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 LaTeX is a "document preparation system" according to the LaTeX project [@latex]. It is often used to write scientific or technical documents, but it can be used for formatting or arranging any type of document. This process of determining the final look of a writing product is called [typesetting](https://en.wikipedia.org/wiki/Typesetting). 
 
 <div class = "dictionary">
-Typesetting determines how text looks and where it is located in a document when it is it's final stage - like when it is rendered or printed. It has to do with fonts, text sizing, line spacing, the arrangement of tables and images, and more.
+Typesetting determines how text looks and where it is located in a document when it is its final stage - like when it is rendered or printed. It refers to fonts, text sizing, line spacing, the arrangement of tables and images, and more.
 </div>
 
-Although LaTeX has a reputation for being quite tricky, it is very powerful in enabling users to create documents with complex and customized text formatting and layouts with much more ease than doing so using systems like Microsoft Word. 
+Although LaTeX has a reputation for being quite tricky, it is very powerful in enabling users to create documents with complex and customized text formatting and layouts much more easily than doing so with systems like Microsoft Word. 
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents."}
@@ -64,7 +64,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word, let you interactively work with the typesetting of a document as you write the content. 
+Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word let you interactively work with the typesetting of a document as you write the content. 
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it."}
@@ -72,13 +72,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-In a sense using LaTeX/TeX is kinda taking a step back in time to think about the fact that when you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. 
+When you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. 
 
-With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are really interested in taking a deep dive into understanding how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) by @tirado_reasons_2020 and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/) by @walsh_making_1994.
+With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are interested in taking a deep dive into how this all came to be, check out this [blog post](https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e) by @tirado_reasons_2020 and this [O'Reilly book](https://www.oreilly.com/library/view/making-tex-work/1565920511/) by @walsh_making_1994.
 
 ## Process
 
-LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain text tags can be used to indicate how the content text should be formatted or displayed. Another example of a markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily. 
+LaTeX can also be called a [markup language](https://en.wikipedia.org/wiki/Markup_language). These means that certain text tags can be used to indicate how the content text should be formatted or displayed. Another markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily. 
 
 Let's use a simple example of making some text **bold** to illustrate this. 
 
@@ -104,7 +104,7 @@ Now that you are a little more clear about what LaTeX is, it might be easier to 
 1) Allows you to focus on the content and worry less about formatting (once you have a good template to work with). There are many specific templates to use format documents for various goals, such as formatting manuscripts for scientific journals.
 2) Allows for much more customization for complex typesetting/formatting of text.
 3) Once you have a template you like working with, say for a journal you frequently publish with, it is super easy to format future similar documents.
-4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much quicker and with more ease than if you were to do it manually using a text editor like Microsoft Word. 
+4) If you need to change the typesetting/formatting of a document for the requirements of a different journal or preprint archive, you can do it much more quickly and with more ease than if you were to do it manually using a text editor like Microsoft Word. 
 5) You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors
 6) You can collaborate with people who use LaTeX more easily
 
@@ -117,7 +117,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 We hope that this chapter has given you some more knowledge about what LaTeX is and how it came to be, as well as the benefits of using it.
 
-In conclusion, here are some of the major take-home messages:
+Here are some of the major take-home messages:
 
 1. Computers actually separate document creation into two tasks, creating the content text and arranging and styling that text. Traditional text editors like Microsoft Word show us what the final document will look like as we write it.
 2. LaTeX is a document preparation system that makes it easier to use the typesetting system TeX and allows you to create very complicated documents. 
