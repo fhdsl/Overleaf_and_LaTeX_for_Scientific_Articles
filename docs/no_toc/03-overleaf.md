@@ -1,6 +1,6 @@
 # Overleaf
 
-Overleaf is an online free LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to start creating a document.
+Overleaf is a free online LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to create a document.
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_9.png" title="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" alt="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" width="100%" style="display: block; margin: auto;" />
 
@@ -10,7 +10,7 @@ Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_91.png" title="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." alt="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." width="100%" style="display: block; margin: auto;" />
  
-As a LaTeX editor, Overleaf helps you by showing you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these soon.
+As a LaTeX editor, Overleaf shows you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these in this overview.
 
 ## Benefits of Overleaf
 
@@ -43,9 +43,9 @@ There are several ways to register:
 1. Log in with an institution.
     This is worth checking in case your university has a license, as this may provide you with more features. 
     
-The free version only allows you to have one collaborator on a project, so collaboration is more limited, however you can still benefit from many of the other features.  Note that students can receive a discount as well.
+The free version only allows you to have one collaborator on a project, so collaboration is more limited. However, you can still benefit from many of the other features.  Note that students can receive a discount as well.
 
-If possible it might be worth seeing if your institute would be willing to get an organizational license.
+If possible, it may be worth seeing if your institute would get an organizational license.
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_1.png" title="There are several ways to register an account on Overleaf." alt="There are several ways to register an account on Overleaf." width="100%" style="display: block; margin: auto;" />
 
@@ -90,12 +90,10 @@ Click the "Open as Template" button to get started.
  
 ## Viewing documents
 
-So now that we have opened a template, we will start by understanding how we can view our work on Overleaf.
+Now that we have opened a template, we will start by understanding how we can view our work on Overleaf.
 
+Overleaf easily shows you what the rendered version of your text will look like, taking into account the LaTeX tags that indicate how the text should be arranged and styled. The default view is to see the raw text (aka source text) on the left and the rendered/compiled version on the right. 
 
-For starters, it easily shows you what the rendered version of your text will look like, taking into account the LaTeX tags that indicate how the text should be arranged and styled.
-
-The default view is to see the raw text (aka source text) on the left and the rendered/compiled version on the right.
 
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_106.png" title="The default view in Overleaf is to have raw text shown on the left, while the compiled text is shown on the right." alt="The default view in Overleaf is to have raw text shown on the left, while the compiled text is shown on the right." width="100%" style="display: block; margin: auto;" />
@@ -127,13 +125,13 @@ It is a good idea to press the "Recompile" button frequently, so that you can id
 
 Now let's try a simple change to start getting used to writing with LaTeX. 
 
-First let's change the title. We can find the title where the file says "Predict future sale". You can use search the source editor text by clicking on the editor and using the search and find keyboard shortcut (control and the F key). We can type in the "Predict future sale" text to find it. We will find it on line 19 following `\title`.
+First we will change the title, which is currently "Predict future sale". We can search the source editor text by clicking on the editor pane and using the search and find keyboard shortcut (control and the F key). If we type "Predict future sale" in the text box, we find it on line 19 following `\title`.
 
 
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_195.png" title="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." alt="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." width="100%" style="display: block; margin: auto;" />
 
-We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F). We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text. Here we replace it with "New Title."
+We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text. Here we replace it with "New Title."
 
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_208.png" title="Changing the title to New Title." alt="Changing the title to New Title." width="100%" style="display: block; margin: auto;" />
@@ -142,7 +140,7 @@ Now we can click the "Recompile button" to see the results.
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" title="To update rendered file with your changes, press the recompile button." alt="To update rendered file with your changes, press the recompile button." width="100%" style="display: block; margin: auto;" />
 
-After overleaf is done compiling, you can see that the title has been changed.
+After overleaf has finished compiling, you can see that the title has been changed.
 
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_212.png" title="The resulting new title within the document." alt="The resulting new title within the document." width="100%" style="display: block; margin: auto;" />
 
@@ -154,7 +152,7 @@ In the next chapter, we will take a deeper dive into editing documents.
 
 We hope that this chapter has given you some more knowledge about what Overleaf is and how it can help you write documents, as well as the benefits of using it.
 
-In conclusion, here are some of the major take-home messages:
+Here are some of the major take-home messages:
 
 1. Overleaf is a collaborative LaTeX editor, that helps you write documents using LaTeX.
 2. Benefits of Overleaf include: it's free (although you can pay for more features), it's online and requires no installations, it shows you a preview of how your document will look, it makes it easier to collaborate with others.
