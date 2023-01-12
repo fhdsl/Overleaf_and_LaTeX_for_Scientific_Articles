@@ -2,6 +2,11 @@
 
 Collaborating on Overleaf is much more doable if you have access to a [paid plan](https://www.overleaf.com/user/subscription/plans). If you have a collaborator who has a paid plan, then you will have access to the features that are part of their plan. 
 
+
+## Learning Objectives
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_136.png" title="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" alt="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" width="100%" style="display: block; margin: auto;" />
+
 ## Seeing collaborators
 
 Different users will show up as a square with the first initial of their username if collaborators are also working on the same file. 
@@ -63,6 +68,6 @@ In conclusion, here are some of the major take-home messages:
 1. You can actually submit manuscripts directly to some journals, as well as preprints to arXiv by using the submit button. 
 1. You can send general messages to collaborators using the Chat button.
 1. In review mode, which is activate when you press the Review button, you will see a panel that allows you to write and see comments, as well as turn on or of the tracking of changes.
-1. Comments can be made my highlight code in review mode and then clicking "add comment". After you write a comment you need to click the "Comment" button.
+1. Comments can be made by highlighting code in review mode and then clicking "add comment". After you write a comment you need to click the "Comment" button.
 1. Comments can be edited, resolved, or replied to.
 
