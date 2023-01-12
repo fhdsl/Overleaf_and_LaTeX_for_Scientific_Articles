@@ -2,7 +2,7 @@
 2-LaTeX.md
 3-Overleaf.md
 4-Writing-with-Overleaf.md
-5-Figure,-tables,-and-citations-oh-My!.md
+5-Figure,-tables,-and-citations-oh-my!.md
 6-Troubleshooting.md
 7-Collaborating.md
 8-References.md
