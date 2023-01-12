@@ -32,8 +32,8 @@ These credits are based on our [course contributors table guidelines](https://ww
 <!-- |Videography Editor(s)| Edited film| -->
 <!-- |Audiographer(s)| Recorded audio| -->
 <!-- |Audiography Editor(s)| Edited audio recordings| -->
-<!-- |**Funding**|| -->
-<!-- |Funder(s)| Institution/individual who funded course including grant number| -->
+|**Funding**||
+|Funder(s)| 	[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170| -->
 <!-- |Funding Staff| Staff members who help with funding| -->
 
 &nbsp;
