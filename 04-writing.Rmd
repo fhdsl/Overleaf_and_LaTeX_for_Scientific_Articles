@@ -107,7 +107,7 @@ The abstract section can be distinguished using the `begin{}` and `end{}` functi
 
 ### Dummy text
 
-You may notice `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use; the maximum value allowed in the brackets is 150.
+You may notice `\lipsum[]` is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use. There are 150 possible, so the maximum value allowed in the brackets is 150.
 
 ### Sections
 
