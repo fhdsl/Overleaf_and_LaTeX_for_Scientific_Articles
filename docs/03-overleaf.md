@@ -1,3 +1,5 @@
+
+
 # Overleaf
 
 Overleaf is a free online LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to create a document.
@@ -80,7 +82,7 @@ You will see that a few of the templates have a blue "official" tag. This is the
 
 We will use a template for arXiv. 
 
-You can go to this link: https://www.overleaf.com/latex/templates/style-and-template-for-preprints-arxiv-bio-arxiv/pkzcrhzcdxmc to start with the same particular template to create a manuscript for [arXiv](https://arxiv.org/).
+You can go to this [link](https://www.overleaf.com/latex/templates/style-and-template-for-preprints-arxiv-bio-arxiv/pkzcrhzcdxmc){target="_blank"} to start with the same particular template to create a manuscript for [arXiv](https://arxiv.org/).
 
 
 Click the "Open as Template" button to get started. 

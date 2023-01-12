@@ -128,7 +128,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.1.1" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#document-class"><i class="fa fa-check"></i><b>4.1.1</b> Document Class</a></li>
 <li class="chapter" data-level="4.1.2" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#packages"><i class="fa fa-check"></i><b>4.1.2</b> Packages</a></li>
 <li class="chapter" data-level="4.1.3" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#author-section"><i class="fa fa-check"></i><b>4.1.3</b> Author section</a></li>
-<li class="chapter" data-level="4.1.4" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#beginning-commands"><i class="fa fa-check"></i><b>4.1.4</b> Beginning Commands</a></li>
+<li class="chapter" data-level="4.1.4" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#formatting-the-document-body"><i class="fa fa-check"></i><b>4.1.4</b> Formatting the Document Body</a></li>
 <li class="chapter" data-level="4.1.5" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#abstract"><i class="fa fa-check"></i><b>4.1.5</b> Abstract</a></li>
 <li class="chapter" data-level="4.1.6" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#dummy-text"><i class="fa fa-check"></i><b>4.1.6</b> Dummy text</a></li>
 <li class="chapter" data-level="4.1.7" data-path="writing-with-overleaf.html"><a href="writing-with-overleaf.html#sections"><i class="fa fa-check"></i><b>4.1.7</b> Sections</a></li>
@@ -208,7 +208,7 @@ div.csl-indent {
 <p>Since we are working with a template, it isn’t necessary to learn everything there is to know about writing in LaTeX to get started. However, it can be useful to understand some fundamentals, so we will go over most of the commands that you see listed in the template.</p>
 <div id="document-class" class="section level3" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Document Class</h3>
-<p>At the top of the template you will notice <code>\ducumentclass{article}</code>.</p>
+<p>At the top of the template you will notice <code>\documentclass{article}</code>.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_7.png" title="Documentclass command" alt="Documentclass command" width="100%" style="display: block; margin: auto;" /></p>
 <p>This specifies general typesetting information about the type of document that we intend to make. For example, it often specifies font size, the overall layout of the text, and alignment of various features of the text. Since we are writing a scientific article, the specification here is <code>article</code>.</p>
 <p>To learn more about document classes see this <a href="https://libguides.utsa.edu/c.php?g=522165&amp;p=3570198">documentation link</a> form <span class="citation">Wu (<a href="#ref-wu_libguides" role="doc-biblioref">n.d.</a>)</span>.</p>
@@ -218,7 +218,7 @@ div.csl-indent {
 <p>Next you will see that <code>\usepackage{}</code> is repeated several times with different information in the brackets:</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_262_0.png" title="The top of the template shows usepackage several times." alt="The top of the template shows usepackage several times." width="100%" style="display: block; margin: auto;" /></p>
 <p>We will refer to these tags with brackets such as <code>\usepackage{}</code> as <strong>commands</strong> from now on (as this is what the are generally referred to) and they cause a change to either the text within the brackets or the overall document.</p>
-<p>The next commands install some packages. Packages are additional code to help you do additional things with your documents. If a command comes from a specific package, you will need to install the package that it comes from first. Commands from these packages will be utilized later in the template. It is recommended that you leave this code as is, and only modify the rest of the template until you learn more.</p>
+<p>The <code>\usepackage{}</code> command installs packages, which are collections of code that help you do additional things with your documents. Packages need to be installed before commands from those packages can be used. Commands from these packages will be utilized later in the template. <strong>It is recommended that you leave this code as is, and only modify the rest of the template until you learn more.</strong></p>
 <p>In addition to determining what commands you can use, packages will also determine how the content is formatted or laid out.</p>
 </div>
 <div id="author-section" class="section level3" number="4.1.3">
@@ -228,44 +228,45 @@ With LaTeX you will be using brackets often to designate what to do with a speci
 <div class="warning">
 <p>If you do not close a set of brackets you will get an error, so be careful about this.</p>
 </div>
-<p>Next, we see the <code>\title</code> command that we previously worked with, as we already modified the text within the brackets to change the title.</p>
+<p>As we scroll down the template, we next see the <code>\title</code> command that we previously worked with when we modified the text within the brackets to change the title.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_12.png" title="Recap of the title command" alt="Recap of the title command" width="100%" style="display: block; margin: auto;" /></p>
-<p>Then we see the <code>\author</code> command to add authors to the paper. These will be formatted in the way that is shown on the template. When you see <code>\\</code> two backslashes, this indicates that the line is finished and a new one is to be made. It is best to <a href="https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean">avoid</a> using this for line breaks within the paragraphs that you might include in the paper, but for tables or formatting like the authors, it should work well.</p>
+<p>Then we see the <code>\author</code> command, which adds authors to the paper. These will be formatted in the way that is shown on the template. When you see <code>\\</code> two backslashes, this indicates that the line is finished and a new one is to be made. For tables or formatting like the authors, it should work well, but it is best to <strong><a href="https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean">avoid</a></strong> using this for line breaks within the paragraphs that you might include in the paper.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_45.png" title="Double backslash ends a line." alt="Double backslash ends a line." width="100%" style="display: block; margin: auto;" /></p>
 <p>We also see another command <code>\textttt{}</code> used within the <code>\author{}</code> command to change the text to typewriter font.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_67.png" title="The texttt command changes the font within the brackets to typewriter font." alt="The texttt command changes the font within the brackets to typewriter font." width="100%" style="display: block; margin: auto;" /></p>
 <p>You may also notice <code>%% examples of other authors</code> is in green and does not show up in the rendered document. This is what is called a <strong>comment</strong> and it can be used to write notes about the material.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_79.png" title="The double percent sign %% creates a comment that will not show up in the final document." alt="The double percent sign %% creates a comment that will not show up in the final document." width="100%" style="display: block; margin: auto;" /></p>
-<p>In the author section, the <code>\And</code> allows for additional authors to be added and needs to be used between each other.</p>
+<p>In the author section, the <code>\And</code> allows for additional authors to be added. It must be used between each author listing.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_31.png" title="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." alt="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." width="100%" style="display: block; margin: auto;" /></p>
 <p>Finally, the author section needs to be completed by closing the brackets.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_93.png" title="In the author section, the brackets for the original author command need to be closed." alt="In the author section, the brackets for the original author command need to be closed." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="beginning-commands" class="section level3" number="4.1.4">
-<h3><span class="header-section-number">4.1.4</span> Beginning Commands</h3>
-<p>The next command <code>\begin{document}</code> enables us to format text for the body of the article. If you put <code>%%</code> in front of the command to change it to a comment and therefore not use the command, you will see that the document is formatted overall slightly differently. It will be paired with <code>\end{document}</code> that you will see at the bottom of the template if you scroll down.</p>
-<p>The <code>\maketitle</code> will add the title the page where the <code>begin{document}</code> command was used. Otherwise, if you used it before <code>begin{document}</code>, the title and authors will show up on a separate page first. You can test moving this command around to see how the document changes.</p>
+<div id="formatting-the-document-body" class="section level3" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Formatting the Document Body</h3>
+<p>The command <code>\begin{document}</code> enables us to format text for the body of the article. This command comes directly after the author section. It will be paired with <code>\end{document}</code> that you will see at the bottom of the template if you scroll down. If you put <code>%%</code> in front of the command to change it to a comment (therefore not using it), you will see that the overall document is formatted slightly differently.</p>
+<p>The <code>\maketitle</code> will add the title the page where the <code>begin{document}</code> command was used. If it is placed before <code>begin{document}</code>, the title and authors will show up on a separate page. You can test moving this command around to see how the document changes.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_101.png" title="The begin and maketitle commands specify where certian formatting should occur." alt="The begin and maketitle commands specify where certian formatting should occur." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="abstract" class="section level3" number="4.1.5">
 <h3><span class="header-section-number">4.1.5</span> Abstract</h3>
-<p>The abstract section can be distinguished using the <code>begin{}</code> and <code>end{}</code> functions just like we used for the body of the document. These two commands will be used later as well to indicate that a specific part of the document has started or ended.</p>
+<p>The abstract section can be distinguished using the <code>begin{}</code> and <code>end{}</code> functions just like we used for the body of the document. These two commands will also be used later to indicate that a specific part of the document has started or ended.</p>
 </div>
 <div id="dummy-text" class="section level3" number="4.1.6">
 <h3><span class="header-section-number">4.1.6</span> Dummy text</h3>
-<p>You may notice that <code>\lipsum[]</code> is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use out of 150.</p>
+<p>You may notice <code>\lipsum[]</code> is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use. There are 150 possible, so the maximum value allowed in the brackets is 150.</p>
 </div>
 <div id="sections" class="section level3" number="4.1.7">
 <h3><span class="header-section-number">4.1.7</span> Sections</h3>
 <ul>
-<li><p><code>\section{section name}</code> - This will help you to create sections in our template. We don’t need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).</p></li>
-<li><p><code>\subsection{subsubsection name}</code> - This will help you to create subsections, these headings will be one level down from the section headings and will be numbered like 1.1, 1.2.</p></li>
-<li><p><code>\subsubsection{subsubsection name}</code> - This will help you to create sections one level down from subsections, these heading will be numbered like 1.1.1, 1.1.2.</p></li>
+<li><p><code>\section{section name}</code> - This will help you to create sections in the template. We don’t need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).</p></li>
+<li><p><code>\subsection{subsubsection name}</code> - This will help you to create subsections. These headings will be one level down from the section headings and will be numbered like 1.1, 1.2.</p></li>
+<li><p><code>\subsubsection{subsubsection name}</code> - This will help you to create sections one level down from subsections. These heading will be numbered like 1.1.1, 1.1.2.</p></li>
 </ul>
 <p>In the template you can see how these are formatted:</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_0.png" title="Example of sections in the template showing how it creates a number and bold text" alt="Example of sections in the template showing how it creates a number and bold text" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_110.png" title="Example of a subsection with dummy text." alt="Example of a subsection with dummy text." width="100%" style="display: block; margin: auto;" /></p>
-<p>The <code>\paragraph{}</code> command works similarly, but it will not be numbered. The text within the brackets is an optional word that is bold to start the paragraph. You can also leave it empty. However, you can specify if you want sections to be not be numbered as well when using an asterisks <code>*</code> between the command name and the brackets <code>section*{}</code>.</p>
+<p>You can specify if you want sections to be not be numbered when using an asterisks <code>*</code> between the command name and the brackets <code>section*{}</code>.</p>
+<p>The <code>\paragraph{}</code> command works similarly, but drops it will not be numbered. The text within the brackets is an optional word or phrase that will have bold font to start the paragraph. You can also leave it empty.</p>
 <p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" title="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="equations" class="section level3" number="4.1.8">
@@ -277,7 +278,7 @@ With LaTeX you will be using brackets often to designate what to do with a speci
 <div id="conclusion-2" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Conclusion</h2>
 <p>We hope that this chapter has helped you feel more confident to start filling out the template with your own content.</p>
-<p>In conclusion, here are some of the major take-home messages:</p>
+<p>Here are some of the major take-home messages:</p>
 <ol style="list-style-type: decimal">
 <li>The <code>\documentclass{article}</code> command indicates that we are creating a scientific article.</li>
 <li>Packages are used to add additional features for users, to install them for a document we need to use the <code>\usepackage{}</code> command.</li>
