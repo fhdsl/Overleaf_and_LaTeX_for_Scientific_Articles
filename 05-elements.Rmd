@@ -188,11 +188,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## References
 
-Ok, now pretty much all scientific articles need references. To add these we need to add to the `references.bib` file, which can again be found on the left menu. 
+OK, now pretty much all scientific articles need references. To add these we need to add to the `references.bib` file, which can again be found on the left menu. 
 
 There are many ways to get the bib version of a reference, one easy way is to use [Zotero](https://www.zotero.org/), which is a free tool for writing bibliographies that has a [chrome extension](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en). 
 
-The cool think about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero.
+The cool thing about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero.
 
 Then you can find the file in Zotero and right click to export the item to BibTeX format. This is a bibliography format that is compatible with `TeX`. We can then copy and paste this into the `references.bib` file, being careful to make sure that the brackets are closed.
 
