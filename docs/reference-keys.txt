@@ -28,7 +28,7 @@ dummy-text
 sections
 equations
 conclusion-2
-figure-tables-and-citations-oh-my
+figures-tables-citations-oh-my
 figures-and-images
 tables
 creating-internal-links
