@@ -35,7 +35,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 We will refer to these tags with brackets such as `\usepackage{}` as **commands** from now on (as this is what the are generally referred to) and they cause a change to either the text within the brackets or the overall document.
 
-The `\usepackage{}` command installs packages, which are bits of  code that help you do additional things with your documents. Packages need to be installed before commands from those packages can be called. Commands from these packages will be utilized later in the template. **It is recommended that you leave this code as is, and only modify the rest of the template until you learn more.** 
+The `\usepackage{}` command installs packages, which are collections of  code that help you do additional things with your documents. Packages need to be installed before commands from those packages can be used. Commands from these packages will be utilized later in the template. **It is recommended that you leave this code as is, and only modify the rest of the template until you learn more.** 
 
 In addition to determining what commands you can use, packages will also determine how the content is formatted or laid out.
 
