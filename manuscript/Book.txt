@@ -5,6 +5,7 @@
 5-Figures-&-tables-&-citations,-oh-my!.md
 6-Troubleshooting.md
 7-Collaborating.md
-8-References.md
+8-Connecting-to-GitHub.md
+9-References.md
 About-this-Course.md
 About-the-Authors.md
