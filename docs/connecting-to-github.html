@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Writing with Overleaf | Introduction to LaTeX and Overleaf for Writing Scientific Articles</title>
+  <title>Chapter 8 Connecting to GitHub | Introduction to LaTeX and Overleaf for Writing Scientific Articles</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Writing with Overleaf | Introduction to LaTeX and Overleaf for Writing Scientific Articles" />
+  <meta property="og:title" content="Chapter 8 Connecting to GitHub | Introduction to LaTeX and Overleaf for Writing Scientific Articles" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Writing with Overleaf | Introduction to LaTeX and Overleaf for Writing Scientific Articles" />
+  <meta name="twitter:title" content="Chapter 8 Connecting to GitHub | Introduction to LaTeX and Overleaf for Writing Scientific Articles" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="overleaf.html"/>
-<link rel="next" href="figures-tables-citations-oh-my.html"/>
+<link rel="prev" href="collaborating.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -206,102 +206,59 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="writing-with-overleaf" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Writing with Overleaf</h1>
-<p>Now that you know the advantages of using overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_125.png" title="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" alt="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" width="100%" style="display: block; margin: auto;" /></p>
-<div id="latex-basics" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> LaTeX Basics</h2>
-<p>Since we are working with a template, it isn’t necessary to learn everything there is to know about writing in LaTeX to get started. However, it can be useful to understand some fundamentals, so we will go over most of the commands that you see listed in the template.</p>
-<div id="document-class" class="section level3" number="4.1.1">
-<h3><span class="header-section-number">4.1.1</span> Document Class</h3>
-<p>At the top of the template you will notice <code>\documentclass{article}</code>.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_7.png" title="Documentclass command" alt="Documentclass command" width="100%" style="display: block; margin: auto;" /></p>
-<p>This specifies general typesetting information about the type of document that we intend to make. For example, it often specifies font size, the overall layout of the text, and alignment of various features of the text. Since we are writing a scientific article, the specification here is <code>article</code>.</p>
-<p>To learn more about document classes see this <a href="https://libguides.utsa.edu/c.php?g=522165&amp;p=3570198">documentation link</a> form <span class="citation">Wu (<a href="#ref-wu_libguides" role="doc-biblioref">n.d.</a>)</span>.</p>
+<div id="connecting-to-github" class="section level1" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Connecting to GitHub</h1>
+<p>If you have a paid version of Overleaf, then you can connect your projects to GitHub.</p>
+<p>This can be really helpful for better understanding the history of a document overtime, especially if you already use GitHub.</p>
+<div class="notice">
+<p>We will not cover what GitHub is and how to use it in this chapter, but this <a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/making-your-project-open-source-with-github.html">resource</a> can be helpful to get you started.</p>
 </div>
-<div id="packages" class="section level3" number="4.1.2">
-<h3><span class="header-section-number">4.1.2</span> Packages</h3>
-<p>Next you will see that <code>\usepackage{}</code> is repeated several times with different information in the brackets:</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_262_0.png" title="The top of the template shows usepackage several times." alt="The top of the template shows usepackage several times." width="100%" style="display: block; margin: auto;" /></p>
-<p>We will refer to these tags with brackets such as <code>\usepackage{}</code> as <strong>commands</strong> from now on (as this is what the are generally referred to) and they cause a change to either the text within the brackets or the overall document.</p>
-<p>The <code>\usepackage{}</code> command installs packages, which are collections of code that help you do additional things with your documents. Packages need to be installed before commands from those packages can be used. Commands from these packages will be utilized later in the template. <strong>It is recommended that you leave this code as is, and only modify the rest of the template until you learn more.</strong></p>
-<p>In addition to determining what commands you can use, packages will also determine how the content is formatted or laid out.</p>
+<div id="learning-objectives-2" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Learning Objectives</h2>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" title="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" /></p>
+<p>To do so, you need to first click on the home button (looks like an icon of a house on the upper left) to go to the main menu (if you are not already there, this will be the case if you working on a project).</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_0.png" title="The home button to go to the main menu if you are in a project." alt="The home button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
+<p>Here you should see a list of any projects you have created or collabroated on.</p>
+<p>On the far upper right click on the “Account” button.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_7.png" title="Account button on the upper right corner." alt="Account button on the upper right corner." width="100%" style="display: block; margin: auto;" /></p>
+<p>Then click on “Account Settings”.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_15.png" title="Account settings button under the account button." alt="Account settings button under the account button." width="100%" style="display: block; margin: auto;" /></p>
+<p>Next, scroll down to where you see the heading for “Project Synchronisation.”</p>
+<p>Click on the blue “Link” button next to the GitHub section.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_21.png" title="Link button to sync with GitHub." alt="Link button to sync with GitHub." width="100%" style="display: block; margin: auto;" /></p>
+<p>If you already have a GitHub account, you will be asked to grant access.</p>
+<p>Now that you have connected your GitHub account with your Overleaf account, you can now set up a project to sync with GitHub.</p>
+<p>To do so, first open the project that you would like to sync with GitHub from the project menu (the home icon button).</p>
+<p>Next click the Overleaf menu button the far left upper corner.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="The Overleaf menu button to go to the main menu if you are in a project." alt="The Overleaf menu button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
+<p>Then scroll down to the “Sync” section.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
+<p>The window that pops up about exporting the project to GitHub will then show up. This will create a new repository on GitHub with the files from your project.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_46.png" title="Popup when exporting a project to GitHub." alt="Popup when exporting a project to GitHub." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="author-section" class="section level3" number="4.1.3">
-<h3><span class="header-section-number">4.1.3</span> Author section</h3>
-<p>You may recall that we previously described how to bold font using <code>\textbf{bold text}</code>.
-With LaTeX you will be using brackets often to designate what to do with a specific set of text that is contained within the brackets.</p>
-<div class="warning">
-<p>If you do not close a set of brackets you will get an error, so be careful about this.</p>
+<div id="syncing-files" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> Syncing files</h2>
+<p>If you then make a change on GitHub and merge it with the main branch, you can pull these changes back to Overleaf.</p>
+<p>To do so, navigate back to the Overleaf Menu in the project on the far left side.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="Overleaf menu button on the upper far left." alt="Overleaf menu button on the upper far left." width="100%" style="display: block; margin: auto;" /></p>
+<p>Scroll back down to the sync section for GitHub.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
+<p>You will see a window with buttons to sync changes back and forth from GitHub and Overleaf.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_51.png" title="GitHub Sync menu" alt="GitHub Sync menu" width="100%" style="display: block; margin: auto;" /></p>
+<p>Now to get the change from GitHub you can press the “Pull GitHub changes into Overleaf” button.</p>
+<p>To do the opposite and send changes to GitHub from Overleaf, click on the lower button, “Push Overleaf changes to GitHub”.</p>
 </div>
-<p>As we scroll down the template, we next see the <code>\title</code> command that we previously worked with when we modified the text within the brackets to change the title.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_12.png" title="Recap of the title command" alt="Recap of the title command" width="100%" style="display: block; margin: auto;" /></p>
-<p>Then we see the <code>\author</code> command, which adds authors to the paper. These will be formatted in the way that is shown on the template. When you see <code>\\</code> two backslashes, this indicates that the line is finished and a new one is to be made. For tables or formatting like the authors, it should work well, but it is best to <strong><a href="https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean">avoid</a></strong> using this for line breaks within the paragraphs that you might include in the paper.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_45.png" title="Double backslash ends a line." alt="Double backslash ends a line." width="100%" style="display: block; margin: auto;" /></p>
-<p>We also see another command <code>\textttt{}</code> used within the <code>\author{}</code> command to change the text to typewriter font.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_67.png" title="The texttt command changes the font within the brackets to typewriter font." alt="The texttt command changes the font within the brackets to typewriter font." width="100%" style="display: block; margin: auto;" /></p>
-<p>You may also notice <code>%% examples of other authors</code> is in green and does not show up in the rendered document. This is what is called a <strong>comment</strong> and it can be used to write notes about the material.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_79.png" title="The double percent sign %% creates a comment that will not show up in the final document." alt="The double percent sign %% creates a comment that will not show up in the final document." width="100%" style="display: block; margin: auto;" /></p>
-<p>In the author section, the <code>\And</code> allows for additional authors to be added. It must be used between each author listing.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_31.png" title="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." alt="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." width="100%" style="display: block; margin: auto;" /></p>
-<p>Finally, the author section needs to be completed by closing the brackets.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_93.png" title="In the author section, the brackets for the original author command need to be closed." alt="In the author section, the brackets for the original author command need to be closed." width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="formatting-the-document-body" class="section level3" number="4.1.4">
-<h3><span class="header-section-number">4.1.4</span> Formatting the Document Body</h3>
-<p>The command <code>\begin{document}</code> enables us to format text for the body of the article. This command comes directly after the author section. It will be paired with <code>\end{document}</code> that you will see at the bottom of the template if you scroll down. If you put <code>%%</code> in front of the command to change it to a comment (therefore not using it), you will see that the overall document is formatted slightly differently.</p>
-<p>The <code>\maketitle</code> will add the title the page where the <code>begin{document}</code> command was used. If it is placed before <code>begin{document}</code>, the title and authors will show up on a separate page. You can test moving this command around to see how the document changes.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_101.png" title="The begin and maketitle commands specify where certian formatting should occur." alt="The begin and maketitle commands specify where certian formatting should occur." width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="abstract" class="section level3" number="4.1.5">
-<h3><span class="header-section-number">4.1.5</span> Abstract</h3>
-<p>The abstract section can be distinguished using the <code>begin{}</code> and <code>end{}</code> functions just like we used for the body of the document. These two commands will also be used later to indicate that a specific part of the document has started or ended.</p>
-</div>
-<div id="dummy-text" class="section level3" number="4.1.6">
-<h3><span class="header-section-number">4.1.6</span> Dummy text</h3>
-<p>You may notice <code>\lipsum[]</code> is used to create random chunks of text. The number within the brackets indicates what specific dummy paragraph to use. There are 150 possible, so the maximum value allowed in the brackets is 150.</p>
-</div>
-<div id="sections" class="section level3" number="4.1.7">
-<h3><span class="header-section-number">4.1.7</span> Sections</h3>
-<ul>
-<li><p><code>\section{section name}</code> - This will help you to create sections in the template. We don’t need to do anything to modify the text, it will automatically bold the text and number the sections (1, 2, 3 etc.).</p></li>
-<li><p><code>\subsection{subsubsection name}</code> - This will help you to create subsections. These headings will be one level down from the section headings and will be numbered like 1.1, 1.2.</p></li>
-<li><p><code>\subsubsection{subsubsection name}</code> - This will help you to create sections one level down from subsections. These heading will be numbered like 1.1.1, 1.1.2.</p></li>
-</ul>
-<p>In the template you can see how these are formatted:</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_0.png" title="Example of sections in the template showing how it creates a number and bold text" alt="Example of sections in the template showing how it creates a number and bold text" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_110.png" title="Example of a subsection with dummy text." alt="Example of a subsection with dummy text." width="100%" style="display: block; margin: auto;" /></p>
-<p>You can specify if you want sections to be not be numbered when using an asterisks <code>*</code> between the command name and the brackets <code>section*{}</code>.</p>
-<p>The <code>\paragraph{}</code> command works similarly, but drops it will not be numbered. The text within the brackets is an optional word or phrase that will have bold font to start the paragraph. You can also leave it empty.</p>
-<p><img src="04-writing_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" title="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="equations" class="section level3" number="4.1.8">
-<h3><span class="header-section-number">4.1.8</span> Equations</h3>
-<p>It can be very helpful to include a mathematical equation. To do so we need to use our handy <code>\begin{equation}</code> and <code>\end{equation}</code> functions to indicate the boundaries. Using <code>equation</code> within the brackets indicates that this should be formatted in a certain way. It will center the text nicely and number it.</p>
-<p>For more information about mathematical expressions in overleaf see the <a href="https://www.overleaf.com/learn/latex/Mathematical_expressions">Overleaf documentation</a>.</p>
-</div>
-</div>
-<div id="conclusion-2" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Conclusion</h2>
-<p>We hope that this chapter has helped you feel more confident to start filling out the template with your own content.</p>
+<div id="conclusion-6" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Conclusion</h2>
+<p>We hope that this chapter has given you some guidance about how to connect GitHub with Overleaf.</p>
 <p>Here are some of the major take-home messages:</p>
 <ol style="list-style-type: decimal">
-<li>The <code>\documentclass{article}</code> command indicates that we are creating a scientific article.</li>
-<li>Packages are used to add additional features for users, to install them for a document we need to use the <code>\usepackage{}</code> command.</li>
-<li>Be careful about your brackets when writing your code. If you leave one set open it could cause an error.</li>
-<li>The double backslash <code>\\</code> can indicate the end of an item in the author list for example.</li>
-<li>The <code>begin{}</code> and <code>end{}</code> commands indicate when an element is starting or finishing. This could just be an abstract, or the entire body of the document.</li>
-<li>Section headers can be automatically numbered and styled. The <code>section{},</code>subsection{}<code>, and</code>subsubsection{}` will make progressively more nested sections.</li>
-<li>LaTeX is great for including mathematical notations and equations in documents.</li>
+<li>There are 3 steps to sync changes to and from a project on Overleaf with GitHub: connecting the your GitHub account and your Overleaf account, setting up a project to sync with Github, getting changes from each place.</li>
+<li>To do these syncs, you will do so for each project individually, and a repository will be made for each Overleaf project.</li>
+<li>You can make this repository private or public.</li>
+<li>To navigate to the menu to sync changes, go to the menu with the Overleaf icon on the far left upper corner when you have already opened a project.</li>
 </ol>
 
-</div>
-</div>
-<h3> References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-wu_libguides" class="csl-entry">
-Wu, Charles. n.d. <span>“<span>LibGuides</span>: <span>LaTeX</span> &amp; <span>BibTeX</span>: <span>LaTeX</span>: <span>\</span><span>DocumentClass</span> <span>Command</span>.”</span> Accessed January 7, 2023. <a href="https://libguides.utsa.edu/c.php?g=522165&amp;p=3570198">https://libguides.utsa.edu/c.php?g=522165&amp;p=3570198</a>.
 </div>
 </div>
 <hr>
@@ -317,8 +274,8 @@ Wu, Charles. n.d. <span>“<span>LibGuides</span>: <span>LaTeX</span> &amp; <spa
           </div>
         </div>
       </div>
-<a href="overleaf.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="figures-tables-citations-oh-my.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="collaborating.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
