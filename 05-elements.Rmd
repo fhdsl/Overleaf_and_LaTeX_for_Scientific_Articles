@@ -1,5 +1,5 @@
 
-# Figure and tables and citations, oh my!
+# Figures & tables & citations, oh my!
 
 Now that you know some of the basics about how to add text to a template, let's look at adding other elements that are important for scientific communication, like adding figures and images, adding tables, and adding references/citations. In this next chapter, we will introduce how to do this in LaTeX/Overleaf.
 
@@ -7,13 +7,13 @@ Now that you know some of the basics about how to add text to a template, let's 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_131")
 ```
 
-You will notice that the template has a few examples of each of these elements that we will walk through these now. 
+You will notice that the template has a few examples of each of these elements that we will walk through now. 
 
 ## Figures and Images
 
 Most scientific articles have figures, so it is helpful to know how to add these to documents. Once you have a figure file that you are ready to add (like a PNG or a JPEG file), there are two main steps to insert them into your document.
 
-Like you did while creating the body of the document, you will use the `\begin{}` and `end{}` functions When to add a figure in LaTeX. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf you are creating an element that is a figure.
+Like you did while creating the body of the document, you will use the `\begin{}` and `end{}` functions when to add a figure in LaTeX. However, this time the you will use `\begin{figure}` and `\end{figure}` to tell Overleaf you are creating an element that is a figure.
 
 The first figure in the template is a box created in LaTeX, so we will instead focus on the second figure. You might notice that in addition to the `\begin{figure}` and `\end{figure}`  commands, there is a `\centering{}`command, which will align the figure to the center of the page. The `includegraphics{text.png}` portion of the code actually adds the figure into the document. 
 
@@ -25,7 +25,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 Note that comments with one percent sign can be used after code - thus the `% picture` is just telling you that this part of the code is adding a picture. People use different numbers of percent signs based on preference and convention, but just one percent sign is sufficient to turn anything following that into a comment. 
 </div>
  
-You may notice on the left side of the template in overleaf that there are a few files listed, including the name of the image file used in the code for the figure: `test.png`. The `template.tex` file is the file we have been working in.
+You may notice on the left side of the template in Overleaf that there are a few files listed, including the name of the image file used in the code for the figure: `test.png`. The `template.tex` file is the file we have been working in.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The template.tex file is the file we have been working in. You can see it in the left menu."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_9")
@@ -148,7 +148,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Now we just need to finish off our table.
 
-First we need to get out of the tabular mode, and  we need our trusty `\end{}`function. In this case, we end with `\end{tabular}`. To end the table overall, we use `\end{table}`. We will discuss what the `\lab{}` function does soon.
+First we need to get out of the tabular mode, so we will use our trusty `\end{}` function. In this case, we end with `\end{tabular}`. To end the table overall, we use `\end{table}`. We will discuss what the `\lab{}` function does soon.
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
