@@ -10,31 +10,31 @@ These credits are based on our [course contributors table guidelines](https://ww
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor(s)|[Carrie Wright]|
-|Content Author(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved | If any other authors besides lead instructor|
-|Content Contributor(s) (include section name/link in parentheses) - make new line if more than one section involved|  Wrote less than a chapter|
-|Content Editor(s)/Reviewer(s) | Checked your content|
-|Content Director(s) | Helped guide the content direction|
-|Content Consultants (include chapter name/link in parentheses or word "General") - make new line if more than one chapter involved | Gave high level advice on content|
-|Acknowledgments| Gave small assistance to content but not to the level of consulting |
-|**Production**||
-|Content Publisher(s)| Helped with publishing platform|
-|Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform|
+<!-- |Content Author(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved | If any other authors besides lead instructor| -->
+<!-- |Content Contributor(s) (include section name/link in parentheses) - make new line if more than one section involved|  Wrote less than a chapter| -->
+|Content Editor(s)/Reviewer(s) |Elizabeth Humphries|
+<!-- |Content Director(s) | Helped guide the content direction| -->
+<!-- |Content Consultants (include chapter name/link in parentheses or word "General") - make new line if more than one chapter involved | Gave high level advice on content| -->
+<!-- |Acknowledgments| Gave small assistance to content but not to the level of consulting | -->
+<!-- |**Production**|| -->
+<!-- |Content Publisher(s)| Helped with publishing platform| -->
+<!-- |Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform| -->
 |**Technical**||
-|Course Publishing Engineer(s)| Helped with the code for the technical aspects related to the specific course generation|
+|Course Publishing Engineer(s)| [Carrie Wright]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
 |Publishing Maintenance Engineer|[Candace Savonen]|
 |Technical Publishing Stylists|[Carrie Wright], [Ava Hoffman], [Candace Savonen]|
 |Package Developers ([ottrpal]) [Candace Savonen], [John Muschelli], [Carrie Wright]|
 |**Art and Design**||
-|Illustrator(s)| Created graphics for the course|
-|Figure Artist(s)| Created figures/plots for course|
-|Videographer(s)| Filmed videos|
-|Videography Editor(s)| Edited film|
-|Audiographer(s)| Recorded audio|
-|Audiography Editor(s)| Edited audio recordings|
+<!-- |Illustrator(s)| Created graphics for the course| -->
+<!-- |Figure Artist(s)| [Carrie Wright]| -->
+<!-- |Videographer(s)| Filmed videos| -->
+<!-- |Videography Editor(s)| Edited film| -->
+<!-- |Audiographer(s)| Recorded audio| -->
+<!-- |Audiography Editor(s)| Edited audio recordings| -->
 |**Funding**||
-|Funder(s)| Institution/individual who funded course including grant number|
-|Funding Staff| Staff members who help with funding|
+|Funder(s)| 	[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170| -->
+<!-- |Funding Staff| Staff members who help with funding| -->
 
 &nbsp;
 
@@ -111,6 +111,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/
 [Ava Hoffman]: https://www.avahoffman.com/
+[Elizabeth Humphries]: https://www.linkedin.com/in/elizabeth-humphries-61202a103/
 <!-- Links -->
 
 [ottrpal]: https://github.com/jhudsl/ottrpal
