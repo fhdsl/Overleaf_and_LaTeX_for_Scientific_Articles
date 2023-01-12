@@ -107,4 +107,16 @@ Now to get the change from GitHub you can press the "Pull GitHub changes into Ov
 
 To do the opposite and send changes to GitHub from Overleaf, click on the lower button, "Push Overleaf changes to GitHub". 
 
+## Conclusion
+
+We hope that this chapter has given you some guidance about how to connect GitHub with  Overleaf.
+
+Here are some of the major take-home messages:
+
+1. There are 3 steps to sync changes to and from a project on Overleaf with GitHub: connecting the your GitHub account and your Overleaf account, setting up a project to sync with Github, getting changes from each place.
+1. To do these syncs, you will do so for each project individually, and a repository will be made for each Overleaf project.
+1. You can make this repository private or public.
+1. To navigate to the menu to sync changes, go to the menu with the Overleaf icon on the far left upper corner when you have already opened a project.
+
+
 
