@@ -65,7 +65,7 @@ To do so, first open the project that you would like to sync with GitHub from th
 Next click the Overleaf menu button the far left upper corner.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The Overleaf menu button to go to the main menu if you are in a project."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1cfb6c6ff1d_0_28")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1cfb6c6ff1d_0_32")
 ```
 
 Then scroll down to the "Sync" section.
