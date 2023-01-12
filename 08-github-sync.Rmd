@@ -1,7 +1,20 @@
 
-## Connecting to GitHub
+# Connecting to GitHub
 
 If you have a paid version of Overleaf, then you can connect your projects to GitHub.
+
+This can be really helpful for better understanding the history of a document overtime, especially if you already use GitHub. 
+
+<div class = "notice">
+We will not cover what GitHub is and how to use it in this chapter, but this [resource](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/making-your-project-open-source-with-github.html) can be helpful to get you started. 
+</div>
+
+
+## Learning Objectives
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub "}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1cfb6c6ff1d_0_64")
+```
 
 To do so, you need to first click on the home button (looks like an icon of a house on the upper left) to go to the main menu (if you are not already there, this will be the case if you working on a project).
 
@@ -93,3 +106,5 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 Now to get the change from GitHub you can press the "Pull GitHub changes into Overleaf" button.
 
 To do the opposite and send changes to GitHub from Overleaf, click on the lower button, "Push Overleaf changes to GitHub". 
+
+
