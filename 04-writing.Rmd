@@ -57,7 +57,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 ```
 
 
-Then we see the `\author` command, which adds authors to the paper. These will be formatted in the way that is shown on the template. When you see `\\` two backslashes, this indicates that the line is finished and a new one is to be made. For tables or formatting like the authors, it should work well, but it is best to  **[avoid](https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean)** using this for line breaks within the paragraphs that you might include in the paper. 
+Then we see the `\author` command, which adds authors to the paper. These will be formatted in the way that is shown on the template. When you see `\\` two backslashes, this indicates that the line is finished and a new one is to be made. For tables or formatting like the authors, it should work well, but it is best to **[avoid](https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean)** using this for line breaks within the paragraphs that you might include in the paper. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Double backslash ends a line."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_45")
