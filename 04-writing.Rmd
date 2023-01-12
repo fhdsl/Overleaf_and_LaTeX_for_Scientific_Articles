@@ -131,7 +131,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 You can specify if you want sections to be not be numbered when using an asterisks `*` between the command name and the brackets `section*{}`. 
 
-The `\paragraph{}` command works similarly, but drops it will not be numbered. The text within the brackets is an optional word that will be bolded to start the paragraph. You can also leave it empty. 
+The `\paragraph{}` command works similarly, but drops it will not be numbered. The text within the brackets is an optional word that will have bold font to start the paragraph. You can also leave it empty. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A paragraph section will not be numbered but whatever text is within the brackets will be in bold."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1d07d88c199_0_118")
