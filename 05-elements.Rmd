@@ -148,7 +148,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Now we just need to finish off our table.
 
-First we need to get out of the tabular mode, so we will use our trusty `\end{}` function. In this case, we end with `\end{tabular}`. To end the table overall, we use `\end{table}`. We will discuss what the `\lab{}` function does soon.
+First we need to get out of the tabular mode, so we will use our trusty `\end{}` function. In this case, we end with `\end{tabular}`. To end the table overall, we use `\end{table}`. We will discuss what the `\label{}` function does soon.
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The contents of the table for these rows can be added similar to the one above where the & creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row."}
