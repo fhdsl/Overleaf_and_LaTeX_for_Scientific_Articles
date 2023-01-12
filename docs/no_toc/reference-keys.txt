@@ -22,7 +22,7 @@ latex-basics
 document-class
 packages
 author-section
-beginning-commands
+formatting-the-document-body
 abstract
 dummy-text
 sections
