@@ -96,7 +96,7 @@ If you are submitting a paper to arXiv these resources may also be helpful:
 
 We hope that this chapter has given you some guidance about how to make it easier to write your documents, identify errors, and find help.
 
-In conclusion, here are some of the major take-home messages:
+Here are some of the major take-home messages:
 
 1. Overleaf offers helpful code suggestions to make writing easier.
 1. Overleaf has a symbol palette to help you write with symbols. This can be accessed by pressing the symbol button, which looks like an omega, at the top menu.
