@@ -59,7 +59,7 @@ Then select the upload button to drag and drop a new image file from your comput
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c91f28435b_0_33")
 ```
 
-To add this new figure to your document you just need to modify the code above so that the name of the image file matches the name of the file you uploaded.
+The next step to add this new figure to your document, is to add the code above but modified so that the name of the image file matches the name of the file you uploaded.
 
 `\begin{figure} % picture`<br>
 `.   \centering`<br>
