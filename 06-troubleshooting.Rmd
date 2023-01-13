@@ -9,7 +9,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 ## Code Suggestions
 
-As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also suggestion what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
+As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also offer suggestions on what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code."}
