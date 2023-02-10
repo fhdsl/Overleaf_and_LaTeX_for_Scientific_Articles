@@ -60,7 +60,7 @@ Resolved comments can be found at the top left button in the review panel when i
 
 We hope that this chapter has given you some guidance about how to collaborate with others on Overleaf.
 
-In conclusion, here are some of the major take-home messages:
+Here are some of the major take-home messages:
 
 1. Collaboration is more possible with a paid plan. If you collaborate with someone on a paid plan, you will also have access to collaboration features when working on that project.
 1. When collaborators are actively working on a project you will see an icon at the top menu as a colored square with a letter in it.
