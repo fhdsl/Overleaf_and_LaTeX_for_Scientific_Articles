@@ -7,7 +7,7 @@ Overleaf has lots of ways to make writing in LaTeX easier. In this chapter we wi
 
 ## Code Suggestions
 
-As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also suggestion what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
+As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also offer suggestions on what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
 
 
 <img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_0.png" title="Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code." alt="Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code." width="100%" style="display: block; margin: auto;" />
