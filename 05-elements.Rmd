@@ -193,7 +193,8 @@ Almost all scientific articles need references. To add these we can add to the `
 
 There are many ways to get the bib version of a reference. One easy way is to use [Zotero](https://www.zotero.org/), which is a free tool for writing bibliographies that has a [chrome extension](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en). 
 
-The cool think about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero. Then you can find the file in Zotero and right click to export the item to BibTeX format. This is a bibliography format that is compatible with `TeX`. We can then copy and paste this into the `references.bib` file, being careful to make sure that the brackets are closed.
+
+The cool thing about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero. Then you can find the file in Zotero and right click to export the item to BibTeX format. This is a bibliography format that is compatible with `TeX`. We can then copy and paste this into the `references.bib` file, being careful to make sure that the brackets are closed.
 
 The first part of the bib item will indicate what to refer to it in the text to create a citation to the reference. The first item that starts with an `@` in the template `references.bib` file shows `kour2014real` in the brackets. We can see that line 100 uses the `\cite{}` function to cite this article, as well as another article.
 
