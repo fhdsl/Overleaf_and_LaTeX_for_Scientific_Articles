@@ -1,7 +1,7 @@
 
 # Writing with Overleaf
 
-Now that you know the advantages of using overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.
+Now that you know the advantages of using Overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.
 
 <img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_125.png" title="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" alt="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" width="100%" style="display: block; margin: auto;" />
 
