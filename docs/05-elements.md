@@ -3,6 +3,37 @@
 
 Now that you know some of the basics about how to add text to a template, let's look at adding other elements that are important for scientific communication, like adding figures and images, adding tables, and adding references/citations. In this next chapter, we will introduce how to do this in LaTeX/Overleaf.
 
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'pillar'
+```
+
 <img src="05-elements_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_131.png" title="Learning Objectives: 1. Add figures and images to documents, 2. Add references and citations to documents, 3. Add tables to documents, 4. Create internal links back to a figure, table, reference or section" alt="Learning Objectives: 1. Add figures and images to documents, 2. Add references and citations to documents, 3. Add tables to documents, 4. Create internal links back to a figure, table, reference or section" width="100%" style="display: block; margin: auto;" />
 
 You will notice that the template has a few examples of each of these elements that we will walk through now. 
