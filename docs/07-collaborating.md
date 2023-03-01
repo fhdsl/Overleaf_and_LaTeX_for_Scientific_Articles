@@ -5,6 +5,37 @@ Collaborating on Overleaf is much more doable if you have access to a [paid plan
 
 ## Learning Objectives
 
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'pillar'
+```
+
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_136.png" title="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" alt="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" width="100%" style="display: block; margin: auto;" />
 
 ## Seeing collaborators

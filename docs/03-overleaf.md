@@ -4,6 +4,37 @@
 
 Overleaf is a free online LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to create a document.
 
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'pillar'
+```
+
 <img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_9.png" title="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" alt="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" width="100%" style="display: block; margin: auto;" />
 
 

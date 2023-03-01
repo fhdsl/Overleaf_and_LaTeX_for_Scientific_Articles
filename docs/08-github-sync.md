@@ -12,6 +12,37 @@ We will not cover what GitHub is and how to use it in this chapter, but this [re
 
 ## Learning Objectives
 
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'pillar'
+```
+
 <img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" title="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" />
 
 To do so, you need to first click on the home button (looks like an icon of a house on the upper left) to go to the main menu (if you are not already there, this will be the case if you working on a project).

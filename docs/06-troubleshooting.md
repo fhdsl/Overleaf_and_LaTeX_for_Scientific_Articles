@@ -3,6 +3,37 @@
 
 Overleaf has lots of ways to make writing in LaTeX easier. In this chapter we will cover several of these ways, as well as how to identify and fix a problem if you encounter one.
 
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'tibble'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_unnamed' by
+## 'rlang::check_dots_unnamed' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_used' by
+## 'rlang::check_dots_used' when loading 'pillar'
+```
+
+```
+## Warning: replacing previous import 'ellipsis::check_dots_empty' by
+## 'rlang::check_dots_empty' when loading 'pillar'
+```
+
 <img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_39.png" title="Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help" alt="Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help" width="100%" style="display: block; margin: auto;" />
 
 ## Code Suggestions
