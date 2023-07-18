@@ -5,6 +5,9 @@ These credits are based on our [course contributors table guidelines](https://ww
 
 &nbsp;
 &nbsp;
+***In [memory](https://galaxyproject.org/jxtx/) of [James Taylor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02016-0), who was instrumental in initiating this project.***
+
+&nbsp;
 
 |Credits|Names|
 |-------|-----|
@@ -39,7 +42,7 @@ Tools Used:
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-05-26                  
+##  date     2023-07-18                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            

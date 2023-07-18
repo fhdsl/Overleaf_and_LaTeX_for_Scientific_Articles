@@ -2,6 +2,7 @@ introduction
 motivation
 target-audience
 curriculum
+objectives
 latex
 learning-objectives
 document-preparation-system

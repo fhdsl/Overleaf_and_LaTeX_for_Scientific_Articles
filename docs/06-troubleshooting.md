@@ -78,7 +78,7 @@ Overleaf has lots of helpful information about:
 
 If you are submitting a paper to arXiv these resources may also be helpful:
 - https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions
-- https://arxiv.org/help/submit_tex
+- https://info.arxiv.org/help/submit_tex.html
 
 ## Conclusion
 
