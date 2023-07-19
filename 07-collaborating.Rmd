@@ -13,7 +13,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 Different users will show up as a square with the first initial of their username if collaborators are also working on the same file. 
 
-https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19
+
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image of the user icon"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19")
