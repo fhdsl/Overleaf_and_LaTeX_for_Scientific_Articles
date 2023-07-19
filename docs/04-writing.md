@@ -130,6 +130,6 @@ Here are some of the major take-home messages:
 1. Be careful about your brackets when writing your code. If you leave one set open it could cause an error.
 1. The double backslash `\\` can indicate the end of an item in the author list for example.
 1. The `begin{}` and `end{}` commands indicate when an element is starting or finishing. This could just be an abstract, or the entire body of the document.
-1. Section headers can be automatically numbered and styled. The `section{}, `subsection{}`, and `subsubsection{}` will make progressively more nested sections.
+1. Section headers can be automatically numbered and styled. The `section{}`, `subsection{}`, and `subsubsection{}` will make progressively more nested sections.
 1. LaTeX is great for including mathematical notations and equations in documents.
 
