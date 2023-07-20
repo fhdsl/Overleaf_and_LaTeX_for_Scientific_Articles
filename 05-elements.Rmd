@@ -1,5 +1,7 @@
 
-# Figures & tables & citations, oh my!
+# Elements
+
+Figures & tables & citations, oh my!
 
 Now that you know some of the basics about how to add text to a template, let's look at adding other elements that are important for scientific communication, like adding figures and images, adding tables, and adding references/citations. In this next chapter, we will introduce how to do this in LaTeX/Overleaf.
 
