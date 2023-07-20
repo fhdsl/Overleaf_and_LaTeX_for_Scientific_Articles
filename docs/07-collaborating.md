@@ -11,7 +11,7 @@ Collaborating on Overleaf is much more doable if you have access to a [paid plan
 
 Different users will show up as a square with the first initial of their username if collaborators are also working on the same file. 
 
-https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19
+
 
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_19.png" title="Image of the user icon" alt="Image of the user icon" width="100%" style="display: block; margin: auto;" />
 
