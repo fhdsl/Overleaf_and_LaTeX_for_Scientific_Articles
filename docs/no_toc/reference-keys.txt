@@ -2,6 +2,7 @@ introduction
 motivation
 target-audience
 curriculum
+objectives
 latex
 learning-objectives
 document-preparation-system
@@ -47,7 +48,9 @@ learning-objectives-1
 seeing-collaborators
 sharing
 submitting
+messages
 review-mode
+adding-comments
 conclusion-5
 connecting-to-github
 learning-objectives-2

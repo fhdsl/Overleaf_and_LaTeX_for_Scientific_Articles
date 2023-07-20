@@ -11,22 +11,23 @@ Collaborating on Overleaf is much more doable if you have access to a [paid plan
 
 Different users will show up as a square with the first initial of their username if collaborators are also working on the same file. 
 
-https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1c917691280_100_19
+
 
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_19.png" title="Image of the user icon" alt="Image of the user icon" width="100%" style="display: block; margin: auto;" />
 
 ## Sharing
 
-You can share a project with a collaborator or really the world similarly to a Google document by clicking on the share button and specifying how you want people to access your project.
+You can share a project with a collaborator (or with the world) similarly to a Google document. Just click on the share button and specify how you want people to access your project.
 
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_28.png" title="The share button allows you to share your project similar to a Google doc." alt="The share button allows you to share your project similar to a Google doc." width="100%" style="display: block; margin: auto;" />
 
 
 ## Submitting
 
-When you are ready to submit a document to a publisher, like a preprint to arXiv, you can do so using the  `submit` button.
+When you are ready to submit a document to a publisher, like a preprint to arXiv, you can do so using the `submit` button.
 
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_47.png" title="The submit button helps you submit documents directly to publishers." alt="The submit button helps you submit documents directly to publishers." width="100%" style="display: block; margin: auto;" />
+
 ## Messages
 
 You can send general messages using the "Chat" button.
@@ -41,6 +42,7 @@ If you press the "review" button, which is to the right of the "share" button, y
 You will see a gray column open to the right of the source editor. Here you can add comments and toggle on and off the tracking of changes.
 
 <img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_58.png" title="Image of where to turn track changes on and off once the Review button has been pressed." alt="Image of where to turn track changes on and off once the Review button has been pressed." width="100%" style="display: block; margin: auto;" />
+
 ### Adding comments
 
 You can also write comments about specific text by highlighting the text in review mode (by first pressing the review button) and then clicking "add comment".
@@ -62,7 +64,7 @@ We hope that this chapter has given you some guidance about how to collaborate w
 
 Here are some of the major take-home messages:
 
-1. Collaboration is more possible with a paid plan. If you collaborate with someone on a paid plan, you will also have access to collaboration features when working on that project.
+1. Collaboration is easier with a paid plan. If you collaborate with someone on a paid plan, you will also have access to collaboration features when working on that project.
 1. When collaborators are actively working on a project you will see an icon at the top menu as a colored square with a letter in it.
 1. You can share projects similarly to Google Docs meaning that you can specify if a particular person has access or if anyone with a link can either just read or edit a project.
 1. You can actually submit manuscripts directly to some journals, as well as preprints to arXiv by using the submit button. 
