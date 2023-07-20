@@ -29,7 +29,7 @@ dummy-text
 sections
 equations
 conclusion-2
-figures-tables-citations-oh-my
+elements
 figures-and-images
 tables
 creating-internal-links
