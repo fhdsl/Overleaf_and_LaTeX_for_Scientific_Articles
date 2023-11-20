@@ -107,7 +107,7 @@ In the template you can see how these are formatted:
 
 You can specify if you want sections to be not be numbered when using an asterisks `*` between the command name and the brackets `section*{}`. 
 
-The `\paragraph{}` command works similarly, but drops it will not be numbered. The text within the brackets is an optional word or phrase that will have bold font to start the paragraph. You can also leave it empty. 
+The `\paragraph{}` command works similarly, but without numbering. The text within the brackets is an optional word or phrase that will have bold font to start the paragraph. You can also leave it empty. 
 
 <img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" title="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" />
 
