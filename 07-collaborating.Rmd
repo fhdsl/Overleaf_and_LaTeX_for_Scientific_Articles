@@ -1,6 +1,6 @@
 # Collaborating
 
-Collaborating on Overleaf is much more doable if you have access to a [paid plan](https://www.overleaf.com/user/subscription/plans). If you have a collaborator who has a paid plan, then you will have access to the features that are part of their plan. Overleaf May change which of the following features are available for free vs paid accounts. 
+Collaborating on Overleaf is much more doable if you have access to a [paid plan](https://www.overleaf.com/user/subscription/plans). If you have a collaborator who has a paid plan, then you will have access to the features that are part of their plan. Overleaf may change which of the following features are available for free vs paid accounts. 
 
 
 ## Learning Objectives
