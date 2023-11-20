@@ -1,6 +1,6 @@
 # Collaborating
 
-Collaborating on Overleaf is much more doable if you have access to a [paid plan](https://www.overleaf.com/user/subscription/plans). If you have a collaborator who has a paid plan, then you will have access to the features that are part of their plan. 
+Collaborating on Overleaf is much more doable if you have access to a [paid plan](https://www.overleaf.com/user/subscription/plans). If you have a collaborator who has a paid plan, then you will have access to the features that are part of their plan. Overleaf may change which of the following features are available for free vs paid accounts. 
 
 
 ## Learning Objectives
@@ -64,7 +64,7 @@ We hope that this chapter has given you some guidance about how to collaborate w
 
 Here are some of the major take-home messages:
 
-1. Collaboration is easier with a paid plan. If you collaborate with someone on a paid plan, you will also have access to collaboration features when working on that project.
+1. Collaboration is easier with a paid plan. If you collaborate with someone on a paid plan, you will also have access to collaboration features when working on that project. The features available for each type of plan may change.
 1. When collaborators are actively working on a project you will see an icon at the top menu as a colored square with a letter in it.
 1. You can share projects similarly to Google Docs meaning that you can specify if a particular person has access or if anyone with a link can either just read or edit a project.
 1. You can actually submit manuscripts directly to some journals, as well as preprints to arXiv by using the submit button. 

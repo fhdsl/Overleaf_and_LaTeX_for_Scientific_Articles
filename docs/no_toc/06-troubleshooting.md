@@ -66,15 +66,16 @@ Remember, it is a good idea to press the "Recompile" button frequently, so that 
 
 There are many useful resources if you get stuck:
 
-- The overleaf documentation: https://www.overleaf.com/learn
-Overleaf has lots of helpful information about:
+* The Overleaf documentation has lots of helpful information: https://www.overleaf.com/learn
+These pages are especially useful:
     - [Troubleshooting errors](https://www.overleaf.com/learn/latex/Errors)
     - [Learning LaTeX](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
     - [How-to guides](https://www.overleaf.com/learn/how-to)
-    - [Creating tables](https://www.overleaf.com/learn/latex/Tables)  
-- The TeX stackexchange: https://tex.stackexchange.com/
-- TeX blog: https://texblog.org/tex-resources/
-- LaTeX project: https://www.latex-project.org/help/documentation/
+    - [Creating tables](https://www.overleaf.com/learn/latex/Tables)
+    
+* The TeX stackexchange: https://tex.stackexchange.com/
+* TeX blog: https://texblog.org/tex-resources/
+* LaTeX project: https://www.latex-project.org/help/documentation/
 
 If you are submitting a paper to arXiv these resources may also be helpful:
 
