@@ -1,6 +1,6 @@
 ---
 title: "Introduction to LaTeX and Overleaf for Scientific Articles"
-date: "August, 2023"
+date: "November, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
