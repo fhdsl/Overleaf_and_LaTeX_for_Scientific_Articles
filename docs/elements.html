@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Elements | Introduction to LaTeX and Overleaf for Scientific Articles</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Elements | Introduction to LaTeX and Overleaf for Scientific Articles" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="writing-with-overleaf.html"/>
 <link rel="next" href="troubleshooting.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,11 +47,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -199,6 +202,26 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PPWML6VEE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-9PPWML6VEE');
+  </script>
+      
+  </body>
+  </html>
 <head>
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
   <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
@@ -211,25 +234,30 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="elements" class="section level1" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Elements</h1>
+<div id="elements" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Elements<a href="elements.html#elements" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Figures &amp; tables &amp; citations, oh my!</p>
 <p>Now that you know some of the basics about how to add text to a template, let’s look at adding other elements that are important for scientific communication, like adding figures and images, adding tables, and adding references/citations. In this next chapter, we will introduce how to do this in LaTeX/Overleaf.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_131.png" title="Learning Objectives: 1. Add figures and images to documents, 2. Add references and citations to documents, 3. Add tables to documents, 4. Create internal links back to a figure, table, reference or section" alt="Learning Objectives: 1. Add figures and images to documents, 2. Add references and citations to documents, 3. Add tables to documents, 4. Create internal links back to a figure, table, reference or section" width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Auto-refreshing stale OAuth token.</code></pre>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_131.png" alt="Learning Objectives: 1. Add figures and images to documents, 2. Add references and citations to documents, 3. Add tables to documents, 4. Create internal links back to a figure, table, reference or section" width="100%" style="display: block; margin: auto;" /></p>
 <p>You will notice that the template has a few examples of each of these elements that we will walk through now.</p>
-<div id="figures-and-images" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> Figures and Images</h2>
+<div id="figures-and-images" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Figures and Images<a href="elements.html#figures-and-images" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Most scientific articles have figures, so it is helpful to know how to add these to documents. Once you have a figure file that you are ready to add (like a PNG or a JPEG file), there are two main steps to insert them into your document.</p>
 <p>Like you did while creating the body of the document, you will use the <code>\begin{}</code> and <code>end{}</code> functions when to add a figure in LaTeX. However, this time the you will use <code>\begin{figure}</code> and <code>\end{figure}</code> to tell Overleaf you are creating an element that is a figure.</p>
 <p>The first figure in the template is a box created in LaTeX, so we will instead focus on the second figure. You might notice that in addition to the <code>\begin{figure}</code> and <code>\end{figure}</code> commands, there is a <code>\centering{}</code>command, which will align the figure to the center of the page. The <code>includegraphics{text.png}</code> portion of the code actually adds the figure into the document.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_4.png" title="Example of the code for a figure when you have a png file to use." alt="Example of the code for a figure when you have a png file to use." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_4.png" alt="Example of the code for a figure when you have a png file to use." width="100%" style="display: block; margin: auto;" /></p>
 <div class="notice">
 <p>Note that comments with one percent sign can be used after code - thus the <code>% picture</code> is just telling you that this part of the code is adding a picture. People use different numbers of percent signs based on preference and convention, but just one percent sign is sufficient to turn anything following that into a comment.</p>
 </div>
 <p>You may notice on the left side of the template in Overleaf that there are a few files listed, including the name of the image file used in the code for the figure: <code>test.png</code>. The <code>template.tex</code> file is the file we have been working in.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_9.png" title="The template.tex file is the file we have been working in. You can see it in the left menu." alt="The template.tex file is the file we have been working in. You can see it in the left menu." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_9.png" alt="The template.tex file is the file we have been working in. You can see it in the left menu." width="100%" style="display: block; margin: auto;" /></p>
 <p>If you click on the name of the image file you will see a preview of the image.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_19.png" title="Location of the image file called test.png in the left menu." alt="Location of the image file called test.png in the left menu." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_19.png" alt="Location of the image file called test.png in the left menu." width="100%" style="display: block; margin: auto;" /></p>
 <details>
 <summary>
 <strong>What are these other files?</strong>
@@ -243,51 +271,66 @@ The <strong><code>arxiv.sty</code></strong> file is a style file that contains c
 </div>
 </details>
 <p>To upload an image file to add a new figure, you can click on the new file button, which is the icon that looks like a piece of paper with the right upper corner folded.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_27.png" title="New file button" alt="New file button" width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_27.png" alt="New file button" width="100%" style="display: block; margin: auto;" /></p>
 <p>Then select the upload button to drag and drop a new image file from your computer.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_33.png" title="Menu for uploading a file.." alt="Menu for uploading a file.." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_33.png" alt="Menu for uploading a file.." width="100%" style="display: block; margin: auto;" /></p>
 <p>The next step to add this new figure to your document, is to add the code above but modified so that the name of the image file matches the name of the file you uploaded.</p>
 <p><code>\begin{figure} % picture</code><br>
 <code>.   \centering</code><br>
 <code>.   \includegraphics{new.png}</code><br>
 <code>\end{figure}</code><br></p>
 </div>
-<div id="tables" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Tables</h2>
+<div id="tables" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Tables<a href="elements.html#tables" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>As when adding figures, you need the <code>\begin{}</code> and <code>\end{}</code> commands in your file to designate where the instructions for your table begin and end. In this case we use table with <code>\begin{table}</code> and <code>\end{table}</code>.</p>
 <p>Here is all of the code to create the following table. We will go through each command and explore what it does to create the table.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_38.png" title="All the code for the table." alt="All the code for the table." width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_105.png" title="The resulting table" alt="The resulting table" width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_38.png" alt="All the code for the table." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_105.png" alt="The resulting table" width="100%" style="display: block; margin: auto;" /></p>
 <p>We can add a caption using the <code>\caption{}</code> command. The table number will automatically be determined by the order of the tables. As before with the figure, the <code>\centering</code> command will then align the resulting table to be centered.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_43.png" title="The caption command adds the table title." alt="The caption command adds the table title." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_43.png" alt="The caption command adds the table title." width="100%" style="display: block; margin: auto;" /></p>
 <p>To create the table in the template, we will first indicate how we want the table arranged using the <code>tabular</code> environment. The command <code>\begin{tabular}{lll}</code> indicates that we will have three columns that are left aligned.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_63.png" title="The caption command adds the table title." alt="The caption command adds the table title." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_63.png" alt="The caption command adds the table title." width="100%" style="display: block; margin: auto;" /></p>
 <ul>
 <li>The <code>\toprule</code> command adds a solid line at the top of the table. If you add this command again you will see two lines - test it out to see how it works!</li>
 </ul>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_77.png" title="The toprule command adds a line to the top of the table after the title." alt="The toprule command adds a line to the top of the table after the title." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_77.png" alt="The toprule command adds a line to the top of the table after the title." width="100%" style="display: block; margin: auto;" /></p>
 <ul>
 <li>The command <code>\multicolumn{2}{c}{Part}\\</code> indicates that will will merge some columns together to create a “multicolumn” in this case the <code>{2}</code> means we will merge together 2 columns, the <code>{c}</code> indicates that it will be center aligned and the <code>{Part}</code> is the text we want for this. We need the <code>\\</code> to finish that row, otherwise “Part” will end up on the next row.</li>
 </ul>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_94.png" title="The multicolumn command allows you to create text that spans across multiple columns." alt="The multicolumn command allows you to create text that spans across multiple columns." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_94.png" alt="The multicolumn command allows you to create text that spans across multiple columns." width="100%" style="display: block; margin: auto;" /></p>
 <p>The <code>\cmidrule</code> command adds the line or “rule” under the multicolumn that says “Part”. This command creates lines that are not the full width of the table. The <code>(r) {1-2}</code> indicates that the line should be trimmed on the right side to leave a gap after the span of 2 column widths.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_112.png" title="The cmidrule command adds the line or rule under the multicolumn that says Part." alt="The cmidrule command adds the line or rule under the multicolumn that says Part." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_112.png" alt="The cmidrule command adds the line or rule under the multicolumn that says Part." width="100%" style="display: block; margin: auto;" /></p>
 <p>Now we are ready to put some text within our table cells. We can simply type the words with an <code>&amp;</code> in between the text for each cell to indicate where the column breaks are. The <code>\\</code> indicates when we are done with that row. Since we have a special character to represent mu, we can use mathematical notation by using a dollar sign <code>$</code>.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_122.png" title="Adding text within the tables requires an &amp; to indicate different cells within the table." alt="Adding text within the tables requires an &amp; to indicate different cells within the table." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_122.png" alt="Adding text within the tables requires an &amp; to indicate different cells within the table." width="100%" style="display: block; margin: auto;" /></p>
 <p>To add a line under these values, we can use the <code>\midrule</code> command.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_145.png" title="Adding lines to specific parts of the middle of the table requires the midrule command." alt="Adding lines to specific parts of the middle of the table requires the midrule command." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_145.png" alt="Adding lines to specific parts of the middle of the table requires the midrule command." width="100%" style="display: block; margin: auto;" /></p>
 <p>To add more text within the rows after this line, we simply type words, using an <code>&amp;</code> to indicate column breaks and the <code>\\</code> to indicate the end of the row. The <code>$</code> is also used to create mathematical notations.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" title="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" />
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" />
 To add the line at the bottom, we need to use a command that is similar to <code>toprule{}</code> and <code>midrule{}</code> which is <code>bottomrule{}</code>.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" title="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" /></p>
 <p>Now we just need to finish off our table.</p>
 <p>First we need to get out of the tabular mode, so we will use our trusty <code>\end{}</code> function. In this case, we end with <code>\end{tabular}</code>. To end the table overall, we use <code>\end{table}</code>. We will discuss what the <code>\label{}</code> function does soon.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" title="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" />
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_159.png" alt="The contents of the table for these rows can be added similar to the one above where the &amp; creates column divisions and the $ creates mathematical notations. The double backslash is need for each row to end the row." width="100%" style="display: block; margin: auto;" />
 To add the line at the bottom, we again use <code>\bottomrule{}</code>.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_178.png" title="The end function is used to stop the tabular mode and to finish the table." alt="The end function is used to stop the tabular mode and to finish the table." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_178.png" alt="The end function is used to stop the tabular mode and to finish the table." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="creating-internal-links" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Creating internal links</h2>
+<div id="creating-internal-links" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Creating internal links<a href="elements.html#creating-internal-links" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You may have noticed a command <code>\label{}</code> when looking through the template.</p>
 <p>This is a very helpful command that creates a tag that allows you to refer back to a figure or a section header. There is also a nifty command <code>\ref{}</code> that creates references for these tags. However, it is a little tricky, so we will walk through a couple of examples.</p>
 <p>You need the <code>\ref{}</code> command to match up with exactly what you have listed for the <code>\label{}</code> command for each tagged figure, table, or section.</p>
@@ -295,24 +338,28 @@ To add the line at the bottom, we again use <code>\bottomrule{}</code>.</p>
 - <code>tab:</code> for tables
 - <code>fig:</code> for figures
 - <code>sec:</code> for section headers</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_190.png" title="The end function is used to stop the tabular mode and to finish the table." alt="The end function is used to stop the tabular mode and to finish the table." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_190.png" alt="The end function is used to stop the tabular mode and to finish the table." width="100%" style="display: block; margin: auto;" /></p>
 <p>Here we will create a new link for the introduction. We first need to add a label to the introduction using the <code>label{}</code> function. We will call it <code>intro</code> and we need to specify that this is a section header with <code>sec</code> , like so: <code>label{sec:intro}</code>.</p>
 <p>We then need to refer to this in the same way somewhere else using the <code>ref{}</code> function, like so: <code>ref{sec:intro}</code>. This will create a link to that section.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_233.png" title="To create a link to the introduction, which is section 1, we can apply the same method using the sec tag." alt="To create a link to the introduction, which is section 1, we can apply the same method using the sec tag." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_233.png" alt="To create a link to the introduction, which is section 1, we can apply the same method using the sec tag." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="references" class="section level2" number="5.4">
-<h2><span class="header-section-number">5.4</span> References</h2>
+<div id="references" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> References<a href="elements.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Almost all scientific articles need references. To add these we can add to the <code>references.bib</code> file, which is found on the left menu.</p>
 <p>There are many ways to get the bib version of a reference. One easy way is to use <a href="https://www.zotero.org/">Zotero</a>, which is a free tool for writing bibliographies that has a <a href="https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en">chrome extension</a>.</p>
 <p>The cool thing about the chrome extension is if you are viewing an article or a website online, you can often right click to add the file to Zotero. Then you can find the file in Zotero and right click to export the item to BibTeX format. This is a bibliography format that is compatible with <code>TeX</code>. We can then copy and paste this into the <code>references.bib</code> file, being careful to make sure that the brackets are closed.</p>
 <p>The first part of the bib item will indicate what to refer to it in the text to create a citation to the reference. The first item that starts with an <code>@</code> in the template <code>references.bib</code> file shows <code>kour2014real</code> in the brackets. We can see that line 100 uses the <code>\cite{}</code> function to cite this article, as well as another article.</p>
 <p>This results in a citation number and a link to the reference.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_241.png" title="To create a citation, use the cite command and be sure that you update your bib file." alt="To create a citation, use the cite command and be sure that you update your bib file." width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_241.png" alt="To create a citation, use the cite command and be sure that you update your bib file." width="100%" style="display: block; margin: auto;" /></p>
 <p>To add a bibliography, we can just undo the comment in front of the bibliography command. This is sufficient to create the bibliography. The code after this in the template to create each reference individually is not needed.</p>
-<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_248.png" title="To add a bibliography, we can just undo the comment infront of the  bibliography command. This is sufficient to create the bibliography if we have a .bib file. " alt="To add a bibliography, we can just undo the comment infront of the  bibliography command. This is sufficient to create the bibliography if we have a .bib file. " width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>## Warning in pptx_notes(pptx_file): Slides with no notes exists</code></pre>
+<p><img src="05-elements_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c91f28435b_0_248.png" alt="To add a bibliography, we can just undo the comment infront of the  bibliography command. This is sufficient to create the bibliography if we have a .bib file. " width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="conclusion-3" class="section level2" number="5.5">
-<h2><span class="header-section-number">5.5</span> Conclusion</h2>
+<div id="conclusion-3" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Conclusion<a href="elements.html#conclusion-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We hope that this chapter has given you some guidance about how to start adding images, tables, internal links, references and citations to your document.</p>
 <p>Here are some of the major take-home messages:</p>
 <ol style="list-style-type: decimal">

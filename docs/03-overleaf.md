@@ -4,13 +4,27 @@
 
 Overleaf is a free online LaTeX editor, meaning it helps you write text using LaTeX to determine how your document will look.  In this chapter we will introduce you to Overleaf and get you set up to create a document.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_9.png" title="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" alt="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" width="100%" style="display: block; margin: auto;" />
+
+```
+## Auto-refreshing stale OAuth token.
+```
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_9.png" alt="Learning Objectives: 1. Explain what Overleaf is, 2. Understand the Benefits of using Overleaf, 3. Create an account with Overleaf. 4. Search through the templates available on Overleaf, 5. Start working on a template for a scientific  preprint for arXiv" width="100%" style="display: block; margin: auto;" />
 
 
 Since LaTeX can be pretty tricky, Overleaf can be super helpful!
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_91.png" title="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." alt="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_91.png" alt="LaTeX on it’s own can be quite a challenge, Overleaf makes LaTeX much more approachable." width="100%" style="display: block; margin: auto;" />
  
 As a LaTeX editor, Overleaf shows you what the result of your LaTeX tags will be, suggests possible LaTeX tags, and provides you with helpful guidance. We will learn more about each of these in this overview.
 
@@ -27,7 +41,12 @@ There are other LaTeX editors, but Overleaf is a really nice option for a number
 1) It can sync with GitHub or Dropbox (if you pay for a paid plan).
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_16.png" title="Summary of the benefits of Overleaf." alt="Summary of the benefits of Overleaf." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_16.png" alt="Summary of the benefits of Overleaf." width="100%" style="display: block; margin: auto;" />
 
 
 ## Getting Started
@@ -49,19 +68,34 @@ The free version only allows you to have one collaborator on a project, so colla
 
 If possible, it may be worth seeing if your institute would get an organizational license.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_1.png" title="There are several ways to register an account on Overleaf." alt="There are several ways to register an account on Overleaf." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_1.png" alt="There are several ways to register an account on Overleaf." width="100%" style="display: block; margin: auto;" />
 
 
 ## Working with Templates
 
 Overleaf is organized with projects. When you create a project, you can start from scratch or start from a template.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_142.png" title="New Project Button." alt="New Project Button." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_142.png" alt="New Project Button." width="100%" style="display: block; margin: auto;" />
 
 
 Let's start with a template to help us better understand the features of Overleaf. We can search through all the templates by clicking on "View All" button of the project menu.  We can also click on the "templates" tab to get to the same template search page.  
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_0.png" title="Templates tab shows many differnt kinds of templates possible including calenders, letters, CVs, books, and more." alt="Templates tab shows many differnt kinds of templates possible including calenders, letters, CVs, books, and more." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_0.png" alt="Templates tab shows many differnt kinds of templates possible including calenders, letters, CVs, books, and more." width="100%" style="display: block; margin: auto;" />
 
 
 You can see that there are many templates to choose from! There are templates for writing a letter, writing a thesis, writing a CV, writing a book and more. 
@@ -77,7 +111,12 @@ Let's search for a term, such as "preprint" to see if the templates for preprint
 You will see that a few of the templates have a blue "official" tag. This is the best option if you find one for the publisher that you are interested in.
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_168.png" title="The official tag for some templates indicates that the publisher recoginizes and approves of the template as the official tempalte to use for submissions." alt="The official tag for some templates indicates that the publisher recoginizes and approves of the template as the official tempalte to use for submissions." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_168.png" alt="The official tag for some templates indicates that the publisher recoginizes and approves of the template as the official tempalte to use for submissions." width="100%" style="display: block; margin: auto;" />
 
 
 We will use a template for arXiv. 
@@ -88,7 +127,12 @@ You can go to this [link](https://www.overleaf.com/latex/templates/style-and-tem
 Click the "Open as Template" button to get started. 
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_174.png" title="Click the open as template button to get started with a template." alt="Click the open as template button to get started with a template." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_174.png" alt="Click the open as template button to get started with a template." width="100%" style="display: block; margin: auto;" />
  
 ## Viewing documents
 
@@ -98,30 +142,55 @@ Overleaf easily shows you what the rendered version of your text will look like,
 
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_106.png" title="The default view in Overleaf is to have raw text shown on the left, while the compiled text is shown on the right." alt="The default view in Overleaf is to have raw text shown on the left, while the compiled text is shown on the right." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_106.png" alt="The default view in Overleaf is to have raw text shown on the left, while the compiled text is shown on the right." width="100%" style="display: block; margin: auto;" />
 
 
 You can also change the view to several other options:
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_113.png" title="The layout tab alows you to change the view." alt="The layout tab alows you to change the view." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_113.png" alt="The layout tab alows you to change the view." width="100%" style="display: block; margin: auto;" />
 
 
 
 If you are using the default view and you want to see what the file looks like in the rendered form for the same location as that of the source text of the editor, you can click on the arrow (with the arrowhead facing to the right) in between.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_163.png" title="The layout tab alows you to change the view." alt="The layout tab alows you to change the view." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_163.png" alt="The layout tab alows you to change the view." width="100%" style="display: block; margin: auto;" />
 
 
 To do the opposite and go to the location in the source text where you are currently viewing in the rendered text, click the arrow button facing the source text editor.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_158.png" title="To update the location of the source text to that of the rendered view, press the arrow facing left towards the source editor." alt="To update the location of the source text to that of the rendered view, press the arrow facing left towards the source editor." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_158.png" alt="To update the location of the source text to that of the rendered view, press the arrow facing left towards the source editor." width="100%" style="display: block; margin: auto;" />
 If you make a change in the source and want to see how it changes the look of the file, you need to press the "Recompile" button. 
 
 <div class = "warning">
 It is a good idea to press the "Recompile" button frequently, so that you can identify any errors more easily. If you wait too long to check, then you will have more new changes to look through to try to understand the error.
 </div>
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" title="To update rendered file with your changes, press the recompile button." alt="To update rendered file with your changes, press the recompile button." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" alt="To update rendered file with your changes, press the recompile button." width="100%" style="display: block; margin: auto;" />
 
 ## Making changes
 
@@ -131,20 +200,40 @@ First we will change the title, which is currently "Predict future sale". We can
 
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_195.png" title="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." alt="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_195.png" alt="We can search the source text by click on the editor pane and typing the shortcut keys for find functions (control F)." width="100%" style="display: block; margin: auto;" />
 
 We can now replace the text with our own title. Be careful to make sure that the brackets are closed around the replacement text. Here we replace it with "New Title."
 
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_208.png" title="Changing the title to New Title." alt="Changing the title to New Title." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_208.png" alt="Changing the title to New Title." width="100%" style="display: block; margin: auto;" />
 
 Now we can click the "Recompile button" to see the results.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" title="To update rendered file with your changes, press the recompile button." alt="To update rendered file with your changes, press the recompile button." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_188.png" alt="To update rendered file with your changes, press the recompile button." width="100%" style="display: block; margin: auto;" />
 
 After overleaf has finished compiling, you can see that the title has been changed.
 
-<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_212.png" title="The resulting new title within the document." alt="The resulting new title within the document." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="03-overleaf_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_212.png" alt="The resulting new title within the document." width="100%" style="display: block; margin: auto;" />
 
 Congratulations! You just made your first edit in Overleaf.
 In the next chapter, we will take a deeper dive into editing documents.

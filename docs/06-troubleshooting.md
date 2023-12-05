@@ -3,20 +3,39 @@
 
 Overleaf has lots of ways to make writing in LaTeX easier. In this chapter we will cover several of these ways, as well as how to identify and fix a problem if you encounter one.
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_39.png" title="Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help" alt="Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help" width="100%" style="display: block; margin: auto;" />
+
+```
+## Auto-refreshing stale OAuth token.
+```
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_0_39.png" alt="Learning Objectives:1. Recognize how Overleaf offers extra support, 2. Identify when there is an Issue, 3.Know how to get help" width="100%" style="display: block; margin: auto;" />
 
 ## Code Suggestions
 
 As you type code, Overleaf makes code suggestions based on what you have already typed. You can click on a suggestion to use it. Overleaf will also offer suggestions on what to put within command brackets. This can be great if you can't quite remember what a command is or if you are trying to write a document faster.
 
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_0.png" title="Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code." alt="Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_0.png" alt="Overleaf makes code suggestions based on what you have already typed. You can click the suggestion to autocomplete your code." width="100%" style="display: block; margin: auto;" />
 
 ## Symbol Palette
 
 If you need to use many symbols or mathematical notations in your work, the symbol palette can be very helpful. You can access it by pressing the button that looks like an omega symbol at the top of the source editor.
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_7.png" title="The symbol palette can be very helpful. It can be accessed at the top of the source editor. " alt="The symbol palette can be very helpful. It can be accessed at the top of the source editor. " width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_7.png" alt="The symbol palette can be very helpful. It can be accessed at the top of the source editor. " width="100%" style="display: block; margin: auto;" />
 
 
 ## History
@@ -27,7 +46,12 @@ Here you will see the most recent changes as slices of changes overtime. Changes
 
 If you are using the comparison mode you will see the changes and who made them. However, you can also just look at the files from a specific point in time without seeing changes by clicking on the "view single version" button.
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_12.png" title="The History Tab shows you changes when in comparison mode. Changes are highlighted in color." alt="The History Tab shows you changes when in comparison mode. Changes are highlighted in color." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_12.png" alt="The History Tab shows you changes when in comparison mode. Changes are highlighted in color." width="100%" style="display: block; margin: auto;" />
 
 For more information about using the history features of Overleaf, see this [documentation](https://www.overleaf.com/learn/latex/Using_the_History_feature) @overleaf_history.
 
@@ -39,7 +63,12 @@ The link button at the top of each message will take you to the line of the file
 
 Hovering on the red circle right next to the line number will show you information about what might be wrong with that line.
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_17.png" title="Log errors can take you to the line that is problematic" alt="Log errors can take you to the line that is problematic" width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cc5927a0b3_0_17.png" alt="Log errors can take you to the line that is problematic" width="100%" style="display: block; margin: auto;" />
 
 
 ## Trouble Compiling
@@ -54,7 +83,12 @@ Keep in mind that sometimes an error happens earlier than where a red circle is 
 
 Here is an example of brackets that were not closed on line 76 where the yellow triangle is, but the red circle shows up on the next line because Overleaf expects you to close it here.
 
-<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_39.png" title="An image of code with an error circle at the next line and a warning triangle at the previous line." alt="An image of code with an error circle at the next line and a warning triangle at the previous line." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="06-troubleshooting_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_39.png" alt="An image of code with an error circle at the next line and a warning triangle at the previous line." width="100%" style="display: block; margin: auto;" />
 
 <div class = "warning">
 Remember, it is a good idea to press the "Recompile" button frequently, so that you can identify any errors more easily. If you wait too long to check, then you will have more new changes to look through to try to understand the error.

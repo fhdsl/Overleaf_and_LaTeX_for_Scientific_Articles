@@ -3,7 +3,16 @@
 
 Now that you know the advantages of using Overleaf and have started working with a template, we will now discuss more about how to make additional modifications to your document.
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_125.png" title="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" alt="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" width="100%" style="display: block; margin: auto;" />
+
+```
+## Auto-refreshing stale OAuth token.
+```
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_125.png" alt="Learning Objectives: 1.Recognize that there are packages for LaTex, 2. Understand that a command can either change the text within the brackets or cause a change to the overall document or section, 3. Be familiar with some common commands and notations for using LaTex to perform tasks such as:  creating headings, creating comments, starting and ending elements within the text" width="100%" style="display: block; margin: auto;" />
 
 ## LaTeX Basics
 
@@ -13,7 +22,12 @@ Since we are working with a template, it isn't necessary to learn everything the
 
 At the top of the template you will notice `\documentclass{article}`.
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_7.png" title="Documentclass command" alt="Documentclass command" width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_7.png" alt="Documentclass command" width="100%" style="display: block; margin: auto;" />
 
 
 This specifies general typesetting information about the type of document that we intend to make. For example, it often specifies font size, the overall layout of the text, and alignment of various features of the text. Since we are writing a scientific article, the specification here is `article`.
@@ -25,7 +39,12 @@ To learn more about document classes see this [documentation link](https://libgu
 
 Next you will see that  `\usepackage{}` is repeated several times with different information in the brackets:
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_262_0.png" title="The top of the template shows usepackage several times." alt="The top of the template shows usepackage several times." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c84a339a79_262_0.png" alt="The top of the template shows usepackage several times." width="100%" style="display: block; margin: auto;" />
 
 We will refer to these tags with brackets such as `\usepackage{}` as **commands** from now on (as this is what the are generally referred to) and they cause a change to either the text within the brackets or the overall document.
 
@@ -46,30 +65,60 @@ If you do not close a set of brackets you will get an error, so be careful about
 As we scroll down the template, we next see the `\title` command that we previously worked with when we modified the text within the brackets to change the title. 
 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_12.png" title="Recap of the title command" alt="Recap of the title command" width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_12.png" alt="Recap of the title command" width="100%" style="display: block; margin: auto;" />
 
 
 Then we see the `\author` command, which adds authors to the paper. These will be formatted in the way that is shown on the template. When you see `\\` two backslashes, this indicates that the line is finished and a new one is to be made. For tables or formatting like the authors, it should work well, but it is best to **[avoid](https://tex.stackexchange.com/questions/225893/what-does-double-backslash-in-latex-mean)** using this for line breaks within the paragraphs that you might include in the paper. 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_45.png" title="Double backslash ends a line." alt="Double backslash ends a line." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_45.png" alt="Double backslash ends a line." width="100%" style="display: block; margin: auto;" />
 
 
 We also see another command `\textttt{}` used within the `\author{}` command to change the text to typewriter font.
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_67.png" title="The texttt command changes the font within the brackets to typewriter font." alt="The texttt command changes the font within the brackets to typewriter font." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_67.png" alt="The texttt command changes the font within the brackets to typewriter font." width="100%" style="display: block; margin: auto;" />
 
 You may also notice `%% examples of other authors` is in green and does not show up in the rendered document. This is what is called a **comment** and it can be used to write notes about the material.
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_79.png" title="The double percent sign %% creates a comment that will not show up in the final document." alt="The double percent sign %% creates a comment that will not show up in the final document." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_79.png" alt="The double percent sign %% creates a comment that will not show up in the final document." width="100%" style="display: block; margin: auto;" />
 
 In the author section, the `\And` allows for additional authors to be added. It must be used between each author listing. 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_31.png" title="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." alt="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_31.png" alt="In the author section, the And tag allows for additional authors to be added and needs to be used between each other." width="100%" style="display: block; margin: auto;" />
 
 Finally, the author section needs to be completed by closing the brackets.
 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_93.png" title="In the author section, the brackets for the original author command need to be closed." alt="In the author section, the brackets for the original author command need to be closed." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_93.png" alt="In the author section, the brackets for the original author command need to be closed." width="100%" style="display: block; margin: auto;" />
 
 ### Formatting the Document Body
 
@@ -79,7 +128,12 @@ The command `\begin{document}` enables us to format text for the body of the art
 The `\maketitle` will add the title the page where the `begin{document}` command was used. If it is placed before `begin{document}`, the title and authors will show up on a separate page. You can test moving this command around to see how the document changes.
 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_101.png" title="The begin and maketitle commands specify where certian formatting should occur." alt="The begin and maketitle commands specify where certian formatting should occur." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_101.png" alt="The begin and maketitle commands specify where certian formatting should occur." width="100%" style="display: block; margin: auto;" />
 
 ### Abstract
 
@@ -100,16 +154,31 @@ You may notice `\lipsum[]` is used to create random chunks of text. The number w
 
 In the template you can see how these are formatted:
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_0.png" title="Example of sections in the template showing how it creates a number and bold text" alt="Example of sections in the template showing how it creates a number and bold text" width="100%" style="display: block; margin: auto;" />
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_110.png" title="Example of a subsection with dummy text." alt="Example of a subsection with dummy text." width="100%" style="display: block; margin: auto;" />
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_0.png" alt="Example of sections in the template showing how it creates a number and bold text" width="100%" style="display: block; margin: auto;" />
+
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_110.png" alt="Example of a subsection with dummy text." width="100%" style="display: block; margin: auto;" />
 
 
 You can specify if you want sections to be not be numbered when using an asterisks `*` between the command name and the brackets `section*{}`. 
 
 The `\paragraph{}` command works similarly, but without numbering. The text within the brackets is an optional word or phrase that will have bold font to start the paragraph. You can also leave it empty. 
 
-<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" title="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="04-writing_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_118.png" alt="A paragraph section will not be numbered but whatever text is within the brackets will be in bold." width="100%" style="display: block; margin: auto;" />
 
 
 

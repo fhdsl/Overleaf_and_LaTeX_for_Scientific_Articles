@@ -12,11 +12,25 @@ We will not cover what GitHub is and how to use it in this chapter, but this [re
 
 ## Learning Objectives
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" title="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" />
+
+```
+## Auto-refreshing stale OAuth token.
+```
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" />
 
 To do so, you need to first click on the home button (looks like an icon of a house on the upper left) to go to the main menu (if you are not already there, this will be the case if you working on a project).
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_0.png" title="The home button to go to the main menu if you are in a project." alt="The home button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_0.png" alt="The home button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -26,7 +40,12 @@ Here you should see a list of any projects you have created or collabroated on.
 
 On the far upper right click on the "Account" button. 
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_7.png" title="Account button on the upper right corner." alt="Account button on the upper right corner." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_7.png" alt="Account button on the upper right corner." width="100%" style="display: block; margin: auto;" />
 
  
 
@@ -34,7 +53,12 @@ On the far upper right click on the "Account" button.
 
 Then click on "Account Settings".
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_15.png" title="Account settings button under the account button." alt="Account settings button under the account button." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_15.png" alt="Account settings button under the account button." width="100%" style="display: block; margin: auto;" />
 
 
 Next, scroll down to where you see the heading for "Project Synchronisation."
@@ -42,7 +66,12 @@ Next, scroll down to where you see the heading for "Project Synchronisation."
 Click on the blue "Link" button next to the GitHub section.
 
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_21.png" title="Link button to sync with GitHub." alt="Link button to sync with GitHub." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_21.png" alt="Link button to sync with GitHub." width="100%" style="display: block; margin: auto;" />
 
 If you already have a GitHub account, you will be asked to grant access.
 
@@ -54,15 +83,30 @@ To do so, first open the project that you would like to sync with GitHub from th
 
 Next click the Overleaf menu button the far left upper corner.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="The Overleaf menu button to go to the main menu if you are in a project." alt="The Overleaf menu button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" alt="The Overleaf menu button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" />
 
 Then scroll down to the "Sync" section.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" />
 
 The window that pops up about exporting the project to GitHub will then show up. This will create a new repository on GitHub with the files from your project.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_46.png" title="Popup when exporting a project to GitHub." alt="Popup when exporting a project to GitHub." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_46.png" alt="Popup when exporting a project to GitHub." width="100%" style="display: block; margin: auto;" />
 
 
 ## Syncing files
@@ -71,15 +115,30 @@ If you then make a change on GitHub and merge it with the main branch, you can p
 
 To do so, navigate back to the Overleaf Menu in the project on the far left side.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="Overleaf menu button on the upper far left." alt="Overleaf menu button on the upper far left." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" alt="Overleaf menu button on the upper far left." width="100%" style="display: block; margin: auto;" />
 
 Scroll back down to the sync section for GitHub.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" />
 
 You will see a window with buttons to sync changes back and forth from GitHub and Overleaf.
 
-<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_51.png" title="GitHub Sync menu" alt="GitHub Sync menu" width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="08-github-sync_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_51.png" alt="GitHub Sync menu" width="100%" style="display: block; margin: auto;" />
 
 Now to get the change from GitHub you can press the "Pull GitHub changes into Overleaf" button.
 

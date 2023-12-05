@@ -5,7 +5,16 @@ Collaborating on Overleaf is much more doable if you have access to a [paid plan
 
 ## Learning Objectives
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_136.png" title="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" alt="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" width="100%" style="display: block; margin: auto;" />
+
+```
+## Auto-refreshing stale OAuth token.
+```
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1d07d88c199_0_136.png" alt="Learning Objectives: 1. Be familiar with tools available for collaboration, 2. Share projects for others to view or edit, 3. Open reviewing mode, 4. Add comments to content" width="100%" style="display: block; margin: auto;" />
 
 ## Seeing collaborators
 
@@ -13,26 +22,46 @@ Different users will show up as a square with the first initial of their usernam
 
 
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_19.png" title="Image of the user icon" alt="Image of the user icon" width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_19.png" alt="Image of the user icon" width="100%" style="display: block; margin: auto;" />
 
 ## Sharing
 
 You can share a project with a collaborator (or with the world) similarly to a Google document. Just click on the share button and specify how you want people to access your project.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_28.png" title="The share button allows you to share your project similar to a Google doc." alt="The share button allows you to share your project similar to a Google doc." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_28.png" alt="The share button allows you to share your project similar to a Google doc." width="100%" style="display: block; margin: auto;" />
 
 
 ## Submitting
 
 When you are ready to submit a document to a publisher, like a preprint to arXiv, you can do so using the `submit` button.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_47.png" title="The submit button helps you submit documents directly to publishers." alt="The submit button helps you submit documents directly to publishers." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_47.png" alt="The submit button helps you submit documents directly to publishers." width="100%" style="display: block; margin: auto;" />
 
 ## Messages
 
 You can send general messages using the "Chat" button.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_47.png" title="The submit button helps you submit documents directly to publishers." alt="The submit button helps you submit documents directly to publishers." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_47.png" alt="The submit button helps you submit documents directly to publishers." width="100%" style="display: block; margin: auto;" />
 
 
 ## Review mode
@@ -41,22 +70,42 @@ If you press the "review" button, which is to the right of the "share" button, y
 
 You will see a gray column open to the right of the source editor. Here you can add comments and toggle on and off the tracking of changes.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_58.png" title="Image of where to turn track changes on and off once the Review button has been pressed." alt="Image of where to turn track changes on and off once the Review button has been pressed." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_58.png" alt="Image of where to turn track changes on and off once the Review button has been pressed." width="100%" style="display: block; margin: auto;" />
 
 ### Adding comments
 
 You can also write comments about specific text by highlighting the text in review mode (by first pressing the review button) and then clicking "add comment".
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_63.png" title="Example of highlighting text to add a comment." alt="Example of highlighting text to add a comment." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_63.png" alt="Example of highlighting text to add a comment." width="100%" style="display: block; margin: auto;" />
 
 Comments need to be verified to be posted. They can then be edited, resolved, or responded to.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_69.png" title="Image of verifying an example comment and then the result of creating a comment that can be edited, responded to, or resolved." alt="Image of verifying an example comment and then the result of creating a comment that can be edited, responded to, or resolved." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_69.png" alt="Image of verifying an example comment and then the result of creating a comment that can be edited, responded to, or resolved." width="100%" style="display: block; margin: auto;" />
 
 
 Resolved comments can be found at the top left button in the review panel when in review mode.
 
-<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_53.png" title="Image of the resolved comment button." alt="Image of the resolved comment button." width="100%" style="display: block; margin: auto;" />
+
+```
+## Warning in pptx_notes(pptx_file): Slides with no notes exists
+```
+
+<img src="07-collaborating_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1c917691280_100_53.png" alt="Image of the resolved comment button." width="100%" style="display: block; margin: auto;" />
 
 ## Conclusion
 
