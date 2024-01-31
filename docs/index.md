@@ -1,5 +1,5 @@
 ---
-title: "Write Smarter with LaTeX and Overleaf"
+title: "Write Smarter with Overleaf and LaTeX"
 date: "January, 2024"
 site: bookdown::bookdown_site
 documentclass: book
