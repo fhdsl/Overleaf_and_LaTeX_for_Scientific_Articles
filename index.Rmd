@@ -1,5 +1,5 @@
 ---
-title: "Write Smarter with LaTeX and Overleaf"
+title: "Write Smarter with Overleaf and LaTex"
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
