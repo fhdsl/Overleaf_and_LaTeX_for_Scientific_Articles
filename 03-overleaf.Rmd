@@ -121,7 +121,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 You can also change the view to several other options:
 
-````{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The layout tab alows you to change the view."}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8/edit#slide=id.g1be15cb26d3_0_113")
 ```
 
