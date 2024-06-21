@@ -26,7 +26,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1UgGtVn7RsqdQ4pJx
 
 
 
-Here you should see a list of any projects you have created or collabroated on. 
+Here you should see a list of any projects you have created or collaborated on. 
 
 On the far upper right click on the "Account" button. 
 
