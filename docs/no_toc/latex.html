@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 LaTeX | Write Smarter with Overleaf and LaTeX</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 LaTeX | Write Smarter with Overleaf and LaTeX" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="introduction.html"/>
 <link rel="next" href="overleaf.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,11 +47,17 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -93,7 +97,10 @@ div.csl-indent {
 <a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#available-course-formats"><i class="fa fa-check"></i><b>0.1</b> Available course formats</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
@@ -231,25 +238,25 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="latex" class="section level1" number="2">
-<h1><span class="header-section-number">Chapter 2</span> LaTeX</h1>
+<div id="latex" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> LaTeX<a href="latex.html#latex" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>You may or may not have heard people talking about <a href="https://www.latex-project.org/about/">LaTeX</a> (pronounced ‘/ˈlɑːtɛx/’ LAH-tekh or ‘/ˈleɪtɛx/’ LAY-tekh), which is not to be confused with the the material latex (pronounced ‘/ˈleɪtɛks/’ LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.</p>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_0.png" title="LaTex is not latex (the material used for protective gloves and other items)." alt="LaTex is not latex (the material used for protective gloves and other items)." width="100%" style="display: block; margin: auto;" /></p>
-<div id="learning-objectives" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Learning Objectives</h2>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_360.png" title="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" alt="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_0.png" alt="LaTex is not latex (the material used for protective gloves and other items)." width="100%" style="display: block; margin: auto;" /></p>
+<div id="learning-objectives" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Learning Objectives<a href="latex.html#learning-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_360.png" alt="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="document-preparation-system" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Document Preparation System</h2>
-<p>LaTeX is a “document preparation system” according to the LaTeX project <span class="citation">(<a href="#ref-latex" role="doc-biblioref"><span>“<span>LaTeX</span> - <span>A</span> Document Preparation System”</span> n.d.</a>)</span>. It is often used to write scientific or technical documents, but it can be used for formatting or arranging any type of document. This process of determining the final look of a writing product is called <a href="https://en.wikipedia.org/wiki/Typesetting">typesetting</a>.</p>
+<div id="document-preparation-system" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Document Preparation System<a href="latex.html#document-preparation-system" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>LaTeX is a “document preparation system” according to the LaTeX project <span class="citation">(<a href="#ref-latex"><span>“<span>LaTeX</span> - <span>A</span> Document Preparation System”</span> n.d.</a>)</span>. It is often used to write scientific or technical documents, but it can be used for formatting or arranging any type of document. This process of determining the final look of a writing product is called <a href="https://en.wikipedia.org/wiki/Typesetting">typesetting</a>.</p>
 <div class="dictionary">
 <p>Typesetting determines how text looks and where it is located in a document when it is its final stage - like when it is rendered or printed. It refers to fonts, text sizing, line spacing, the arrangement of tables and images, and more.</p>
 </div>
 <p>Although LaTeX has a reputation for being quite tricky, it is very powerful in enabling users to create documents with complex and customized text formatting and layouts much more easily than doing so with systems like Microsoft Word.</p>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_18.png" title="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." alt="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_18.png" alt="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="history" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> History</h2>
+<div id="history" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> History<a href="latex.html#history" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>LaTeX was originally released in 1984 by <a href="https://en.wikipedia.org/wiki/Leslie_Lamport">Leslie Lamport</a>. LaTeX is one of several programs (but probably the most widely used in academia - in part, because it is free!) that makes it easier to use the <a href="https://en.wikipedia.org/wiki/Typesetting">typesetting</a> system called TeX.</p>
 <details>
 <summary>
@@ -260,28 +267,28 @@ div.csl-indent {
 The “Tex” is for the typesetting system Tex.</p>
 </div>
 </details>
-<div id="tex" class="section level3" number="2.3.1">
-<h3><span class="header-section-number">2.3.1</span> TeX</h3>
-<p>TeX (pronounced ‘/ˈtɛx/’ tekh) is a typesetting system developed by <a href="https://en.wikipedia.org/wiki/Donald_E._Knuth">Donald E. Knuth</a> in the 1970s to help him format the text in his books more to his satisfaction <span class="citation">(<a href="#ref-tex_2022" role="doc-biblioref"><span>“<span>TeX</span>”</span> 2022</a>)</span>.</p>
+<div id="tex" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> TeX<a href="latex.html#tex" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>TeX (pronounced ‘/ˈtɛx/’ tekh) is a typesetting system developed by <a href="https://en.wikipedia.org/wiki/Donald_E._Knuth">Donald E. Knuth</a> in the 1970s to help him format the text in his books more to his satisfaction <span class="citation">(<a href="#ref-tex_2022"><span>“<span>TeX</span>”</span> 2022</a>)</span>.</p>
 <details>
 <summary>
 <strong>Why is it called Tex?</strong>
 </summary>
 <div class="why">
-<p>Tex is named as an abbreviation for the Greek word <a href="https://en.wikipedia.org/wiki/Techne">τέχνη (ΤΕΧΝΗ techn)</a>, which directly translates to art or craft <span class="citation">(<a href="#ref-tex_2022" role="doc-biblioref"><span>“<span>TeX</span>”</span> 2022</a>)</span>.</p>
+<p>Tex is named as an abbreviation for the Greek word <a href="https://en.wikipedia.org/wiki/Techne">τέχνη (ΤΕΧΝΗ techn)</a>, which directly translates to art or craft <span class="citation">(<a href="#ref-tex_2022"><span>“<span>TeX</span>”</span> 2022</a>)</span>.</p>
 </div>
 </details>
 <p><br></p>
 <p>Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.</p>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_45.png" title="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." alt="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_45.png" alt="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." width="100%" style="display: block; margin: auto;" /></p>
 <p>Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word let you interactively work with the typesetting of a document as you write the content.</p>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_67.png" title="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." alt="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_67.png" alt="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." width="100%" style="display: block; margin: auto;" /></p>
 <p>When you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text.</p>
-<p>With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are interested in taking a deep dive into how this all came to be, check out this <a href="https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e">blog post</a> by <span class="citation">Tirado (<a href="#ref-tirado_reasons_2020" role="doc-biblioref">2020</a>)</span> and this <a href="https://www.oreilly.com/library/view/making-tex-work/1565920511/">O’Reilly book</a> by <span class="citation">Walsh (<a href="#ref-walsh_making_1994" role="doc-biblioref">1994</a>)</span>.</p>
+<p>With LaTeX we are more aware that we are actually telling the computer how to arrange the text. It also gives us much more control of how we arrange, format, and style the text. If you are interested in taking a deep dive into how this all came to be, check out this <a href="https://towardsdatascience.com/why-should-you-learn-latex-or-at-least-give-it-a-try-8d0f3218b8e">blog post</a> by <span class="citation">Tirado (<a href="#ref-tirado_reasons_2020">2020</a>)</span> and this <a href="https://www.oreilly.com/library/view/making-tex-work/1565920511/">O’Reilly book</a> by <span class="citation">Walsh (<a href="#ref-walsh_making_1994">1994</a>)</span>.</p>
 </div>
 </div>
-<div id="process" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Process</h2>
+<div id="process" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Process<a href="latex.html#process" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>LaTeX can also be called a <a href="https://en.wikipedia.org/wiki/Markup_language">markup language</a>. These means that certain text tags can be used to indicate how the content text should be formatted or displayed. Another markup language is HTML (which actually stands for HyperText Markup Language), which has text tags to indicate how the content text should be displayed on webpages. It is often used in computer science to enable humans to read or write files more easily and for computers to interpret these files more easily.</p>
 <p>Let’s use a simple example of making some text <strong>bold</strong> to illustrate this.</p>
 <p><strong>Microsoft Word:</strong> <br>
@@ -290,11 +297,11 @@ If we wanted to some text bold in Microsoft Word, we would type the plain text t
 In HTML we could instead use <code>&lt;b&gt;</code> at the beginning of the text we want to bold, and <code>&lt;/b&gt;</code> at the end to indicate that this text should be bold when it is rendered into it’s final state.</p>
 <p><strong>LaTeX:</strong><br>
 Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag <code>\textbf</code> with brackets around the text we want to change like so: <code>\textbf{bold text}</code>.</p>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1babf2134b3_0_153.png" title="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." alt="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1babf2134b3_0_153.png" alt="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." width="100%" style="display: block; margin: auto;" /></p>
 <p>As you can see, LaTeX will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.</p>
 </div>
-<div id="benefits-of-latex" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Benefits of LaTeX</h2>
+<div id="benefits-of-latex" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Benefits of LaTeX<a href="latex.html#benefits-of-latex" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Now that you are a little more clear about what LaTeX is, it might be easier to appreciate it’s benefits:</p>
 <ol style="list-style-type: decimal">
 <li>Allows you to focus on the content and worry less about formatting (once you have a good template to work with). There are many specific templates to use format documents for various goals, such as formatting manuscripts for scientific journals.</li>
@@ -304,10 +311,10 @@ Just like in HTML, LaTeX also uses text around the actual content text to descri
 <li>You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors</li>
 <li>You can collaborate with people who use LaTeX more easily</li>
 </ol>
-<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_77.png" title="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" alt="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="02-latex_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_77.png" alt="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="conclusion" class="section level2" number="2.6">
-<h2><span class="header-section-number">2.6</span> Conclusion</h2>
+<div id="conclusion" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Conclusion<a href="latex.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We hope that this chapter has given you some more knowledge about what LaTeX is and how it came to be, as well as the benefits of using it.</p>
 <p>Here are some of the major take-home messages:</p>
 <ol style="list-style-type: decimal">
@@ -321,7 +328,7 @@ Just like in HTML, LaTeX also uses text around the actual content text to descri
 
 </div>
 </div>
-<h3> References</h3>
+<h3> References<a href="references-1.html#references-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-latex" class="csl-entry">
 <span>“<span>LaTeX</span> - <span>A</span> Document Preparation System.”</span> n.d. Accessed December 15, 2022. <a href="https://www.latex-project.org/">https://www.latex-project.org/</a>.
@@ -364,42 +371,42 @@ Walsh, Norman. 1994. <em>Making <span>TeX</span> <span>Work</span> [<span>Book</
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

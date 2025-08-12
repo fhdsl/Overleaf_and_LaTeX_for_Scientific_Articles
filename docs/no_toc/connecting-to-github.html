@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 8 Connecting to GitHub | Write Smarter with Overleaf and LaTeX</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 8 Connecting to GitHub | Write Smarter with Overleaf and LaTeX" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="collaborating.html"/>
 <link rel="next" href="about-the-authors.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,11 +47,17 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -93,7 +97,10 @@ div.csl-indent {
 <a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#available-course-formats"><i class="fa fa-check"></i><b>0.1</b> Available course formats</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
@@ -231,50 +238,50 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="connecting-to-github" class="section level1" number="8">
-<h1><span class="header-section-number">Chapter 8</span> Connecting to GitHub</h1>
+<div id="connecting-to-github" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Connecting to GitHub<a href="connecting-to-github.html#connecting-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>If you have a paid version of Overleaf, then you can connect your projects to GitHub.</p>
 <p>This can be really helpful for better understanding the history of a document overtime, especially if you already use GitHub.</p>
 <div class="notice">
 <p>We will not cover what GitHub is and how to use it in this chapter, but this <a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/making-your-project-open-source-with-github.html">resource</a> can be helpful to get you started.</p>
 </div>
-<div id="learning-objectives-2" class="section level2" number="8.1">
-<h2><span class="header-section-number">8.1</span> Learning Objectives</h2>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" title="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" /></p>
+<div id="learning-objectives-2" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Learning Objectives<a href="connecting-to-github.html#learning-objectives-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_64.png" alt="Learning Objectives: 1. Connect your GitHub and Overleaf accounts, 2. Set up a project to sync with GitHub, 3. Sync changes to and from GitHub " width="100%" style="display: block; margin: auto;" /></p>
 <p>To do so, you need to first click on the home button (looks like an icon of a house on the upper left) to go to the main menu (if you are not already there, this will be the case if you working on a project).</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_0.png" title="The home button to go to the main menu if you are in a project." alt="The home button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
-<p>Here you should see a list of any projects you have created or collabroated on.</p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_0.png" alt="The home button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
+<p>Here you should see a list of any projects you have created or collaborated on.</p>
 <p>On the far upper right click on the “Account” button.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_7.png" title="Account button on the upper right corner." alt="Account button on the upper right corner." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_7.png" alt="Account button on the upper right corner." width="100%" style="display: block; margin: auto;" /></p>
 <p>Then click on “Account Settings”.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_15.png" title="Account settings button under the account button." alt="Account settings button under the account button." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_15.png" alt="Account settings button under the account button." width="100%" style="display: block; margin: auto;" /></p>
 <p>Next, scroll down to where you see the heading for “Project Synchronisation.”</p>
 <p>Click on the blue “Link” button next to the GitHub section.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_21.png" title="Link button to sync with GitHub." alt="Link button to sync with GitHub." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_21.png" alt="Link button to sync with GitHub." width="100%" style="display: block; margin: auto;" /></p>
 <p>If you already have a GitHub account, you will be asked to grant access.</p>
 <p>Now that you have connected your GitHub account with your Overleaf account, you can now set up a project to sync with GitHub.</p>
 <p>To do so, first open the project that you would like to sync with GitHub from the project menu (the home icon button).</p>
 <p>Next click the Overleaf menu button the far left upper corner.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="The Overleaf menu button to go to the main menu if you are in a project." alt="The Overleaf menu button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" alt="The Overleaf menu button to go to the main menu if you are in a project." width="100%" style="display: block; margin: auto;" /></p>
 <p>Then scroll down to the “Sync” section.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
 <p>The window that pops up about exporting the project to GitHub will then show up. This will create a new repository on GitHub with the files from your project.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_46.png" title="Popup when exporting a project to GitHub." alt="Popup when exporting a project to GitHub." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_46.png" alt="Popup when exporting a project to GitHub." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="syncing-files" class="section level2" number="8.2">
-<h2><span class="header-section-number">8.2</span> Syncing files</h2>
+<div id="syncing-files" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Syncing files<a href="connecting-to-github.html#syncing-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If you then make a change on GitHub and merge it with the main branch, you can pull these changes back to Overleaf.</p>
 <p>To do so, navigate back to the Overleaf Menu in the project on the far left side.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" title="Overleaf menu button on the upper far left." alt="Overleaf menu button on the upper far left." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_32.png" alt="Overleaf menu button on the upper far left." width="100%" style="display: block; margin: auto;" /></p>
 <p>Scroll back down to the sync section for GitHub.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" title="The Sync section fo the Overleaf Menu." alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_40.png" alt="The Sync section fo the Overleaf Menu." width="100%" style="display: block; margin: auto;" /></p>
 <p>You will see a window with buttons to sync changes back and forth from GitHub and Overleaf.</p>
-<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_51.png" title="GitHub Sync menu" alt="GitHub Sync menu" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="08-github-sync_files/figure-html/1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1cfb6c6ff1d_0_51.png" alt="GitHub Sync menu" width="100%" style="display: block; margin: auto;" /></p>
 <p>Now to get the change from GitHub you can press the “Pull GitHub changes into Overleaf” button.</p>
 <p>To do the opposite and send changes to GitHub from Overleaf, click on the lower button, “Push Overleaf changes to GitHub”.</p>
 </div>
-<div id="conclusion-6" class="section level2" number="8.3">
-<h2><span class="header-section-number">8.3</span> Conclusion</h2>
+<div id="conclusion-6" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Conclusion<a href="connecting-to-github.html#conclusion-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We hope that this chapter has given you some guidance about how to connect GitHub with Overleaf.</p>
 <p>Here are some of the major take-home messages:</p>
 <ol style="list-style-type: decimal">
@@ -314,42 +321,42 @@ div.csl-indent {
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

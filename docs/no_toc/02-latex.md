@@ -3,11 +3,11 @@
 You may or may not have heard people talking about [LaTeX](https://www.latex-project.org/about/) (pronounced '/ˈlɑːtɛx/' LAH-tekh or '/ˈleɪtɛx/' LAY-tekh), which is not to be confused with the the material latex (pronounced '/ˈleɪtɛks/' LAY-tekhs). In this course we will explain what LaTeX is and how it came to be.
 
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_0.png" title="LaTex is not latex (the material used for protective gloves and other items)." alt="LaTex is not latex (the material used for protective gloves and other items)." width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_0.png" alt="LaTex is not latex (the material used for protective gloves and other items)." width="100%" style="display: block; margin: auto;" />
 
 ## Learning Objectives
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_360.png" title="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" alt="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1bb9ca840c8_0_360.png" alt="Learning Objectives: 1. Explain what LaTeX is and how it came to be 2. Understand that writing a document involves two distinct steps 1) writing the content and 2) determining how the content should be displayed, 3. Recognize that applications like microsoft word interactively show you the formatting/arrangement of the document as you write, while markup languages embed how a file should display using specific tags within the text that are later manifested, 4.Begin to understand how markup language tags result in changes in how text is displayed" width="100%" style="display: block; margin: auto;" />
 
 ## Document Preparation System
 
@@ -20,7 +20,7 @@ Typesetting determines how text looks and where it is located in a document when
 Although LaTeX has a reputation for being quite tricky, it is very powerful in enabling users to create documents with complex and customized text formatting and layouts much more easily than doing so with systems like Microsoft Word. 
 
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_18.png" title="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." alt="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_18.png" alt="LaTeX allows for fancy document typesetting (meaning formatting and text layout), where as traditional text editors like Microsoft Word requires manual formatting and layout, which often leads to typical looking documents." width="100%" style="display: block; margin: auto;" />
  
 
 
@@ -53,13 +53,13 @@ Tex is named as an abbreviation for the Greek word [τέχνη (ΤΕΧΝΗ techn
 Typesetting has origins in how documents used to be printed using manual stamping mechanisms, where someone would provide the contents of the text in writing by hand that would be translated to a version with the intended layout and style for printing.
 
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_45.png" title="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." alt="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_45.png" alt="Historically making printed documents required two steps: 1. Writing the content by hand, 2. Determine the layout and font and arrangement of the text with stamps." width="100%" style="display: block; margin: auto;" />
 
 
 Overtime this process got replaced by digital options and eventually resulted in the concept of WYSIWYG (What you see is what you get), where programs like Microsoft Word let you interactively work with the typesetting of a document as you write the content. 
 
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_67.png" title="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." alt="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_67.png" alt="WYSIWYG - What you see is what you get - the document is displayed like the final product as you write it." width="100%" style="display: block; margin: auto;" />
 
 
 When you use a program like Microsoft Word, you are essentially giving it two sets of directions simultaneously, one which is the content of the text, and one which is the style and layout of the text. 
@@ -81,7 +81,7 @@ In HTML we could instead use `<b>` at the beginning of the text we want to bold,
 **LaTeX:**<br>
 Just like in HTML, LaTeX also uses text around the actual content text to describe how to produce the final product. In this case, we would indicate that we want bold text using a tag `\textbf` with brackets around the text we want to change like so: `\textbf{bold text}`.
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1babf2134b3_0_153.png" title="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." alt="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1babf2134b3_0_153.png" alt="A table of the methods just described to bold text to indicate that text around the plain text is used to format the text itself within markup languages." width="100%" style="display: block; margin: auto;" />
 
 As you can see, LaTeX will feel a bit different from writing in Microsoft Word, as we will be using text tags to define how we want the content text to look.
 
@@ -96,7 +96,7 @@ Now that you are a little more clear about what LaTeX is, it might be easier to 
 5) You can add languages with different alphabets or mathematical notation with much more ease than with traditional text editors
 6) You can collaborate with people who use LaTeX more easily
 
-<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_77.png" title="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" alt="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" width="100%" style="display: block; margin: auto;" />
+<img src="02-latex_files/figure-html//1UgGtVn7RsqdQ4pJxDk_dueSyREHcH-uWTNAT27E2mG8_g1be15cb26d3_0_77.png" alt="Benefits of Using LaTeX: Using a template allows you to focus on the content and not the formatting/layout, Can create very complex documents, Can reproduce style/typesetting of a document easily again, Can easily change the typesetting of an entire document, Can add languages with other alphabets or mathematical notation easily, If you know LaTeX you can collaborate with others who use it!" width="100%" style="display: block; margin: auto;" />
 
 ## Conclusion
 
