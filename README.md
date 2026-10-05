@@ -3,6 +3,8 @@
 
 [![Render Bookdown, Leanpub, and Coursera](https://github.com/fhdsl/Overleaf_and_LaTeX_for_Scientific_Articles/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/Overleaf_and_LaTeX_for_Scientific_Articles/actions/workflows/render-all.yml)
 
+<a href="https://doi.org/10.5281/zenodo.23167587"><img src="https://zenodo.org/badge/578742242.svg" alt="DOI"></a>
+
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
 You can see the rendered course material here: https://hutchdatascience.org/Overleaf_and_LaTeX_for_Scientific_Articles/
